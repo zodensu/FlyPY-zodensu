@@ -1,0 +1,10 @@
+var:
+  option:
+    _hide_candidate: false
+    _hide_key_hint: true
+    ascii_mode: false
+  previously_selected_schema: sg
+  schema_access_time:
+    pinyin_simp: 1518078979
+    sg: 1518225482
+    sldzstroke: 1518225480
