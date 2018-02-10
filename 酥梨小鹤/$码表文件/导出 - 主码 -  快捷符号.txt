@@ -1,0 +1,34 @@
+﻿---config@码表分类=主码-2
+---config@码表别名= 快捷符号
+：	;
+；	;;
+！	;a
+”	;c
+·	;g
+’	;m
+……	;s
+？	;w
+“	;z
+@	;y
+$ddcmd(<last.1>,[重复输入])	;f
+$ddcmd(____,____)	;x
+‰	;q
+——	;v
+Ö	;o
+ü	;j
+ö	;l
+ä	;k
+、	;d
+%	;b
+$ddcmd(config(/dict <last.1>),[字典])	;i
+Ä	;i
+Ü	;u
+$ddcmd(keyboard(<27>),[Esc])	;h
+$ddcmd(keyboard(<35>),[End])	;n
+$ddcmd(keyboard(<36>),[Home])	;t
+㎡	;p
+$ddcmd(keyboard(<37>),[←])	;e
+$ddcmd(keyboard(<39>),[→])	;r
+→	;p
+←	;p
+♫	off
