@@ -5,7 +5,11 @@
 
 **酥梨rime**是同文输入法文件夹，
 
+![rime](zodensu.github.io/img/rime.jpg)
+
 **酥梨小鹤**是多多输入法文件夹。
+
+![duoduo](zodensu.github.io/img/duoduo.jpg)
 
 **酥梨折腾**里有apk和exe可以用，其中酥梨小鹤apk已实现和同文输入法平台共存，酥梨小鹤二代exe也能和别人的多多输入法共存。
 
