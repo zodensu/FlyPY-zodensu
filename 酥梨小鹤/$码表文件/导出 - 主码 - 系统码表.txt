@@ -16675,6 +16675,7 @@ GDP	gdp
 嘿呀	hwya
 毫	hcw
 航迹	hhji
+喊道	hjdc
 处	iu
 㬚	ieo
 㬚	ieow
