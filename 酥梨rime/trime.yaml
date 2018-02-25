@@ -76,11 +76,11 @@ style:
     background: candidate_text_color #颜色色或者backgrounds目录下的图片文件名
     movable: true #是否可移动窗口，或仅移动一次 true|false|once
   window: #悬浮窗口組件
-    - {end: "", move: "ㄓ ", start: ""}
-    - {composition: "%s", end: "", letter_spacing: 0, start: ""}
-    - {candidate: "%s", comment: " %s", end: "", label: "%s.", sep: " ", start: "\n"}
-#    - {start: "  ", candidate: "%s", comment: " %s", end: " ", sep: "　 "}  #label: "%s.", 序号;start: "\n", 换行
-   # - {start: "", composition: "%s", end: "", letter_spacing: 0.1} #letter_spacing需要Android5.0。TODO: 不为0时，会导致不换行的问
+#    - {end: "", move: "ㄓ ", start: ""}
+#    - {composition: "%s", end: "", letter_spacing: 0, start: ""}
+#    - {candidate: "%s", comment: " %s", end: "", label: "%s.", sep: " ", start: "\n"}
+    - {start: "💭 ", candidate: "%s", comment: " %s", end: " ", sep: "     "}  #label: "%s.", 序号;start: "\n", 换行
+    - {start: "", end: "", letter_spacing: 0.1} #letter_spacing需要Android5.0。TODO: 不为0时，会导致不换行的问
    # - {start: "　", move: '✍', end: ""}
   key_font: symbol.ttf #键盘字型
   key_height: *FJG #符号键盘键高
@@ -221,159 +221,6 @@ preset_color_schemes:
     zjs: 0xff919191
     xdb: 0xffe9e9e9
 
-
-  Cherry:
-    author: "酥梨"
-    name: "Cherry❅"
-    back_color: 0xffe9e8e8    #候选栏颜色
-    border_color: 0xffc1c7ca
-    candidate_separator_color: 0x00000000
-    candidate_text_color: 0xff5d5d5d    #候选字颜色
-    comment_text_color: 0xff2b9de3     #输入法切换颜色——浅兰
-    hilited_back_color: 0x00000000        #未知
-    hilited_candidate_back_color: 0x00000000
-    hilited_candidate_text_color: 0xff0000       #首选字颜色——大红#
-    hilited_comment_text_color: 0xff81FF00    #未知——荧光绿
-    hilited_key_back_color: 数字键按下.png      #数字键按下背景图
-    hilited_key_symbol_color: 0xffBBBBBB   # 按键小数字，按下颜色
-    hilited_key_text_color: 0xff333333               #键帽英文按下颜色
-    hilited_off_key_back_color: 数字面板功能键按下.png       #数字面板功能键，按下背景图
-    hilited_off_key_text_color: 0xfffffff       #数字面板功能键按下颜色
-    hilited_on_key_back_color: 数字键按下.png     #未知
-    hilited_on_key_text_color: 0xff0000      #未知——红色
-    hilited_text_color: 0xff0000         #未知——红色
-    key_back_color: 数字面板功能键大.png    #数字面板功能键——键帽
-    #key_border_color: 0xffeceff1
-    key_symbol_color: 0xffAAAAAA          #小图标颜色
-    key_text_color: 0xff616161                   #键帽文字颜色
-    keyboard_back_color: 0xff313131   #键盘背景颜色
-    label_color: 0xff81FF00        #未知——荧光绿
-    off_key_back_color: 数字面板功能键小.png       #数字面板功能键
-    off_key_text_color: 0xff616161      #shift,12,删除，三键帽颜色
-    on_key_back_color: 数字键.png        #未知
-    on_key_text_color: 0xff0000      #shift锁定，按下颜色——红色
-    preview_back_color: 0xff2b9de3    #按键时弹出显示符，背景颜色
-    preview_text_color: 0xffffffff          #按键时弹出显示符，文字颜色
-    shadow_color: 0xff8000FF             #未知——紫色
-    text_back_color: 0xfffefefe           #气泡候选框，背景颜色 
-    text_color: 0xff0000         #5a676e未知——红色
-    ABC: 数字键.png           #未知
-    ABH: 数字键.png          #未知
-    AAA: 键帽.png
-    BBB: 键帽.png
-    CCC: 键帽.png
-    AAH: 按下.png
-    BBH: 按下.png
-    CCH: 按下.png
-    aaa: 数字键.png
-    bbb: 数字键.png
-    ccc: 数字键.png
-    bdb: 逗号句号.png
-    bdh: 逗号句号按下.png
-    scj: 删除键.png
-    scja: 删除键按下.png
-    shift: 上档键.png      
-    shifta: 上档键按下.png      
-    gns: 0xff878787     #删除12面板文字颜色
-    kgb: 空格副本.png
-    kga: 空格按下.png         #未知
-    #kgs: 0xff0000        #空格键文字颜色
-   # kgt: 0xff4a4a4a     #空格╰━━╯颜色
-    hcb: 回车.png
-    hch: 回车按下.png
-    hcs: 0xff878787    #回车键上的文字颜色
-    hct:  0xff616161   # 回车键帽颜色
-    cdt: 0xffef6465      #数字面板小功能键 ，选中颜色——红色
-    yyt: 0xff616161      # 应用面板文字颜色 
-    #fyt: 0xff0000         #数字面板，滚动条▲颜色
-    #xnhe: 0xff4a4a4a      #字母zsd键帽颜色
-    AP: 1AP.png      #A旁边浅灰色
-    LP: 1LP.png      #L旁边浅灰色
-    AJ: 1AJ.png      # A键
-    AJA: 1AJA.png      # A键按下
-    LJ: 1LJ.png      #L键
-    LJA: 1LJA.png      #L键按下
-    zjs: 0xff919191        #助记键盘颜色
-    xdb: 0xffe9e9e9     #设置界面，背景颜色——浅灰
-
-  pifushili:
-    name: "皮肤示例"
-    author: "酥梨"
-    back_color: 0xfffefefe #候选区背景状态栏
-    border_color: 0xffe9e9e9 #悬浮边框
-    candidate_separator_color: 0x00000000 #候选分割背景
-    candidate_text_color: 0xff5a676e #候选文本
-    comment_text_color: 0xff7b868c #提示
-    hilited_back_color: 0x00000000 #高亮编码背景
-    hilited_candidate_back_color: 0x00000000 #高亮候选背景
-    hilited_candidate_text_color: 0xfff97f70 #高亮候选文本
-    hilited_comment_text_color: 0xff000000 #高亮提示
-    hilited_key_back_color: XHkeyG.png #高亮按键背景
-    hilited_key_symbol_color: 0xffffffff #高亮按键符号
-    hilited_key_text_color: 0xffffffff #高亮按键文本
-    hilited_off_key_back_color: XHkeyF.png #高亮按键关闭状态背景
-    hilited_off_key_text_color: 0xff000000 #高亮按键关闭状态文本
-    hilited_on_key_back_color: XHkeyF.png
-    hilited_on_key_text_color: 0xff000000
-    hilited_text_color: 0xff23948e #高亮编码
-    key_back_color: XHkeyF.png #按键背景
-    #key_border_color: 0xffeceff1 #按键边框 取消
-    key_symbol_color: 0xff919191 #按键符号
-    key_text_color: 0xff616161 #按键文本
-    keyboard_back_color: 0xffe9e9e9 #键盘背景
-    label_color: 0xff000000 #标签
-    off_key_back_color: XHkeyG.png #按键关闭状态背景
-    off_key_text_color: 0xffffffff #按键关闭状态文本
-    on_key_back_color: XHkeyG.png
-    on_key_text_color: 0xfff97f70
-    preview_back_color: 0xfff97f70 #按键提示背景
-    preview_text_color: 0xffffffff #按键提示文本
-    shadow_color: 0xff000000 #按键文字阴影
-    text_back_color: 0xccffffff #编码区悬浮窗背景
-    text_color: 0xff5a676e #编码
-    ABC: 0xff363c4a #letterfh键盘主键背景
-    ABH: 0xffdbb66c #letterfh主键高亮背景
-    AAA: 0xff363c4a #主键背景（qazrfvuump键）
-    BBB: 0xff363c4a #（wsxtgbik键）
-    CCC: 0xff363c4a #（edcnhyol键）
-    AAH: 0xffdbb66c #主键高亮
-    BBH: 0xffdbb66c
-    CCH: 0xffdbb66c
-    aaa: 0xff363c4a #符号键盘数字键背景（1290键）
-    bbb: 0xff363c4a #（267键）
-    ccc: 0xff363c4a #（348键）    
-    bdb: 0xff363c4a #主键标点背景（两个标点按键）
-    bdh: 0xffdbb66c #主键标点键高亮背景
-    gnb: 0xff363c4a #主键功能键背景（shift键、ϟ12键和退格键）
-    gnh: 0xffdbb66c #主键功能键高亮背景
-    gns: 0xff00FFF5 #功能键上档文字颜色（symbols、hint的颜色）
-    kgb: 0xff363c4a#空格背景
-    kgh: 0xffdbb66c#空格高亮背景（就是空格按下的背景）
-    kgs: 0xffdbb66c #空格键上档文字颜色
-    kgt: 0xffebfdfd #空格键文字颜色
-    hcb: 0xff363c4a #回车键背景色
-    hch: 0xffdbb66c #回车键高亮背景（就是回车按下）
-    hcs: 0xffffffff #回车键上档文字颜色
-    hct: 0xffdbb66c #回车键文字颜色
-    cdt: 0xffdbb66c #符号键盘当前菜单键文字颜色
-    yyt: 0xffdbb66c #应用文字颜色
-# cdt: 0xffef6465      #数字面板小功能键 ，选中颜色——红色
-# yyt: 0xff616161      # 应用面板文字颜色 
-    fyt: 0xffd3d7da #翻页键停止文字颜色
-    xnhe: 0xffffffff #xnhe键文字颜色
-    #zytb: 0xff363c4a #al左右键文字背景色
-    scj: 删除键.png
-    scja: 删除键按下.png
-    shift: 上档键.png      
-    shifta: 上档键按下.png      
-    AP: 0xff363c4a      #A旁边浅灰色
-    LP: 0xff363c4a      #L旁边浅灰色
-    AJ: AAA      # A键
-    AJA: AAH      # A键按下
-    LJ: CCC      #L键
-    LJA: CCH     #L键按下
-    zjs: 0xffdbb66c #助记颜色
-    xdb: 0xff363c4a #❖选单、设置界面背景色
 
   iybd:
     author: "酥梨"
@@ -528,72 +375,76 @@ preset_color_schemes:
     zjs: 0xff919191
     xdb: 0xffe9e9e9
 
-  ufflj:
-    author: "酥梨"
-    name: "深狗流金岁月"
-    back_color: 0xff363c4a
-    border_color: 0xffc1c7ca
-    candidate_separator_color: 0xff363c4a
-    candidate_text_color: 0xffdbb66c
-    comment_text_color: 0xffdbb66c
-    hilited_back_color: 0xff363c4a
-    hilited_candidate_back_color: 0xff363c4a
-    hilited_candidate_text_color: 0xffdbb66c
-    hilited_comment_text_color: 0xffdbb66c
-    hilited_key_back_color: 0xff999999
-    hilited_key_symbol_color: 0xffdbb66c
-    hilited_key_text_color: 0xffdbb66c
-    hilited_off_key_back_color: 0xff363c4a
-    hilited_off_key_text_color: 0xffdbb66c
-    hilited_on_key_back_color: 0xffd3d7da
-    hilited_on_key_text_color: 0xff000000
-    hilited_text_color: 0xffdbb66c
-    key_back_color: 0xff363c4a
-    key_symbol_color: 0xff999999
-    key_text_color: 0xffdbb66c
-    keyboard_back_color: 0xff363c4a
-    label_color: 0xffdbb66c
-    off_key_back_color: 0xff363c4a
-    off_key_text_color: 0xff999999
-    on_key_back_color: 0xffb3b3b3
-    on_key_text_color: 0xffff7c4d
-    preview_back_color: 0xff363c4a
-    preview_text_color: 0xffdbb66c
-    shadow_color: 0xff000000
-    text_back_color: 0xff363c4a
-    text_color: 0xffdbb66c
-    ABC: 0xff363c4a #letterfh键盘主键背景
-    ABH: 0xffdbb66c #letterfh主键高亮背景
-    AAA: 0xff363c4a #主键背景（qazrfvuump键）
-    BBB: 0xff363c4a #（wsxtgbik键）
-    CCC: 0xff363c4a #（edcnhyol键）
-    AAH: 0xffdbb66c #主键高亮
-    BBH: 0xffdbb66c
-    CCH: 0xffdbb66c
-    aaa: 0xff363c4a #符号键盘数字键背景（1290键）
-    bbb: 0xff363c4a #（267键）
-    ccc: 0xff363c4a #（348键） 
-    bdb: 0xff363c4a #主键标点背景（两个标点按键）
-    bdh: 0xffdbb66c #主键标点键高亮背景
-    gnb: 0xff363c4a #主键功能键背景（shift键、ϟ12键和退格键）
-    gnh: 0xffdbb66c #主键功能键高亮背景
-    gns: 0xff00FFF5 #功能键上档文字颜色（hint的颜色）
-    kgb: 0xff363c4a#空格背景
-    kgh: 0xffdbb66c
-    kgs: 0xffdbb66c #空格键上档文字颜色
-    kgt: 0xffebfdfd #空格键文字颜色
-    hcb: 0xff363c4a #回车键背景色
-    hch: 0xffdbb66c #回车键高亮背景
-    hcs: 0xffffffff #回车键上档文字颜色
-    hct: 0xffdbb66c #回车键文字颜色
-    cdt: 0xffdbb66c #符号键盘当前菜单键文字颜色
-    yyt: 0xffdbb66c #应用文字颜色
-    fyt: 0xffd3d7da #翻页键止文字颜色
-    xnhe: 0xffffffff #xnhe键文字颜色
-    zytb: 0xff363c4a #al左右键文字背景色
-    zjs: 0xffdbb66c #助记颜色
-    xdb: 0xff363c4a #❖选单界面背景色
     
+  dark:
+    author: 记忆
+    name: "暗黑"
+    back_color: 0xff4f4f4f
+    border_color: 0xfff1f1f1
+    candidate_separator_color: 0x00000000
+    candidate_text_color: 0xfff1f1f1
+    comment_text_color: 0xff919191
+    hilited_back_color: 0x00000000
+    hilited_candidate_back_color: 0x00000000
+    hilited_candidate_text_color: 0xfff1f1f1
+    hilited_comment_text_color: 0xfff1f1f1
+    hilited_key_back_color: YSkey.png
+    hilited_key_symbol_color: 0xffffffff
+    hilited_key_text_color: 0xfff1f1f1
+    hilited_off_key_back_color: YSkey.png
+    hilited_off_key_text_color: 0xfff1f1f1
+    hilited_on_key_back_color: YSkey.png
+    hilited_on_key_text_color: 0xfff1f1f1
+    hilited_text_color: 0xff202023
+    key_back_color: YSkey.png
+    key_border_color: 0xffeceff1
+    key_symbol_color: 0xff919191
+    key_text_color: 0xfff1f1f1
+    keyboard_back_color: 0xffc9c9c9
+    label_color: 0xff000000
+    off_key_back_color: YSgnb.png
+    off_key_text_color: 0xfff1f1f1
+    on_key_back_color: YSgnb.png
+    on_key_text_color: 0xffe93030
+    preview_back_color: 0xff00434c
+    preview_text_color: 0xfff1f1f1
+    shadow_color: 0xff000000
+    text_back_color: 0xff00434c
+    text_color: 0xff5a676e
+    ABC: YSkey.png
+    AAA: YSkey.png
+    BBB: YSkey.png
+    CCC: YSkey.png
+    ABH: YSkey.png
+    AAH: YSkey.png
+    BBH: YSkey.png
+    CCH: YSkey.png
+    aaa: YSkey.png
+    bbb: YSkey.png
+    ccc: YSkey.png
+    bdb: YSgnb.png
+    bdh: YSgnb.png
+    gnb: YSgnb.png
+    gnh: YSgnb.png
+    gns: 0xff919191
+    kgb: YSkgb.png
+    kgh: YSkgb.png
+    kgs: 0xff919191
+    kgt: 0xfff1f1f1
+    hcb: YShcb.png
+    hch: YShcb.png
+    hcs: 0xff919191
+    hct: 0xffff7678
+    cdt: 0xffff7678
+    yyt: 0xfff1f1f1
+    fyt: 0xff666666
+    xnhe: 0xfff1f1f1
+    AP: 0xffc9c9c9      #A旁边浅灰色
+    LP: 0xffc9c9c9      #L旁边浅灰色
+#    zytb: 0xffc9c9c9
+    zjs: 0xff919191
+    xdb: 0xff4f4f4f
+
   yese:
     author: "酥梨"
     name: "夜色"
@@ -737,7 +588,32 @@ preset_keyboards:
   defaultVJ:
     __include: /preset_keyboards/default
     __patch:
-        "keys/@0/hint": " "
+        "keys/@0/hint": iu
+        "keys/@1/hint": ei
+        "keys/@2/hint": e
+        "keys/@3/hint": uan
+        "keys/@4/hint": "ue ve"
+        "keys/@5/hint": un
+        "keys/@6/hint": "sh u"
+        "keys/@7/hint": "ch i"
+        "keys/@8/hint": "o uo"
+        "keys/@9/hint": ie
+        "keys/@11/hint": a
+        "keys/@12/hint": "(i)ong"
+        "keys/@13/hint": ai
+        "keys/@14/hint": en
+        "keys/@15/hint": eng
+        "keys/@16/hint": ang
+        "keys/@17/hint": an
+        "keys/@18/hint": "ing uai"
+        "keys/@19/hint": "(i)uang"
+        "keys/@22/hint": ou
+        "keys/@23/hint": "ia ua"
+        "keys/@24/hint": ao
+        "keys/@25/hint": "zh ui v"
+        "keys/@26/hint": in
+        "keys/@27/hint": iao
+        "keys/@28/hint": ian
         "keys/@0/key_text_color": 0x00
         "keys/@1/key_text_color": 0x00
         "keys/@2/key_text_color": 0x00
@@ -950,7 +826,7 @@ preset_keyboards:
       - {click: Theme_settings2, width: 10,key_symbol_offset_y: 6,key_text_color: xnhe, key_back_color: AAA, hilited_key_back_color: AAH}
       - {click: space, long_click: Mode_switch,swipe_up: Candidate_switch1, swipe_left: "Left", swipe_right: "Right", width: 40,key_symbol_offset_y: 6, key_text_color: xnhe, key_back_color: CCC, hilited_key_back_color: CCH}
       - {click: K_symbols123, long_click: Menu,width: 10,key_symbol_offset_y: 6,key_text_color: xnhe, key_back_color: BBB, hilited_key_back_color: BBH}
-      - {click: Return,long_click: "`",key_symbol_osffset_y: 6,hint: 长按反查,key_hint_offset_y: -50,swipe_up: Escape, width: 20,key_text_color: xnhe, key_back_color: CCC, hilited_key_back_color: CCH}
+      - {click: Return,long_click: "`" ,swipe_up: "`" ,key_symbol_osffset_y: 6,hint: 长按反查,key_hint_offset_y: -50,swipe_up: Escape, width: 20,key_text_color: xnhe, key_back_color: CCC, hilited_key_back_color: CCH}
 #      - {click: s, long_click: '@', key_back_color: bh2, key_text_color: th2}
     name: "五笔画"
     width: 20
@@ -1065,7 +941,7 @@ preset_keyboards:
       - {click: "+", long_click: "￥", swipe_up: "￥",swipe_up: Up, swipe_left: Left,swipe_right: Right,swipe_down: Down}
       - {click: 1,long_click: K_letterhm, key_back_color: aaa,swipe_up: Up, swipe_left: Left,swipe_right: Right,swipe_down: Down}
       - {click: 2, long_click: K_letterfh, key_back_color: bbb,swipe_up: Up, swipe_left: Left,swipe_right: Right,swipe_down: Down}
-      - {click: 3, long_click: K_letterwbh,key_back_color: ccc,swipe_up: Up, swipe_left: Left,swipe_right: Right,swipe_down: Down}
+      - {click: 3, long_click: "{K_letterwbh}`",key_back_color: ccc,swipe_up: Up, swipe_left: Left,swipe_right: Right,swipe_down: Down}
       - {click: K_back, width: 19,swipe_up: Up, swipe_left: Left,swipe_right: Right,swipe_down: Down}
       - {click: "-", long_click: "%", swipe_up: "%",swipe_up: Up, swipe_left: Left,swipe_right: Right,swipe_down: Down}
       - {click: 4, key_back_color: ccc,long_click: copy1,swipe_up: Up, swipe_left: Left,swipe_right: Right,swipe_down: Down}
@@ -3987,7 +3863,7 @@ preset_keys:
   K_symbolsE7x: {label: "▼", send: Eisu_toggle, select: symbolsE7}
   K_move: {label: ❖, send: Eisu_toggle, select: move}
   K_last: {label: 后退, functional: false, send: Eisu_toggle, select: .next}
-  Schema_switch: {label: ⇄, functional: false, send: Control+Shift+1}
+  Schema_switch: {label: "⇄", functional: false, send: Control+Shift+1}
   Schema_Eng: {label: En, send: Control+Shift+0}
   Color_switch: {label: "◲", functional: false, send: PROG_RED}
   Color_switch2: {label: "配色", functional: false, send: PROG_RED}
