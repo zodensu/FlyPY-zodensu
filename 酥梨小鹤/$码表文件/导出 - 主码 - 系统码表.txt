@@ -8439,6 +8439,7 @@ AA制	aavi
 电感	dmg
 电感	dmgj
 电压	dmy
+灯塔	dgta
 二	e
 二	eraa
 佴	err
@@ -16676,6 +16677,7 @@ GDP	gdp
 毫	hcw
 航迹	hhji
 喊道	hjdc
+哈勃	habo
 处	iu
 㬚	ieo
 㬚	ieow
@@ -19097,6 +19099,7 @@ IP地址	ipdv
 差分	idf
 诚信	igx
 锄头	iutz
+赤道	iid
 记	jiy
 几年	jinm
 嫉	jin
@@ -27237,6 +27240,7 @@ IP地址	ipdv
 叻	lekl
 连	lmm
 楝	lmmn
+粮票	llpn
 迷失	miui
 霉	mwy
 㠓	mge
@@ -36423,6 +36427,7 @@ QQ拼音	qqpy
 日光灯	rgd
 如实	ruui
 仁	rfr
+融汇	rshv
 㟃	sie
 㟃	siek
 㧐	ssfy
@@ -56027,6 +56032,7 @@ QQ拼音	qqpy
 伊斯兰教	ysl
 隐约	yy
 压强	yaql
+鱼贯而出	ygei
 耔	zil
 怎样	zy
 仄	zei
