@@ -3919,6 +3919,7 @@ AA制	aavi
 白垩纪	bej
 不知如何是好	bvrh
 包涵	bchj
+并不仅仅	bbjj
 丛	csr
 丛	csra
 从	cs
@@ -8440,6 +8441,8 @@ AA制	aavi
 电感	dmgj
 电压	dmy
 灯塔	dgta
+夺眶而出	dkei
+打定了主意	ddly
 二	e
 二	eraa
 佴	err
@@ -21028,7 +21031,6 @@ IP地址	ipdv
 紧握	jbwo
 紧盯	jbdk
 紧着	jbve
-紧紧	jbjb
 紧绷	jbbg
 紧缩	jbso
 紧缺	jbqt
@@ -22499,6 +22501,7 @@ IP地址	ipdv
 金发碧眼	jfby
 甲虫	jxis
 孑孓	jpjt
+紧紧	jbj
 㧟	kkf
 㧟	kkfk
 㸆	kchf
@@ -24202,6 +24205,7 @@ IP地址	ipdv
 可见光	kjg
 刻意	keyi
 砍伐	kjf
+可持续发展	kixv
 领略	lklt
 亮	llw
 硫	lqu
@@ -27241,6 +27245,7 @@ IP地址	ipdv
 连	lmm
 楝	lmmn
 粮票	llpn
+两组	llzu
 迷失	miui
 霉	mwy
 㠓	mge
@@ -35201,6 +35206,7 @@ QQ拼音	qqpy
 趋于	quy
 拳法	qrf
 驱逐舰	qvjm
+曲率	qulv
 䎃	rjrx
 乳	rupv
 人	r
@@ -43786,6 +43792,9 @@ QQ拼音	qqpy
 失	uif
 收音机	uyj
 术语	uuy
+神情严肃	uqys
+神情	ufq
+身心疲惫	uxpb
 知	viu
 秩	vih
 铮	vgj
@@ -51861,6 +51870,8 @@ QQ拼音	qqpy
 玄乎	xrhu
 细若游丝	xrys
 心墙	xbq
+学得	xtdw#删
+学得	xtde
 一	y
 以为	yiww
 意愿	yiyr
