@@ -24,11 +24,10 @@ $ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟�
 git commit -a -m "更新博客"	gxbk
 $ddcmd(run(http://my.hfut.edu.cn),[信息门户])	hfgh
                                   %	kgbf
-旅行包	lxbc
-旅行包	lxb
 ：“	mub
 ö	oooo
 Ö	ooo
+$ddcmd(„“keyboard(<37>),„“)	ofdy
 rime	rime
 ß	ssss
 Ü	uuu

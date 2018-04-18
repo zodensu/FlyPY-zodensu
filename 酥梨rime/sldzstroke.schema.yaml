@@ -24,12 +24,16 @@ switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
   - options: [ _keyboard_menu, _keyboard_menu]
     states: [ "❖", "❖"]
   - name: ascii_mode
-    states: [ CN, EN ]
+    states: [ EN, 五筆畫 ]
     reset: ０
+ # - name: extended_charset
+  #  states: [ 常, 增 ]
+#  - options: [utf8, gb2312, gbk]
+ #   states: ["UTF-8", GB2312, GBK]
   - options: [ _keyboard_default, _keyboard_defaultVJ]
-    states: [ " 								                    	          ", " 						                    			          "]
+    states: [ " 			                     ", "	         			          "]
   - options: [ _key_Hide, _key_Hide]
-    states: [ 酥, 梨]
+    states: [ ▼, ▽]
   - options: [ _key_LLQ, _key_LLQ]
     #states: [ 🔍, 🔍] 
   - options: [ _key_VOICE_ASSIST, _key_VOICE_ASSIST]
@@ -66,6 +70,9 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
+  filters:
+    - charset_filter@gb2312
+    - charset_filter@gbk
 
 speller:
   alphabet: ';zyxwvutsrqponmlkjihgfedcba'

@@ -5196,6 +5196,7 @@ AA制	aavi
 存贮	cyvu
 残余	cjy
 参与	cjy
+层峦叠嶂	cldv
 调	dn
 㙍	doty
 䃅	diul
@@ -8443,6 +8444,8 @@ AA制	aavi
 灯塔	dgta
 夺眶而出	dkei
 打定了主意	ddly
+唞	dzkd
+的人	dr
 二	e
 二	eraa
 佴	err
@@ -13558,6 +13561,9 @@ GDP	gdp
 故事	guui
 鬼使神差	guu
 孤立	gul
+膈应	geyk
+甴	gala
+啩	gxkb
 欢	hry
 会议	hvyi
 㘎	hjkw
@@ -24206,6 +24212,7 @@ IP地址	ipdv
 刻意	keyi
 砍伐	kjf
 可持续发展	kixv
+恳请	kfqk
 领略	lklt
 亮	llw
 硫	lqu
@@ -27246,6 +27253,7 @@ IP地址	ipdv
 楝	lmmn
 粮票	llpn
 两组	llzu
+冷峻	lgjy
 迷失	miui
 霉	mwy
 㠓	mge
@@ -29664,6 +29672,7 @@ IP地址	ipdv
 没关系	mgx
 目镜	mujk
 目的地	mdd
+踎	mzkk
 乃	ndv
 乃	ndvp
 乜	npv
@@ -31182,6 +31191,7 @@ IP地址	ipdv
 浓	nsd
 能级	ngji
 那一天	nyt
+嫐	nznn
 偶	our
 偶	oury
 区	oukx
@@ -32875,6 +32885,7 @@ IP地址	ipdv
 π	pd
 铺展	puvj
 频段	pbdr
+珮	pww
 磬	qku
 㭕	qums
 䓖	qscl
@@ -40568,6 +40579,7 @@ QQ拼音	qqpy
 同向	tsx
 铁锨	tpxm
 调制	tnvi
+劏	tsxd
 时间	uij
 䏡	uiox
 上	uh
@@ -51870,7 +51882,6 @@ QQ拼音	qqpy
 玄乎	xrhu
 细若游丝	xrys
 心墙	xbq
-学得	xtdw#删
 学得	xtde
 一	y
 以为	yiww
@@ -55380,7 +55391,7 @@ QQ拼音	qqpy
 应该如何	ygrh
 应该如此	ygrc
 应该是了	ygul
-应该说是	yguu
+应该说是	yguu#删
 应该这样	ygvy
 应运而生	yyeu
 庸人自扰	yrzr
@@ -56044,6 +56055,7 @@ QQ拼音	qqpy
 隐约	yy
 压强	yaql
 鱼贯而出	ygei
+银光闪闪	yguu
 耔	zil
 怎样	zy
 仄	zei

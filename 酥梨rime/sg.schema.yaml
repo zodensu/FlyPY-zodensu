@@ -89,10 +89,12 @@ switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
   - name: ascii_mode
     states: [ CN, EN ]
     reset: ０
-  - options: [ _keyboard_default, _keyboard_defaultVJ]
+  - options: [ _keyboard_default, _keyboard_default]
     states: [ " 								                    	          ", " 						                    			          "]
+ # - options: [ _keyboard_default, _keyboard_defaultVJ]
+  #  states: [ " 								                    	          ", " 						                    			          "]
   - options: [ _key_Hide, _key_Hide]
-    states: [ 酥, 梨]
+    states: [ ▽, 梨]
   - options: [ _key_LLQ, _key_LLQ]
     #states: [ 🔍, 🔍] 
   - options: [ _key_VOICE_ASSIST, _key_VOICE_ASSIST]
@@ -129,6 +131,7 @@ engine:
     - table_translator@custom_phrase
     - table_translator
     - reverse_lookup_translator
+    - history_translator@history #历史输入编译器
   filters:
     - simplifier
     - simplifier@zh_simp
@@ -140,7 +143,7 @@ speller:
   delimiter: " '"
   max_code_length: 4
   auto_select: true   #顶字上屏
-  auto_select_pattern: ^;.$|^\w{4}$
+  auto_select_pattern:  ^;.$|^\w{4}$ #-^;.$#
   auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
 
 translator:
@@ -155,6 +158,12 @@ translator:
 zh_simp:
   opencc_config: s2twp.json
   option_name: zh_simp
+  
+  #历史输入
+history:
+  input: ;f #oi
+  size: 100   #历史输入个数（此处为一百个）
+  initial_quality: -1  #权重
   
 custom_phrase:
   dictionary: ""

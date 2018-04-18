@@ -2,10 +2,9 @@ customization:
   distribution_code_name: ""
   distribution_version: ""
   generator: "Rime::SwitcherSettings"
-  modified_time: "Sun Feb 25 01:15:49 2018"
+  modified_time: "Wed Apr 18 15:44:31 2018"
   rime_version: 1.2.9
 patch:
   schema_list:
-    - {schema: 091wubi_pinyin}
     - {schema: sg}
     - {schema: sldzstroke}
