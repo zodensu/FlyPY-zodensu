@@ -818,6 +818,7 @@
 𬶭	jiax
 幵	jmpg
 悭	jmxt
+矩	juuj
 会	kkrs
 刳	kudd
 刻	kewd
@@ -1210,7 +1211,6 @@
 碏	qtuo
 磬	qkuu
 祇	qipu
-祈	qipj
 祛	qups
 秋	qqhh
 窍	qnbv

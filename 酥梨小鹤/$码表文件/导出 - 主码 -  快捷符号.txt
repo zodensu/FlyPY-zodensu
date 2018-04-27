@@ -5,7 +5,6 @@
 ！	;a
 ”	;c
 ·	;g
-’	;m
 ……	;s
 ？	;w
 “	;z
@@ -31,4 +30,5 @@ $ddcmd(keyboard(<37>),[←])	;e
 $ddcmd(keyboard(<39>),[→])	;r
 →	;p
 ←	;p
+ß	;m
 ♫	off
