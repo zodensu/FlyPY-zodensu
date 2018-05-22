@@ -126,6 +126,7 @@
 幷	bkpl
 仌	bkrr
 闁	bcmm
+汃	bbdb
 䅟	cjhp
 仓	chrv
 材	cdmc
@@ -819,6 +820,7 @@
 幵	jmpg
 悭	jmxt
 矩	juuj
+殱	jmdj
 会	kkrs
 刳	kudd
 刻	kewd
@@ -1157,6 +1159,7 @@
 𬭯	ppjw
 𬳵	pima
 𬳵	pimp
+汃	padb
 亲	qblm
 佺	qrrw
 侵	qbry
@@ -2063,6 +2066,7 @@
 嘢	yekv
 喐	yoke
 喐	yuoe
+鯲	yuad
 䎖	zgbx
 仄	zeir
 偬	zsrx

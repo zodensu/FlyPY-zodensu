@@ -22,6 +22,7 @@ good night	goot
 ──	gggg
 $ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟打器教程])	gdqi
 git commit -a -m "更新博客"	gxbk
+关一帆	gyf
 $ddcmd(run(http://my.hfut.edu.cn),[信息门户])	hfgh
                                   %	kgbf
 ：“	mub
@@ -32,4 +33,6 @@ rime	rime
 ß	ssss
 Ü	uuu
 ℃	uud
+中子	vsz
 $ddcmd(run(http://172.16.200.11),[校园网登录)	xywl
+一时兴起	yuxq
