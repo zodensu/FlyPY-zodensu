@@ -22,6 +22,7 @@ max_phrase_length: 0         # 不生成詞彙
 import_tables: #附加码表
   - sg
 ...
+
 #小鹤隐藏全码开始（含粤语字）
 哀	aiwy
 唉	aiku
