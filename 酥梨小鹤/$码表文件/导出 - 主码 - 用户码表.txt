@@ -11,18 +11,21 @@
 ！”	ads
 ？”	ads
 $ddcmd(run(D:\\BaiduNetdisk\\BaiduNetdisk.exe),[百度云盘])	bdyp
+excel	ecxe
 ：“	fds
 ，“	fds
 。“	fds
 ：“	fsd
 ，“	fsd
 。“	fsd
+%......................................................%	fgx
 good night	goot
 ．	gggg
 ──	gggg
 $ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟打器教程])	gdqi
 git commit -a -m "更新博客"	gxbk
 $ddcmd(run(http://my.hfut.edu.cn),[信息门户])	hfgh
+回眸一笑百媚生	hmyu
                                   %	kgbf
 ：“	mub
 ö	oooo
@@ -32,5 +35,5 @@ rime	rime
 ß	ssss
 Ü	uuu
 ℃	uud
+wrod	word
 $ddcmd(run(http://172.16.200.11),[校园网登录)	xywl
-信马由缰	xmyj

@@ -31,4 +31,13 @@ $ddcmd(keyboard(<39>),[→])	;r
 →	;p
 ←	;p
 ß	;m
+$ddcmd(keyboard(<37>),[2←])	hvk
+$ddcmd(keyboard(<37>)keyboard(<37>),[3←])	hvk
+$ddcmd(keyboard(<37>)keyboard(<37>)keyboard(<37>),[4←])	hvk
+$ddcmd(keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>),[5←])	hvk
+$ddcmd(keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>),[6←])	hvk
+$ddcmd(keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>),[7←])	hvk
+$ddcmd(keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>),[8←])	hvk
+$ddcmd(keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>),[9←])	hvk
+$ddcmd(keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>)keyboard(<37>),[10←])	hvk
 ♫	off
