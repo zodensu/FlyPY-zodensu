@@ -62,6 +62,7 @@ punctuator:
     '"' : { pair: [ '“', '”' ] }
     '\' : [ 、, '\', ＼ ]
     '|' : [ ·, '|', ｜, '§', '¦' ]
+    'ß': {commit: 'ß'}
     '`' : '`'
     '~' : [ '~', ～ ]
     '!' : { commit: ！ }
@@ -109,6 +110,11 @@ switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
     reset: 0
   - name: _hide_comment
     #states: [ 提示, 无]
+  - name: buchongjianma_cn   #补充简码开关
+   # states: [ "*", "*+简补"]    #显示在状态栏的图标
+    reset: 1                  #默认开启ß
+  - name: pinyin_cn
+    reset: 0
 
 engine:
   processors:
@@ -135,6 +141,8 @@ engine:
   filters:
     - simplifier
     - simplifier@zh_simp
+    - simplifier@buchongjianma_cn
+    - simplifier@pinyin_cn
     - uniquifier
 
 speller:
@@ -159,16 +167,40 @@ zh_simp:
   opencc_config: s2twp.json
   option_name: zh_simp
   
+  
+# 补充简码滤镜配置
+buchongjianma_cn:
+  opencc_config: buchongjianma.json   #补充简码词典配置文件
+  option_name: buchongjianma_cn    #与状态栏开关的名称一致
+  tips: all    #none无注释,char单字注释，all全部注释
+  initial_quality: -10 
+  
+pinyin_cn:
+  opencc_config: pinyin.json   #补充简码词典配置文件
+  option_name: pinyin_cn    #与状态栏开关的名称一致
+  tips: all    #none无注释,char单字注释，all全部注释
+#  show_in_comment: true #滤镜变成提示
+  excluded_types: [ reverse_lookup ]
+  comment_format:
+    - xform/^/注音:{/
+    - xform/$/}/
+    - xform/'//
+  tags:
+    - abc 
+  #三码与四码重复会导致opencc的txt里左右相同，会被uniquifier过滤掉（如果关了它，又会导致重码太多）
+  #解决的办法是当三码与四码重复时，把二简提示词（就是那个三码词），弄成不同但相似即可，具体看opencc里的例
+  
   #历史输入
 history:
   input: ;f #oi
-  size: 100   #历史输入个数（此处为一百个）
+  size: 1   #历史输入个数（此处为一百个）
   initial_quality: -1  #权重
   
 custom_phrase:
   dictionary: ""
   user_dict: flypy_user
   db_class: stabledb
+  #spelling_hints: 10  # ～字以简单內候選標註完整帶調拼音
   enable_sentence: false
   enable_completion: false
 
@@ -225,17 +257,29 @@ key_binder:
   bindings:
     - {accept: bracketleft, send: Page_Up, when: has_menu} # [上翻页
     - {accept: bracketright, send: Page_Down, when: has_menu} # ]下翻页
-    - {accept: ";", send: 2, when: has_menu}
-    - {accept: "'", send: 3, when: has_menu}
-    - {accept: "Tab", send: ;, when: composing}
-    - {accept: period, send: period, when: has_menu}
+    - {accept: semicolon, send: 2, when: has_menu} #分号次选
+   # - {accept: Release+semicolon, send: semicolon, when: has_menu} #分号顶屏
+    #- {accept: period, send: 2, when: has_menu} #句号次选
+    - {accept: dollar, send: 2, when: has_menu}
+    - {accept: Release+dollar, send: period, when: has_menu}
+    - {accept: Release+period, send: period, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    - {accept: Release+apostrophe, send: apostrophe, when: has_menu}
+    
+#~~    - {accept: comma, send: 2, when: has_menu} #逗号次选
+#    - {accept: Release+comma, send: comma, when: has_menu}
+    - {accept: "Tab", send: Escape, when: composing}
+    - {accept: Caps_Lock, send: Escape, when: composing}
+    - {accept: "Shift_R", send: Escape, when: composing}
 #    - {accept: Release+semicolon, send: period, when: has_menu}#这个是无码时自动以句号顶屏，好像。
  #分号作次选放主题句号处，无次选时出句号的设置方法
 #然后在主题的句号键处加上composing: semicolon重新部署即可。    
-#    - {accept: Tab, send: semicolon, when: has_menu}
-#    - {accept: semicolon, send: 2, when: has_menu} 
-#    - {accept: "Release+semicolon", send: period, when: has_menu}
-#    - {accept: period, send: period, when: has_menu}  
+
+   # - {accept: "Release+semicolon", send: period, when: has_menu}
+   # - {accept: Release+comma, send: comma, when: has_menu}
+    - {when: has_menu, accept: "Ü", toggle: buchongjianma_cn }   # 在输入过程中，切换补充简码开关的快捷键，这里用ß号切换
+    - {when: has_menu, accept: "Ä", toggle: pinyin_cn }   # 在输入过程中，切换补充简码开关的快捷键，这里用ß号切换
+
 recognizer:
   import_preset: default
   patterns:
@@ -245,7 +289,7 @@ recognizer:
     punct: ""
 
 menu:
-  page_size: 15 #候选项数
+  page_size: 20 #候选项数
   
 style:
   horizontal: false #竖排为false

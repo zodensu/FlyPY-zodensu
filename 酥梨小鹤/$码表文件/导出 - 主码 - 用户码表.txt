@@ -25,15 +25,13 @@ good night	goot
 $ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟打器教程])	gdqi
 git commit -a -m "更新博客"	gxbk
 $ddcmd(run(http://my.hfut.edu.cn),[信息门户])	hfgh
-回眸一笑百媚生	hmyu
+检索式\\r检索功能（简单或高级检索）：\\r检索字段：\\r检索词：\\r检索技术：\\r检索数量：\\r检索结果：\\r	jsui
                                   %	kgbf
 ：“	mub
 ö	oooo
 Ö	ooo
 $ddcmd(„“keyboard(<37>),„“)	ofdy
-rime	rime
 ß	ssss
 Ü	uuu
 ℃	uud
-wrod	word
 $ddcmd(run(http://172.16.200.11),[校园网登录)	xywl

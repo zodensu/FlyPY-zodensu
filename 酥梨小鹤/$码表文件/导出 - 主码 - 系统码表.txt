@@ -630,6 +630,7 @@ AA制	aavi
 暗斑	anb
 阿拉斯加	alsj
 奥林匹斯	alps
+爱奇艺	aqy
 保鲜期	bxqi
 不	b
 不	bua
@@ -8449,6 +8450,7 @@ AA制	aavi
 唞	dzkd
 的人	dr
 僜	dgra
+东厂	dsih
 二	e
 二	eraa
 佴	err
@@ -10774,6 +10776,7 @@ AA制	aavi
 法向	faxl
 法向	fax
 附和	fuh
+奋笔疾书	fbju
 干	gj
 估计	guji
 㭎	ghmx
@@ -13572,6 +13575,10 @@ GDP	gdp
 冠	grb
 贡着	gsve
 公家	gsjx
+高斯	gcs
+光束	gluu
+改签	gdqm
+归一化	gyh
 欢	hry
 会议	hvyi
 㘎	hjkw
@@ -14628,7 +14635,7 @@ GDP	gdp
 好歹	hcdd
 好比	hcbi
 好汉	hchj
-好点	hcdm
+好点	hcdm#删
 好烦	hcfj
 好玩	hcwj
 好球	hcqq
@@ -16701,6 +16708,9 @@ GDP	gdp
 糀	hxmh
 花边	hxbm
 汗血宝马	hxbm
+回眸一笑百媚生	hmyu
+浩瀚无垠	hhwy
+横屏	hgpk
 处	iu
 㬚	ieo
 㬚	ieow
@@ -18629,7 +18639,7 @@ GDP	gdp
 出现过	ixgo
 出租车	izie
 出风头	iftz
-创业版	iyb
+创业版	iyb#删
 创可贴	ikt
 创可贴	iktp
 创造力	izl
@@ -19124,6 +19134,9 @@ IP地址	ipdv
 锄头	iutz
 赤道	iid
 僜	igra
+创业板	iyb
+朝贡	icgs
+柴米油盐酱醋茶	imyi
 记	jiy
 几年	jinm
 嫉	jin
@@ -22524,6 +22537,9 @@ IP地址	ipdv
 紧紧	jbj
 矩	juu
 金银首饰	jyuu
+疥癞之疾	jlvj
+疥癣之病	jxvb
+酱醋茶	jci
 㧟	kkf
 㧟	kkfk
 㸆	kchf
@@ -23194,7 +23210,6 @@ IP地址	ipdv
 开价	kdjx
 开会	kdhv
 开关	kdgr
-开出	kdiu
 开凿	kdz
 开凿	kdzc
 开创	kdil
@@ -24229,6 +24244,8 @@ IP地址	ipdv
 砍伐	kjf
 可持续发展	kixv
 恳请	kfqk
+开除	kdiu
+堀	kut
 领略	lklt
 亮	llw
 硫	lqu
@@ -29691,6 +29708,8 @@ IP地址	ipdv
 目镜	mujk
 目的地	mdd
 踎	mzkk
+蝥	mcs
+蟊	mcs
 乃	ndv
 乃	ndvp
 乜	npv
@@ -35241,6 +35260,7 @@ QQ拼音	qqpy
 莍	qqcq
 佉	qurs
 鰌	qqay
+将	qld
 䎃	rjrx
 乳	rupv
 人	r
@@ -35580,7 +35600,7 @@ QQ拼音	qqpy
 入门	rumf
 冉冉	rjr
 冉冉	rjrj
-冗员	rsyr
+冗员	rsyr#删
 冗长	rsih
 嚷嚷	rhrh
 如上	ruuh
@@ -36469,6 +36489,10 @@ QQ拼音	qqpy
 仁	rfr
 融汇	rshv
 冗余	rsy
+热议	reyi
+蝾螈	rsyr
+rime	rime
+容县	rsxm
 㟃	sie
 㟃	siek
 㧐	ssfy
@@ -37951,6 +37975,8 @@ QQ拼音	qqpy
 所以我认为	syww
 桑塔纳	stn
 所有	sy
+扫码	scma
+色彩斑斓	scbl
 㕮	tnkx
 㻬	tuwk
 䏲	tiop
@@ -40606,6 +40632,7 @@ QQ拼音	qqpy
 劏	tsxd
 夲	tcdu
 薙	ticf
+同文	tswf
 时间	uij
 䏡	uiox
 上	uh
@@ -42010,7 +42037,7 @@ QQ拼音	qqpy
 树根	uugf
 树梢	uuuc
 树皮	uupi
-树立	uuli
+树立	uuli#删
 树苗	uumn
 树阴	uuyb
 梳头	uutz
@@ -43262,7 +43289,6 @@ QQ拼音	qqpy
 始终坚持	uvji
 始终如一	uvry
 始终没有	uvmy
-姗姗来迟	uuli
 孰优孰劣	uyul
 孰是孰非	uuuf
 孰能无过	unwg
@@ -43836,6 +43862,11 @@ QQ拼音	qqpy
 上尉	uhw
 囍	ulxi
 閖	uvmu
+姗姗来迟	uuli
+树立	ul
+收集	uzj
+梳理	uuli
+水杯	uvbw
 知	viu
 秩	vih
 铮	vgj
@@ -48772,7 +48803,7 @@ QQ拼音	qqpy
 鹉	wuan
 惟一	wwyi
 完败	wjbd
-万物	wjwu
+万物	wjwu#删
 味蕾	wwlw
 无知	wuvi
 五四运动	wsyd
@@ -48798,6 +48829,7 @@ QQ拼音	qqpy
 卍	wjvv
 卐	wjvv
 万人	wjr
+word	word
 想象	xlxl
 限	xme
 写字	xpzi
@@ -51922,6 +51954,12 @@ QQ拼音	qqpy
 心急吃不了热豆腐	xjif
 信马由缰	xmyj
 想走就走	xzjz
+象限	xmx
+咲	xnkg
+癣疥之疾	xjvj
+咥	xikt
+辛亥革命	xhgm
+乡野	xlye
 一	y
 以为	yiww
 意愿	yiyr
@@ -56103,6 +56141,10 @@ QQ拼音	qqpy
 一天天	ytt
 一天天	yttm
 摇摇头	yytz
+优酷	yzk
+因子	ybz
+晕染	yyrj
+阈值	yuv
 耔	zil
 怎样	zy
 仄	zei
@@ -58023,3 +58065,5 @@ QQ拼音	qqpy
 谘	ziy
 惣	zsnx
 処	zyop
+增益	zgyi
+紫	ziv

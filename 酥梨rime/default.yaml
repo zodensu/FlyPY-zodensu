@@ -1,12 +1,12 @@
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
-    Caps_Lock: clear
+ #   Caps_Lock: clear
     Control_L: noop
     Control_R: noop
     Eisu_toggle: clear
-    Shift_L: inline_ascii
-    Shift_R: commit_text
+    Shift_L: commit_code #inline_ascii临时英文
+ #   Shift_R: commit_text
 config_version: 0.36.custom.2869952520
 customization: 2869952520
 key_binder:

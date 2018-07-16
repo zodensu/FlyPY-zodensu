@@ -197,7 +197,7 @@ preset_keyboards: #不能直接__include: trime:/preset_keyboards原因不明
       "keys/@25": {click: n, long_click: "/", swipe_up: "/",  key_back_color: CCC, hilited_key_back_color: CCH,key_text_color: xnhe}
       "keys/@26": {click: m, long_click: ":", swipe_up: ":", key_back_color: AAA, hilited_key_back_color: AAH}
       "keys/@27": {click: ",",composing: delimiterD, key_symbol_offset_x: 12, long_click: "!", swipe_up: "!", key_back_color: gnb, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      "keys/@28": {click: ".",label: "。", key_symbol_offset_x: 12, long_click: "?", swipe_up: "?", width: 10, key_back_color: gnb, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
+      "keys/@28": {click: ".",composing: delimiterS, label: "。", key_symbol_offset_x: 12, long_click: "?", swipe_up: "?", width: 10, key_back_color: gnb, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
       "keys/@29": {click: BackSpace1, swipe_up: Candidate_switch1, swipe_left: Delete,swipe_right: Delete,swipe_Down: Delete ,hint: del↘,key_hint_offset_y: -3, key_back_color: 退下.jpg, hilited_key_back_color: 退下2.jpg, key_symbol_color: gnd, key_text_color: 0x00, width: 10} #, key_back_color: gnb,
       
       "keys/@30": {click: Shift_L, composing: Escape, swipe_up: undo,swipe_down: redo, width: 12, key_back_color: gnb, hilited_key_back_color: gnh, off_key_back_color: gnb, on_key_back_color: gnb}
@@ -321,6 +321,15 @@ preset_keyboards: #不能直接__include: trime:/preset_keyboards原因不明
   letter:
     __include: /preset_keyboards/default
     __patch:
+        "keys/@6/long_click": 7
+        "keys/@7/long_click": 8
+        "keys/@8/long_click": 9
+        "keys/@12/long_click": Date
+        "keys/@15/long_click": K_use
+        "keys/@17/long_click": "#"
+        "keys/@18/long_click": '"'
+        "keys/@19/long_click": ~
+        
         "keys/@30/click": K_number
         "keys/@32/click": space2
         "keys/@32/long_click": space3
@@ -335,7 +344,10 @@ preset_keyboards: #不能直接__include: trime:/preset_keyboards原因不明
     __include: trime:/preset_keyboards/letterwbh
   letterhm:
     __include: trime:/preset_keyboards/letterhm
-    
+  
+  use:
+    __include: trime:/preset_keyboards/use
+  
   menu:
     __include: trime:/preset_keyboards/menu
   menux:

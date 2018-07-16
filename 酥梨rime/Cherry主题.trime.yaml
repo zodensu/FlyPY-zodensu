@@ -28,7 +28,7 @@ fallback_colors:
   
 #配色方案
 preset_color_schemes:
-  __include: trime:/preset_color_schemes #显示小鹤主题全部配色
+#  __include: trime:/preset_color_schemes #显示小鹤主题全部配色
   xuancai: #本主题自带配色
     author: flypy.com from sougou
     name: "炫彩+"
@@ -106,73 +106,80 @@ preset_color_schemes:
     xdb: 0xffe9e9e9
     
   Cherry:
-    AAA: "键帽.png"
-    AAH: "按下.png"
-    ABC: "数字键.png"
-    ABH: "数字键.png"
-    AJ: 1AJ.png
-    AJA: 1AJA.png
-    AP: 1AP.png
-    BBB: "键帽.png"
-    BBH: "按下.png"
-    CCC: "键帽.png"
-    CCH: "按下.png"
-    LJ: 1LJ.png
-    LJA: 1LJA.png
-    LP: 1LP.png
-    aaa: "数字键.png"
-    author: "flypy.com from sougou"
-    back_color: 0xffe9e8e8
-    bbb: "数字键.png"
-    bdb: "逗号句号.png"
-    bdh: "逗号句号按下.png"
+    author: "香儿飞飞"
+    name: "Cherry❅"
+    back_color: 0xffe9e8e8 #0xffffffff
     border_color: 0xffc1c7ca
     candidate_separator_color: 0x00000000
     candidate_text_color: 0xff5d5d5d
-    ccc: "数字键.png"
-    cdt: 0xffef6465
     comment_text_color: 0xff2b9de3
-    gns: 0xff878787
-    hcb: "回车.png"
-    hch: "回车按下.png"
-    hcs: 0xff878787
-    hct: 0xff616161
     hilited_back_color: 0x00000000
     hilited_candidate_back_color: 0x00000000
-    hilited_candidate_text_color: 0xff0000
-    hilited_comment_text_color: 0xff81FF00
+    hilited_candidate_text_color: 0xff2b9de3
+    hilited_comment_text_color: 0xff333333
     hilited_key_back_color: "数字键按下.png"
     hilited_key_symbol_color: 0xffBBBBBB
     hilited_key_text_color: 0xff333333
     hilited_off_key_back_color: "数字面板功能键按下.png"
-    hilited_off_key_text_color: 0xfffffff
+    hilited_off_key_text_color: 0xffffffff
     hilited_on_key_back_color: "数字键按下.png"
-    hilited_on_key_text_color: 0xff0000
-    hilited_text_color: 0xff0000
+    hilited_on_key_text_color: 0xffffffff
+    hilited_text_color: 0xffffffff
     key_back_color: "数字面板功能键大.png"
+    #key_border_color: 0xffeceff1
     key_symbol_color: 0xffAAAAAA
     key_text_color: 0xff616161
-    keyboard_back_color: 0xff313131
-    kgh: "空格按下.png"  
-    kgb: "空格.png" # "空格副本.png"  
+    keyboard_back_color: 0xff313131 #0xffeeeeee#键盘背景颜色
     label_color: 0xff81FF00
-    name: "Cherry❅"
     off_key_back_color: "数字面板功能键小.png"
     off_key_text_color: 0xff616161
     on_key_back_color: "数字键.png"
     on_key_text_color: 0xff0000
     preview_back_color: 0xff2b9de3
     preview_text_color: 0xffffffff
+    shadow_color: 0xff333333
+    text_back_color: 0xccffffff
+    text_color: 0xff5a676e
+    ABC: "数字键.png"
+    ABH: "数字键.png"
+    AAA: "键帽.png"
+    BBB: "键帽.png"
+    CCC: "键帽.png"
+    AAH: "按下.png"
+    BBH: "按下.png"
+    CCH: "按下.png"
+    aaa: "数字键.png"
+    bbb: "数字键.png"
+    ccc: "数字键.png"
+    bdb: "逗号句号.png"
+    bdh: "逗号句号按下.png"
+    gnb: ABCkey.png
     scj: "删除键.png"
     scja: "删除键按下.png"
-    shadow_color: 0xff8000FF
     shift: "上档键.png"
     shifta: "上档键按下.png"
-    text_back_color: 0xfffefefe
-    text_color: 0xff0000
+    AP: 1AP.png     #A旁边浅灰色
+    LP: 1LP.png      #L旁边浅灰色
+    AJ: 1AJ.png      # A键
+    AJA: 1AJA.png      # A键按下
+    LJ: 1LJ.png      #L键
+    LJA: 1LJA.png     #L键按下
+    gnh: ABCkeyAH.png
+    gns: 0xff878787
+    kgb: "空格.png" # "空格副本.png"  
+    kgh: "空格按下.png"  
+    kgs: 0xff919191
+    kgt: 0xff333333
+    hcb: "回车.png"
+    hch: "回车按下.png"
+    hcs: 0xff717171
+    hct: 0xff333333
+    cdt: 0xffef6465
+    yyt: 0xff2b9de3
+    fyt: 0xffd3d7da
+    xnhe: 0xff333333
+    zjs: 0xff919191
     xdb: 0xffe9e9e9
-    yyt: 0xff616161
-    zjs: 0xff919191 
 
 
     
@@ -218,7 +225,7 @@ preset_keyboards: #不能直接__include: trime:/preset_keyboards原因不明
       "keys/@31": {click: ",", key_symbol_offset_x: 12, long_click: "!", swipe_up: "!", key_back_color: bdb, hilited_key_back_color: bdh, hilited_key_text_color: hbdt,width: 15}
       "keys/@32": {click: space5, key_symbol_offset_x: 45, long_click: Mode_switch, swipe_left: Left, swipe_right: Right, swipe_up: Up, swipe_down: Down, key_back_color: kgb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgh, width: 38}
       "keys/@33": {click: ".",label: "。", composing: delimiterD,key_symbol_offset_x: 12, long_click: "?", swipe_up: "?", width: 15, key_back_color: bdb, hilited_key_back_color: bdh, hilited_key_text_color: hbdt}
-      "keys/@34": {click: Return, key_symbol_offset_x: 18, long_click: Color_switch, swipe_up: Theme_settings, key_back_color: hcb, key_text_color: hct, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17}
+      "keys/@34": {click: Return, key_symbol_offset_x: 18, long_click: Color_switch, swipe_up: Theme_settings, key_back_color: hj.jpg, key_text_color: hct, key_symbol_color: hcs, hilited_key_back_color: hch, width: 17}#hcb
     height: 55.3
     horizontal_gap: 0
     vertical_gap: 0
@@ -335,13 +342,14 @@ preset_keyboards: #不能直接__include: trime:/preset_keyboards原因不明
     __include: /preset_keyboards/default
     __patch:
         "keys/@6/long_click": 7
-        "keys/@30/click": 8
-        "keys/@30/click": 9
-        "keys/@12/long_click": date
-        "keys/@27/long_click": "#"
-        "keys/@28/lobg_click": '"'
-        "keys/@29/click": "~"
-
+        "keys/@7/long_click": 8
+        "keys/@8/long_click": 9
+        "keys/@12/long_click": Date
+        "keys/@15/long_click": K_use
+        "keys/@17/long_click": "#"
+        "keys/@18/long_click": '"'
+        "keys/@19/long_click": ~
+        
         "keys/@30/click": K_number
         "keys/@32/click": space2
         "keys/@32/long_click": space3
@@ -356,6 +364,8 @@ preset_keyboards: #不能直接__include: trime:/preset_keyboards原因不明
     __include: trime:/preset_keyboards/letterwbh
   letterhm:
     __include: trime:/preset_keyboards/letterhm
+  use:
+    __include: trime:/preset_keyboards/use
 
   menu:
     __include: trime:/preset_keyboards/menu
