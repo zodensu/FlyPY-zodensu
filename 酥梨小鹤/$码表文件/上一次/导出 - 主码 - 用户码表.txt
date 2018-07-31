@@ -1,0 +1,42 @@
+﻿---config@码表分类=主码-用户码表
+---config@码表别名=用户码表
+。”	asd
+，”	asd
+！”	asd
+？”	asd
+ä	aaaa
+Ä	aaa
+。”	ads
+，”	ads
+！”	ads
+？”	ads
+$ddcmd(run(D:\\BaiduNetdisk\\BaiduNetdisk.exe),[百度云盘])	bdyp
+excel	ecxe
+：“	fds
+，“	fds
+。“	fds
+：“	fsd
+，“	fsd
+。“	fsd
+%......................................................%	fgx
+good night	goot
+．	gggg
+──	gggg
+$ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟打器教程])	gdqi
+git commit -a -m "更新博客"	gxbk
+给过	gwgo
+$ddcmd(run(http://my.hfut.edu.cn),[信息门户])	hfgh
+检索式\\r检索功能（简单或高级检索）：\\r检索字段：\\r检索词：\\r检索技术：\\r检索数量：\\r检索结果：\\r	jsui
+检索式\\\r检索功能（简单或高级检索）：\\\r检索字段：\\\r检索词：\\\r检索技术：\\\r检索数量：\\\r检索结果：\\\r	jsui
+                                  %	kgbf
+：“	mub
+泥浆	nijl
+ö	oooo
+Ö	ooo
+$ddcmd(„“keyboard(<37>),„“)	ofdy
+ß	ssss
+3D打印	sddy
+孙有元	syy
+Ü	uuu
+℃	uud
+$ddcmd(run(http://172.16.200.11),[校园网登录)	xywl

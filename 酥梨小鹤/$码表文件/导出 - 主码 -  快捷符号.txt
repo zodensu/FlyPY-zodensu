@@ -30,7 +30,7 @@ $ddcmd(keyboard(<39>),[→])	;r
 →	;p
 ←	;p
 ß	;m
-$ddcmd(keyboard(<27>),[撤销])	;x
+$ddcmd(keyboard(<90+Ctrl>),[撤销])	;x
 $ddcmd(keyboard(keyboard(<37><37>),[2←])	hvk
 $ddcmd(keyboard(keyboard(<37><37><37>),[3←])	hvk
 $ddcmd(keyboard(keyboard(<37><37><37><37>),[4←])	hvk

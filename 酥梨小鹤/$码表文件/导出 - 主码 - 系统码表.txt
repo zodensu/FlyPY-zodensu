@@ -631,6 +631,8 @@ AA制	aavi
 阿拉斯加	alsj
 奥林匹斯	alps
 爱奇艺	aqy
+黯淡	andj#删
+黯淡	and
 保鲜期	bxqi
 不	b
 不	bua
@@ -3922,6 +3924,8 @@ AA制	aavi
 包涵	bchj
 并不仅仅	bbjj
 梐	bimt
+布谷鸟	bgnn
+布谷鸟	bgn
 丛	csr
 丛	csra
 从	cs
@@ -8451,6 +8455,8 @@ AA制	aavi
 的人	dr
 僜	dgra
 东厂	dsih
+筜	dhv
+刀刃	dcrf
 二	e
 二	eraa
 佴	err
@@ -8883,6 +8889,7 @@ AA制	aavi
 二维	erw
 耳蜗	erwo
 尒	errx
+E迅速录	exsl
 反	fj
 分量	ffll
 㳇	fudx
@@ -10777,6 +10784,7 @@ AA制	aavi
 法向	fax
 附和	fuh
 奋笔疾书	fbju
+騑	fwmf#删
 干	gj
 估计	guji
 㭎	ghmx
@@ -13579,6 +13587,7 @@ GDP	gdp
 光束	gluu
 改签	gdqm
 归一化	gyh
+光纤	glqm
 欢	hry
 会议	hvyi
 㘎	hjkw
@@ -14635,7 +14644,6 @@ GDP	gdp
 好歹	hcdd
 好比	hcbi
 好汉	hchj
-好点	hcdm#删
 好烦	hcfj
 好玩	hcwj
 好球	hcqq
@@ -16711,6 +16719,7 @@ GDP	gdp
 回眸一笑百媚生	hmyu
 浩瀚无垠	hhwy
 横屏	hgpk
+后天下之乐而乐	htxy
 处	iu
 㬚	ieo
 㬚	ieow
@@ -18639,7 +18648,6 @@ GDP	gdp
 出现过	ixgo
 出租车	izie
 出风头	iftz
-创业版	iyb#删
 创可贴	ikt
 创可贴	iktp
 创造力	izl
@@ -19137,6 +19145,9 @@ IP地址	ipdv
 创业板	iyb
 朝贡	icgs
 柴米油盐酱醋茶	imyi
+彳亍	iiiu
+翀	isx
+沢	iidi
 记	jiy
 几年	jinm
 嫉	jin
@@ -22540,6 +22551,8 @@ IP地址	ipdv
 疥癞之疾	jlvj
 疥癣之病	jxvb
 酱醋茶	jci
+床前明月光，\r疑是地上霜。\r举头望明月，\r低头思故乡。\r	jysi
+集体主义	jtvy
 㧟	kkf
 㧟	kkfk
 㸆	kchf
@@ -24246,6 +24259,8 @@ IP地址	ipdv
 恳请	kfqk
 开除	kdiu
 堀	kut
+孔雀	ksqt#删
+孔雀	ksq
 领略	lklt
 亮	llw
 硫	lqu
@@ -27289,6 +27304,9 @@ IP地址	ipdv
 留意	lqy
 蛯	lcib
 两层	llcg
+零乱	lklr#删
+廊道	lhdc
+梨酥	lis
 迷失	miui
 霉	mwy
 㠓	mge
@@ -35600,7 +35618,6 @@ QQ拼音	qqpy
 入门	rumf
 冉冉	rjr
 冉冉	rjrj
-冗员	rsyr#删
 冗长	rsih
 嚷嚷	rhrh
 如上	ruuh
@@ -36493,6 +36510,8 @@ QQ拼音	qqpy
 蝾螈	rsyr
 rime	rime
 容县	rsxm
+认知	rfv
+人民教育出版社	rmju
 㟃	sie
 㟃	siek
 㧐	ssfy
@@ -37977,6 +37996,10 @@ rime	rime
 所有	sy
 扫码	scma
 色彩斑斓	scbl
+久旱逢甘霖，\r他乡遇故知。\r洞房花烛夜，\r金榜题名时。\r	sdlu
+私有财产	syci
+死难者	snv
+酥梨	sul
 㕮	tnkx
 㻬	tuwk
 䏲	tiop
@@ -42037,7 +42060,6 @@ rime	rime
 树根	uugf
 树梢	uuuc
 树皮	uupi
-树立	uuli#删
 树苗	uumn
 树阴	uuyb
 梳头	uutz
@@ -46910,6 +46932,7 @@ rime	rime
 祗	vip
 硃	vumv
 中子	vsz
+浊浪	volh
 玩物	wjwu
 㧑	wwfw
 万	wja
@@ -48803,7 +48826,6 @@ rime	rime
 鹉	wuan
 惟一	wwyi
 完败	wjbd
-万物	wjwu#删
 味蕾	wwlw
 无知	wuvi
 五四运动	wsyd
@@ -48830,6 +48852,11 @@ rime	rime
 卐	wjvv
 万人	wjr
 word	word
+忘情	whqk
+嵬	wwe
+无垠	wuyb
+万物	wjw
+万鬼哭号	wgkh
 想象	xlxl
 限	xme
 写字	xpzi
@@ -51960,6 +51987,8 @@ word	word
 咥	xikt
 辛亥革命	xhgm
 乡野	xlye
+先天下之忧而忧	xtxy
+向量	xll
 一	y
 以为	yiww
 意愿	yiyr
@@ -56020,7 +56049,7 @@ word	word
 一切都有可能	yqdn
 一客不烦二主	ykbv
 亚的斯亚贝巴	ydsb
-以不变应万变	ybbb
+以不变应万变	ybbb#删
 又好气又好笑	yhqx
 异曲同工之处	yqti
 异曲同工之妙	yqtm
@@ -56145,6 +56174,11 @@ word	word
 因子	ybz
 晕染	yyrj
 阈值	yuv
+以不变应万变	ybb
+一样	yiy
+筼	yyv
+邪	yey
+银河系	yhx
 耔	zil
 怎样	zy
 仄	zei
@@ -58067,3 +58101,5 @@ word	word
 処	zyop
 增益	zgyi
 紫	ziv
+沢	zedi
+怎么样了	zmyl
