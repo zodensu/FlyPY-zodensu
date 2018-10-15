@@ -1,0 +1,18 @@
+---config@码表分类=主码-用户码表
+---config@码表别名=用户码表
+ä	aaaa
+Ä	aaa
+ö	oooo
+Ö	ooo
+ß	ssss
+Ü	uuu
+ü	uuu
+excel	ecxe
+%......................................................%	fgx
+good night	goot
+．	gggg
+──	gggg
+git commit -a -m "更新博客"	gxbk
+                                            %	kgb
+中国农业银行股份有限公司合肥经济技术开发区支行	vgn
+——这里是一条萌萌的小尾巴，我是来围观萌萌的楼主的( ‘-ωก̀ )	xwb

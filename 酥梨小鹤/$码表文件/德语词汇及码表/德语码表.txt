@@ -1,0 +1,6 @@
+﻿---config@码表分类=辅码码表
+---config@码表别名= 德语单词
+möchte	moc
+mochte	moch
+möchte	mochte
+mochte	mochte

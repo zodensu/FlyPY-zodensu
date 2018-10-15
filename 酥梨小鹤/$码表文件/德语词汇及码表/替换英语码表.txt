@@ -1,0 +1,2 @@
+在这个路径里F:\小鹤双拼\制作自己的输入法\DDImegen(V4.0 β)\DDImegen\Data
+把_english_.txt这个文件里的内容换了就行了

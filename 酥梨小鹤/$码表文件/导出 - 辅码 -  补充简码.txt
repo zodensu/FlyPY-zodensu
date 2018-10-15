@@ -18,10 +18,10 @@
 旦	dj
 嗯	e
 发	f
-份	ff
 复	fu
 凤	fg
 疯	fg
+份	ff
 管	g
 搞	gc
 钙	gd
@@ -60,10 +60,10 @@
 期	q
 弃	qi
 缺	qt
+扔	rg
 入	r
 惹	re
 忍	rf
-扔	rg
 随	s
 寺	si
 丧	sh
@@ -106,3 +106,4 @@
 遭	zc
 揍	zz
 自	zi
+坐	zo

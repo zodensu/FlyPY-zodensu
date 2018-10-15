@@ -1,6 +1,6 @@
 ﻿---config@码表分类=主码-1
 ---config@码表别名= 符号编码
-$ddcmd(wxkeyboard(<37.2><111>),😊)	oi
+$ddcmd(/wx,😊)	oi
 $ddcmd(？,？)	ow
 $ddcmd(%,%)	ob
 $ddcmd(！,！)	oa
@@ -101,18 +101,18 @@ $ddcmd(羊,羊)	oby
 $ddcmd(,)	obz
 $ddcmd(廴,廴)	obz
 $ddcmd(辶,辶)	obz
-“”	ofbd
-（）	ofbd
-《》	ofbd
-〈〉	ofbd
-〔〕	ofbd
-‘’	ofbd
-「」	ofbd
-『』	ofbd
-【】	ofbd
-〖〗	ofbd
-［］	ofbd
-｛｝	ofbd
+$ddcmd(“”keyboard(<37>),“”)	ofbd
+$ddcmd(（）keyboard(<37>),（）)	ofbd
+$ddcmd(《》keyboard(<37>),《》)	ofbd
+$ddcmd(〈〉keyboard(<37>),〈〉)	ofbd
+$ddcmd(〔〕keyboard(<37>),〔〕)	ofbd
+$ddcmd(‘’keyboard(<37>),‘’)	ofbd
+$ddcmd(「」keyboard(<37>),「」)	ofbd
+$ddcmd(『』keyboard(<37>),『』)	ofbd
+$ddcmd(【】keyboard(<37>),【】)	ofbd
+$ddcmd(〖〗keyboard(<37>),〖〗)	ofbd
+$ddcmd(［］keyboard(<37>),［］)	ofbd
+$ddcmd(｛｝keyboard(<37>),｛｝)	ofbd
 ．	ofbd
 。	ofbd
 ，	ofbd
@@ -735,6 +735,40 @@ nm	ofdw
 ┳	ofvb
 ┻	ofvb
 ╋	ofvb
+¹	ofub
+²	ofub
+³	ofub
+⁴	ofub
+⁵	ofub
+⁶	ofub
+⁷	ofub
+⁸	ofub
+⁹	ofub
+⁰	ofub
+⁺	ofub
+⁻	ofub
+⁼	ofub
+⁽	ofub
+⁾	ofub
+ⁿ	ofub
+ˣ	ofub
+₁	ofxb
+₂	ofxb
+₃	ofxb
+₄	ofxb
+₅	ofxb
+₆	ofxb
+₇	ofxb
+₈	ofxb
+₉	ofxb
+₀	ofxb
+₊	ofxb
+₋	ofxb
+₌	ofxb
+₍	ofxb
+₎	ofxb
+ₙ	ofxb
+ₓ	ofxb
 $ddcmd(amkeyboard(<37.2><111>),Q傲慢)	oqam
 $ddcmd(aiqkeyboard(<37.3><111>),Q爱情)	oqaq
 $ddcmd(bbkeyboard(<37.2><111>),Q便便)	oqbb
@@ -1154,7 +1188,9 @@ $ddcmd(newkey(ofpp),pp\\2偏旁\\3亻彳讠)	of
 $ddcmd(newkey(ofdw),dw\\2单位\\3㎎㎏㎜)	of
 $ddcmd(newkey(ofpy),py\\2拼音\\3āōē)	of
 $ddcmd(newkey(ofjt),jt\\2箭头\\3←→↑)	of
+$ddcmd(newkey(ofyb),yb\\2音标\\3a: ɔ: ɜː)	of
 $ddcmd(newkey(ofyu),yu\\2圆圈数字\\3①②③)	of
+$ddcmd(newkey(ofys),ys\\2元素周期表\\3氢氦锂)	of
 $ddcmd(newkey(ofku),ku\\2括号数字\\3⑴⑵⑶)	of
 $ddcmd(newkey(ofdu),du\\2点号数字\\3⒈⒉⒊)	of
 $ddcmd(newkey(ofvu),vu\\2中文数字\\3㈠㈡㈢)	of
@@ -1205,7 +1241,7 @@ $ddcmd(🖕,🖕)	oicc
 ⑲	ofyu
 ⑳	ofyu
 氢	ofys
-$ddcmd(newkey(ofys),ys\\2元素周期表\\3氢氦锂)	of
+$ddcmd(newkey(ofys),ys\\2元素周期表\\3氢氦锂)	ofy
 锂	ofys
 钠	ofys
 钾	ofys
@@ -1316,7 +1352,7 @@ $ddcmd(newkey(ofys),ys\\2元素周期表\\3氢氦锂)	of
 钕	ofys
 铀	ofys
 a:	ofyb
-$ddcmd(newkey(ofyb),yb\\2音标\\3a: ɔ: ɜː)	of
+$ddcmd(newkey(ofyb),yb\\2音标\\3a: ɔ: ɜː)	ofy
 ɔ:	ofyb
 ɜː	ofyb
 i:	ofyb
@@ -1364,3 +1400,9 @@ m	ofyb
 n	ofyb
 ŋ	ofyb
 l	ofyb
+×	ofia
+√	ofgz
+√	ofdg
+×	ofdi
+
+
