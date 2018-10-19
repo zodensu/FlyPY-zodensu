@@ -1,24 +1,28 @@
 ﻿---config@码表分类=主码-6
 ---config@码表别名=非o型直通车
 $ddcmd(run(D:\\BaiduNetdisk\\BaiduNetdisk.exe),[百度云盘])	bdyp
+$ddcmd(run(http://121.251.19.135/Graduate/),[毕业生登录)	byu
+$ddcmd(run(https://dashboard.unitag.io/#/welcome),[二维码生成器，国外])	ewm
 $ddcmd(run(https://www.testdaf.de),[德福研究所])	def
 $ddcmd(run(https://testdaf.etest.edu.cn),[教育部→德福考试报名])	def
 $ddcmd(run(https://testdaf.etest.net.cn),[公网→德福考试报名])	def
 $ddcmd(run(http://xjzm.hfut.edu.cn/index.jsp),[档案馆学藉证明服务系统])	def
-$ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟打器教程])	gdqi
+$ddcmd(run(https://www.aps.org.cn/zh/),[Akademische Prüfstelle])	def
+$ddcmd(run(https://sls.cdb.com.cn),[国家开发银行生源地贷款])	gjkf
+$ddcmd(run(https://mp.weixin.qq.com/),[微信公众号])	gvh
 $ddcmd(run(http://my.hfut.edu.cn),[信息门户])	hfgh
 $ddcmd(run(http://www.chaiwubi.com/match/),[拆五笔])	iwb
-$ddcmd(：“”keyboard(<37>),：“”,[对话])	odh
-$ddcmd(„“keyboard(<37>),„“)	ofdy
-$ddcmd(„“keyboard(<37>),[德语引号])	ofd
-$ddcmd(„“keyboard(<37>),[德语引号])	ody
-$ddcmd(run(http://pipe.b3log.org),[黑客派的酥梨笔记])	slb
 $ddcmd(run(http://cet.etest.edu.cn/Home/Index),[全国大学生英语四、六级考试])	slj
 $ddcmd(run(http://chaxun.neea.edu.cn/),[中国教育考试网])	slj
 $ddcmd(run(http://cet.neea.edu.cn/cet/),[18年四六级（含口试）成绩查询])	slj
+$ddcmd(run(http://pipe.b3log.org),[黑客派的酥梨笔记])	slb
 $ddcmd(run(http://zodensu.bilibiili.com/),[酥梨笔记])	slb
-$ddcmd(run(https://sls.cdb.com.cn),[国家开发银行生源地贷款])	gjkf
+$ddcmd(run(https://zodensu.github.io/#/home),[酥梨笔记github版])	slb
+$ddcmd(run(https://zodensu.github.io/#/home),[酥梨博客])	slb
+$ddcmd(run(https://xiumi.us/studio/v5#/paper/for/new),[微信秀米])	wx
+$ddcmd(run(https://wx2.qq.com/),[微信秀米])	wx
 $ddcmd(run(http://172.16.200.11),[校园网登录)	xywl
 $ddcmd(run(http://flypy.com),[小鹤主页])	xhvy
 $ddcmd(run(http://bbs.flypy.com),[小鹤论坛])	xhlt
 $ddcmd(run(http://flypy.ys168.com),[小鹤网盘])	xhwp
+$ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟打器教程])	gdqi

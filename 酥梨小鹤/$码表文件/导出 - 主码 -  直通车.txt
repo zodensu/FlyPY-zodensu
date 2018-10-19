@@ -7,22 +7,27 @@ $ddcmd(<date.YYYY>年<date.M>月<date.D>日,<date.YYYY>年<date.M>月<date.D>日
 $ddcmd(<date.yyyy>-<date.mm>-<date.dd>,<date.yyyy>-<date.mm>-<date.dd>)	orq
 $ddcmd(<date.z> <time.h>:<time.mm>,<date.z> <time.h>:<time.mm>)	ouj
 $ddcmd(<time.hh>:<time.mm>:<time.ss>,纯时间 <time.hh>:<time.mm>:<time.ss>)	ouj
-$ddcmd(run(http://www.baidu.com/s?wd=<last.0>),[百度]：<last.0>)	oss
-$ddcmd(run(http://www.zdic.net/sousuo/?q=<last.1>),[汉典]：<last.1>)	ohd
-$ddcmd(run(cmd.exe),[命令提示行])	ocm
+$ddcmd(run(mspaint.exe),[画图])	oht
+$ddcmd(run(notepad.exe),[记事本])	oju
+$ddcmd(run(calc.exe),[计算器])	ojs
 $ddcmd(run(::{20D04FE0-3AEA-1069-A2D8-08002B30309D}),[我的电脑])	odn
 $ddcmd(run(C:\\Program Files),[程序文件夹])	owj
 $ddcmd(run(control.exe),[控制面板])	okv
 $ddcmd(run(::{450D8FBA-AD25-11D0-98A8-0800361B1103}),[我的文档])	owd
 $ddcmd(run(winword.exe),[word])	owd
 $ddcmd(run(excel.exe),[excel])	oec
-$ddcmd(run(mspaint.exe),[画图])	oht
-$ddcmd(run(notepad.exe),[记事本])	oju
-$ddcmd(run(calc.exe),[计算器])	ojs
+$ddcmd(run(winword.exe),[word])	owo
+$ddcmd(run(excel.exe),[excel])	oex
+$ddcmd(run(winword.exe),[word])	owor
+$ddcmd(run(excel.exe),[excel])	oexc
+$ddcmd(keyboard(<173>),[静音开关])	ojy
 $ddcmd(keyboard(<32+Alt><78>),[最小化])	ozx
 $ddcmd(keyboard(<68+Win>),[桌面])	ovm
 $ddcmd(help(keyboardmap.html,600,500),[键盘图])	ojp
 $ddcmd(config(/do anjianshezhi),[按键定义])	oaj
+$ddcmd(run(http://www.baidu.com/s?wd=<last.0>),[百度]：<last.0>)	oss
+$ddcmd(run(http://www.zdic.net/sousuo/?q=<last.1>),[汉典]：<last.1>)	ohd
+$ddcmd(run(cmd.exe),[命令提示行])	ocm
 $ddcmd(config(/do 常用),[常用项])	oiy
 $ddcmd(config(/do 界面),[界面项])	ojm
 $ddcmd(config(/do 码表),[码表项])	omb
@@ -41,8 +46,6 @@ $ddcmd(config(/do 在线加词),[在线加词])	ojc
 $ddcmd(convert(中英文标点,切换),[中英文标点切换])	ovy
 $ddcmd(convert(全半角,切换),[全半角切换])	oqb
 $ddcmd(convert(繁体输出,切换),[简繁切换])	ojf
-$ddcmd(keyboard(<35><36+Shift><46><36>),[删当前行])	oui
-$ddcmd(keyboard(<35><36+Shift><46><36>),[删当前行])	oiu
 $ddcmd(set([-IME设置-],禁用鼠标悬停词典=否),[启用候选窗字典])	ozd
 $ddcmd(set([-IME设置-],禁用鼠标悬停词典=是),[关闭])	ozd
 $ddcmd(set([-IME设置-],检索次显码表=是),[启用隐藏的全码])	oqm
@@ -51,6 +54,4 @@ $ddcmd(set([-IME设置-],输入方案=主+辅),[启用补充简码])	ojb
 $ddcmd(set([-IME设置-],输入方案=主),[关闭])	ojb
 $ddcmd(set([-SKIN设置-],使用皮肤名称=切换),[换肤])	ohf
 $ddcmd(set([-SKIN设置-],使用皮肤名称=zg.col),[默认])	ohf
-$ddcmd(keyboard(<173>),[静音开关])	ojy
 $ddcmd(set([-IME设置-],嵌入文本内容=嵌入首选),[嵌入首选])	oiq
-

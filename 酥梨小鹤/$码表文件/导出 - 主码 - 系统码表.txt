@@ -6189,7 +6189,7 @@ AA制	aavi
 地洞	dids
 地点	didm
 地牢	dilc
-地狱	diyu
+地域	diyu
 地球	diqq
 地理	dili
 地瓜	digx
@@ -8486,6 +8486,8 @@ AA制	aavi
 调取	dnqu
 狄	diq
 逗	dzz
+地狱	diyu
+低于	dy
 二	e
 二	eraa
 佴	err
@@ -8922,6 +8924,7 @@ E迅速录	exsl
 二胡	eehu
 奀	enbd
 奀	enb
+excel	exce
 反	fj
 分量	ffll
 㳇	fudx
@@ -13630,6 +13633,7 @@ GDP	gdp
 嘎嘣脆	gbc
 搞	gcf
 光纤	glq
+管控	grks
 欢	hry
 会议	hvyi
 㘎	hjkw
@@ -16764,6 +16768,8 @@ GDP	gdp
 很长一段时间	hiy
 很多事	hdu
 黑心烂肝	hxlg
+互惠互利	hhhl
+互利互惠	hlhh
 处	iu
 㬚	ieo
 㬚	ieow
@@ -26113,7 +26119,6 @@ IP地址	ipdv
 罗圈	loqr
 罗汉	lohj
 罗盘	lopj
-罗锅	logo
 罗马	loma
 罹难	linj
 羚羊	lkyh
@@ -27372,6 +27377,8 @@ IP地址	ipdv
 箓	luv
 舻	luvl
 冗长	lsih
+镂空	lzks
+LOGO	logo
 迷失	miui
 霉	mwy
 㠓	mge
@@ -29804,6 +29811,7 @@ IP地址	ipdv
 满腔热情	mqrq
 毛绒	mcrs
 弥散	misj
+骂了	male
 乃	ndv
 乃	ndvp
 乜	npv
@@ -33033,7 +33041,6 @@ IP地址	ipdv
 破灭	pm
 频谱	pbpu
 频谱	pbp
-飘浮	pnfu#删
 磬	qku
 㭕	qums
 䓖	qscl
@@ -35378,6 +35385,7 @@ QQ拼音	qqpy
 卻	qtbe
 丌	qial
 弃	qiw
+全面贯彻	qmgi
 䎃	rjrx
 乳	rupv
 人	r
@@ -47305,13 +47313,13 @@ rime	rime
 莴	wocn
 菀	wjcv
 萎	wwcn
-葳	wwc
+薇	wwc
 蓊	wgc
 蓊	wgcx
 蔓	wjcy
 蔚	wwcc
 蕹	wgcf
-薇	wwc
+葳	wwc
 薳	wwcz
 蚊	wfi
 蚊	wfiw
@@ -48971,6 +48979,7 @@ word	word
 纬	wws
 万丈光芒	wvgm
 稳频	wfpb
+腕	wjos
 想象	xlxl
 限	xme
 写字	xpzi
@@ -52111,6 +52120,7 @@ word	word
 心理上	xlu
 信口胡吣	xkhq
 稀土	xitu
+雄浑壮阔	xhvk
 一	y
 以为	yiww
 意愿	yiyr
@@ -58245,3 +58255,4 @@ word	word
 字迹	ziji
 坐着	zv
 座位	zw
+造化钟神秀	zhvx

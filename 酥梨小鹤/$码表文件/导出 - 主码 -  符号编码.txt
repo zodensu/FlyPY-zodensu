@@ -7,8 +7,7 @@ $ddcmd(！,！)	oa
 $ddcmd(……,……)	os
 $ddcmd(（,（)	oh
 $ddcmd(）,）)	oj
-$ddcmd(〔,〔)	on
-$ddcmd(〕,〕)	om
+$ddcmd(〔〕keyboard(<37>),〔〕)	on
 $ddcmd(一,一)	ob
 $ddcmd(丨,丨)	ob
 $ddcmd(丿,丿)	ob
@@ -1404,5 +1403,3 @@ l	ofyb
 √	ofgz
 √	ofdg
 ×	ofdi
-
-

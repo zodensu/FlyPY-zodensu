@@ -1,0 +1,53 @@
+---config@码表分类=主码-7
+---config@码表别名=快捷编程o引
+$ddcmd(keyboard(<35><36+Shift><46><36>),[删当前行])	oui
+$ddcmd(keyboard(<35><36+Shift><46><36>),[删当前行])	oiu
+%......................................................%	fgx
+                                            %	kgb
+git commit -a -m "更新博客"	gxbk
+$ddcmd(newkey(ombt),bt→标题)	om
+$ddcmd(newkey(omzt),zt→字体)	om
+$ddcmd(newkey(omyy),yy→引用)	om
+$ddcmd(newkey(omfg),fg→分割线)	om
+$ddcmd(newkey(omtp),tp→图片)	om
+$ddcmd(newkey(omil),il→超链接)	om
+$ddcmd(newkey(omlb),lb→列表)	om
+$ddcmd(newkey(ombg),bg→表格)	om
+$ddcmd(newkey(omdm),dm→代码)	om
+$ddcmd(newkey(omli),li→流程图)	om
+$ddcmd(newkey(omht),ht→其余功能需要百度html样式)	om
+$ddcmd(newkey(ombj),bj→背景音乐)	om
+$ddcmd(keyboard(<51+Shift>),[n级标题即n个#号！无需快捷键])	ombt
+$ddcmd(****keyboard(<37.2>),[加粗])	omzt
+$ddcmd(**keyboard(<37>),[斜体])	omzt
+$ddcmd(******keyboard(<37.3>),[斜体加粗])	omzt
+$ddcmd(~~keyboard(<37>),[删除线])	omzt
+$ddcmd(<font color=#F93A86 size=3></font>keyboard(<37.7>),html字色)	omzt
+$ddcmd(>,[一级引用])	omyy
+$ddcmd(>>,[二级引用])	omyy
+$ddcmd(>>>,[三级引用])	omyy
+$ddcmd(>>>>,[四级引用])	omyy
+$ddcmd(>>>>>,[五级引用])	omyy
+$ddcmd(>>>>>>,[六级引用])	omyy
+$ddcmd(>>>>>>>,[七级引用])	omyy
+$ddcmd(>>>>>>>>,[八级引用])	omyy
+$ddcmd(>>>>>>>>>,[九级引用])	omyy
+$ddcmd(>>>>>>>>>>,[十级引用])	omyy
+$ddcmd(***keyboard(<13>),[分割线①])	omfg
+$ddcmd(---keyboard(<13>),[分割线②（效果一样）])	omfg
+$ddcmd(![图片解释](图片链接地址 ''图片标题''),[插入图片])	omtp
+$ddcmd(![图片解释](https://www.baidu.com/img/bd_logo1.png?where=super ''图片标题''),[示例])	omtp
+$ddcmd([超链接名](超链接地址 "超链接title"),[超链接])	omil
+$ddcmd([超链接名](http://baidu.com/ "超链接title"),[超链接示例])	omil
+$ddcmd(- 列表内容,[无序列表：- + * 三选一，然后加一空格])	omlb
+$ddcmd(1.列表内容,[有序列表：数字加标点])	omlb
+$ddcmd(   ,[列表嵌套：敲三个空格])	omlb
+$ddcmd(表头|表头|表头\r---|:--:|---:\r内容|内容|内容\r内容|内容|内容,[md表格])	ombg
+$ddcmd(run(http://www.runoob.com/html/html-tables.html),[html表格])	ombg
+$ddcmd(``keyboard(<37>),[单行代码])	omdm
+$ddcmd(``````keyboard(<37.3><13>),[代码块])	omdm
+$ddcmd(flow\rst=>start: 开始\rop=>operation: My Operation\rcond=>condition: Yes or No?\re=>end\rst->op->cond\rcond(yes)->e\rcond(no)->op\r&,[流程图])	omil
+$ddcmd(run(https://music.163.com/#/song?id=26112579),[①生成外链播放器→点击:复制代码])	ombj
+$ddcmd(run(https://music.163.com/#/song?id=547987777),[②生成外链播放器→点击:复制代码])	ombj
+$ddcmd(run(http://www.w3school.com.cn/html/html_styles.asp),[html样式])	omht
+$ddcmd(run(https://blog.csdn.net/lsbd1993/article/details/26484641),[html样式2])	omht
