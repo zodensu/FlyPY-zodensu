@@ -1,0 +1,128 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: sldzstroke
+  name: "酥梨单字与五筆畫的反查"
+  version: "0.3"
+  author:
+    - 四季的風
+    - 雪齋
+    - Kunki Chou
+    - 酥梨 qq：1668351939
+  description: |
+    前面的国标8105单字含重码共一万四千零十几个字：
+    参考小鹤音形输入法的打法；
+    五筆畫：
+    h,s,p,n,z 代表橫、豎、撇、捺、折；
+  dependencies:
+    - flypydz
+    - pinyin_simp
+    - sg
+
+switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
+  - options: [ _keyboard_menu, _keyboard_menu]
+    states: [ "❖", "❖"]
+  - name: ascii_mode
+    states: [ EN, 五筆畫 ]
+    reset: ０
+ # - name: extended_charset
+  #  states: [ 常, 增 ]
+#  - options: [utf8, gb2312, gbk]
+ #   states: ["UTF-8", GB2312, GBK]
+  - options: [ _keyboard_default, _keyboard_defaultVJ]
+    states: [ " 			                     ", "	         			          "]
+  - options: [ _key_Hide, _key_Hide]
+    states: [ ▼, ▽]
+  - options: [ _key_LLQ, _key_LLQ]
+    #states: [ 🔍, 🔍] 
+  - options: [ _key_VOICE_ASSIST, _key_VOICE_ASSIST]
+   # states: [ 🎤, 🎤] 
+  - name: zh_simp
+   # states: [ Ⓙ, Ⓕ ]
+   # reset: 0
+  - name: _hide_key_hint
+    #states: [ ≑, ≟ ]
+  - name: _hide_candidate
+   # states: [ ☐, ☒ ]
+    reset: 0
+  - name: _hide_comment
+    #states: [ 提示, 无]
+
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+  filters:
+    - charset_filter@gb2312
+    - charset_filter@gbk
+
+speller:
+  alphabet: ';zyxwvutsrqponmlkjihgfedcba'
+  initials: 'abcdefghijklmnopqrstuvwxyz;'
+  delimiter: " '"
+
+menu:
+  page_size: 9
+
+translator:
+  dictionary: sldzstroke #与dict.yaml里的name：同步的
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+  comment_format:
+    - xform/~//
+    - xlit/hspnz/一丨丿丶乙/
+
+abc_segmentor:
+  extra_tags:
+    - reverse_lookup
+
+reverse_lookup:
+  dictionary: flypydz
+  prefix: "`"
+  suffix: "'"
+  tips: 〔反查〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+punctuator:
+  import_preset: default
+
+#key_binder:
+#  import_preset: default
+key_binder:
+  import_preset: default #方案切换相关
+  bindings:
+    - {accept: bracketleft, send: Page_Up, when: has_menu} # [上翻页
+    - {accept: bracketright, send: Page_Down, when: has_menu} # ]下翻页
+    - {accept: ";", send: 2, when: has_menu}
+    - {accept: "'", send: 3, when: has_menu}
+    - {accept: "Tab", send: ;, when: composing}
+    - {accept: period, send: period, when: has_menu}
+#    - {accept: Release+semicolon, send: period, when: has_menu}#这个是无码时自动以标点顶屏，好像。
+   
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

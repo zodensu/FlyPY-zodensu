@@ -2,8 +2,11 @@
 # encoding: utf-8
 # 小鶴音形（簡）
 # 含標點簡碼和o引導的部分符號
-#由于隐藏全码放在反查里，此码表就相当于不开隐藏全码的系统码表了。
-
+#由于 ①隐藏全码 放在反查码表里，所有小鹤单字都在里面，此码表就相当于不开隐藏全码的系统码表了。
+#②快捷符号o（因为在手机中无效，所以不放）
+#③符号编码
+#④用户码表
+#⑤成组符号——都在最底下，搜索一下就知道在第几行了
 ---
 name: sg
 version: "1"
@@ -646,6 +649,7 @@ AA制	aavi
 ，”	ads
 ！”	ads
 ？”	ads
+傲娇	aojn
 保鲜期	bxqi
 不	b
 不	bua
@@ -684,9 +688,6 @@ AA制	aavi
 别	bp
 别	bpk
 别	bpkd
-剥	bcvd
-剥	bov
-剥	bovd
 办	bj
 办	bjld
 勃	boul
@@ -759,7 +760,7 @@ AA制	aavi
 岜	baeb
 崩	bge
 崩	bgeo
-嶓	boe
+剥	boe
 嶓	boet
 巴	basl
 巴	bav
@@ -1910,7 +1911,6 @@ AA制	aavi
 报幕	bcm
 报应	bcyk
 报废	bcfw
-报恩	bce
 报恩	bcen
 报批	bcpi
 报摊	bctj
@@ -3940,6 +3940,23 @@ AA制	aavi
 布谷鸟	bgnn
 布谷鸟	bgn
 不等式	bdu
+㞎	baub
+揼	bgfu
+噃	bokt
+版本	bb
+辫	bmls
+辨	bmld
+剥	boed
+剥	bced
+剥开	bckd
+剥	bce
+哺乳动物	brdw
+不管怎样	bgzy
+百转千回	bvqh
+薄凉	bcll
+不惜一切代价	bxyj
+报道	bd
+避之不谈	bvbt
 丛	csr
 丛	csra
 从	cs
@@ -5521,7 +5538,7 @@ AA制	aavi
 牍	dupd
 牒	dpp
 犊	dund
-狄	diqh
+狄	diqh#删
 独	duq
 玎	dkw
 玎	dkwd
@@ -7482,7 +7499,6 @@ AA制	aavi
 都不	dzbu
 都会	duhv
 都会	dzhv
-都可	dzk
 都可	dzke
 都在	dzzd
 都市	duui
@@ -7570,7 +7586,6 @@ AA制	aavi
 颠簸	dmbo
 鼎盛	dkug
 鼎足	dkzu
-丁字裤	dzku
 东乡族	dxz
 东乡族	dxzu
 东北虎	dbhu
@@ -8474,6 +8489,14 @@ AA制	aavi
 ：“	dfs
 ，“	dfs
 。“	dfs
+掟	dkfr
+唞	dzku
+丁字裤	dzk
+打量	dl
+打量	dal
+打量	dlo
+调取	dnqu
+狄	diq
 二	e
 二	eraa
 佴	err
@@ -8907,6 +8930,9 @@ AA制	aavi
 耳蜗	erwo
 尒	errx
 E迅速录	exsl
+二胡	eehu
+奀	enbd
+奀	enb
 反	fj
 分量	ffll
 㳇	fudx
@@ -9899,7 +9925,6 @@ E迅速录	exsl
 纷杂	ffza
 纷繁	fffj
 纷纷	fff
-纷纷	ffff
 纷飞	fffw
 防止	fhvi
 绯红	fwhs
@@ -10805,6 +10830,8 @@ E迅速录	exsl
 ，“	fsd
 。“	fsd
 放缩	fhso
+份	ffr
+纷纷	ff#删
 干	gj
 估计	guji
 㭎	ghmx
@@ -13609,6 +13636,9 @@ GDP	gdp
 归一化	gyh
 光纤	glqm
 给过	gwgo
+格式化	guh
+嘎嘣脆	gbc
+搞	gcf
 欢	hry
 会议	hvyi
 㘎	hjkw
@@ -15771,7 +15801,7 @@ GDP	gdp
 还想	hdxl
 还手	hruz
 还早	hdzc
-还是	hdu
+还是	hdu#删
 还是	hdui
 还有	hdyz
 还未	hdww
@@ -16719,7 +16749,7 @@ GDP	gdp
 火炭	hotj
 火炭	hot
 很多情况下	hdqx
-很长一段时间	hvy
+很长一段时间	hvy#删
 轰隆隆	hll
 轰隆隆	hlls
 回复	hvf
@@ -16741,6 +16771,10 @@ GDP	gdp
 浩瀚无垠	hhwy
 横屏	hgpk
 后天下之乐而乐	htxy
+轰击	hsji
+很长一段时间	hiy
+很多事	hdu
+黑心烂肝	hxlg
 处	iu
 㬚	ieo
 㬚	ieow
@@ -16918,7 +16952,7 @@ GDP	gdp
 忏	ijxq
 忡	isxv
 忱	ifxv
-怅	ihxi
+怅	ihxi#删
 怆	ilx
 怆	ilxv
 怊	icx
@@ -19171,6 +19205,9 @@ IP地址	ipdv
 沢	iidi
 出淤泥而不染	iynr
 处境	iuj泥浆）nijl3D打印）sddy
+唓	ieki
+怅	ihx
+怅	ihxv
 记	jiy
 几年	jinm
 嫉	jin
@@ -19499,7 +19536,7 @@ IP地址	ipdv
 江	jld
 江	jldg
 汫	jkdj
-汲	jidj
+鸡蛋	jidj
 沮	jud
 沮	judq
 泂	jsd
@@ -20968,7 +21005,7 @@ IP地址	ipdv
 监督	jmdu
 监管	jmgr
 监考	jmkc
-监视	jmui
+见识	jmui
 眷属	jruu
 眷恋	jrl
 眷恋	jrlm
@@ -21300,7 +21337,7 @@ IP地址	ipdv
 见外	jmwd
 见怪	jmgk
 见证	jmvg
-见识	jmui
+监视	jmui
 见谅	jmll
 见过	jmgo
 见闻	jmw
@@ -21569,7 +21606,7 @@ IP地址	ipdv
 镜子	jkzi
 镜片	jkpm
 镜面	jkmm
-间或	jmho
+间或	jmho#删
 间接	jmjp
 间断	jmdr
 间杂	jmza
@@ -21647,7 +21684,7 @@ IP地址	ipdv
 鸡精	jijk
 鸡翅	jiii
 鸡腿	jitv
-鸡蛋	jidj
+汲	jidj
 鸡血	jixp
 鸡血	jixt
 九华山	jhuj
@@ -21704,7 +21741,6 @@ IP地址	ipdv
 几分钟	jfvs
 几十年	junm
 几千年	jqn
-几千年	jqnm
 几句话	jjh
 几句话	jjhx
 几点了	jdl
@@ -22575,6 +22611,16 @@ IP地址	ipdv
 酱醋茶	jci
 床前明月光，\r疑是地上霜。\r举头望明月，\r低头思故乡。\r	jysi
 集体主义	jtvy
+囝	jmk
+㗎	jxkm
+加速度	jsd
+急剧	jj
+叫了	jnle
+叫了	jnl
+键心阁	jxg
+九年	jqnm
+九年义务教育	jnyy
+奖牌	jlpd
 㧟	kkf
 㧟	kkfk
 㸆	kchf
@@ -24282,6 +24328,8 @@ IP地址	ipdv
 开除	kdiu
 堀	kut
 孔雀	ksq
+冚	kjbe
+咔嚓	kaca
 领略	lklt
 亮	llw
 硫	lqu
@@ -24486,7 +24534,6 @@ IP地址	ipdv
 廪	lbgx
 弄	lsw
 弄	lswc
-录	luv
 律	lvi
 律	lviy
 徕	ldi
@@ -25030,7 +25077,6 @@ IP地址	ipdv
 阑	ljmj
 陆	lqe
 陆	lqej
-陆	lue
 陆	luej
 陇	lsel
 陋	lze
@@ -27329,6 +27375,14 @@ IP地址	ipdv
 梨酥	lis
 勒马	lema
 拉格朗日	lglr
+氯气	lvqi
+冧	lbbm
+流星	lqx
+躝	ljzj
+录	lue
+箓	luv
+舻	luvl
+冗长	lsih
 迷失	miui
 霉	mwy
 㠓	mge
@@ -29750,6 +29804,17 @@ IP地址	ipdv
 踎	mzkk
 蝥	mcs
 蟊	mcs
+慜	mbpx
+幂	mij
+搣	mpfh
+擝	mgfm
+冥王星	mwx
+冥王星	mwxk
+迷蒙	mimg
+马克思主义	mksy
+满腔热情	mqrq
+毛绒	mcrs
+弥散	misj
 乃	ndv
 乃	ndvp
 乜	npv
@@ -31270,7 +31335,11 @@ IP地址	ipdv
 那一天	nyt
 嫐	nznn
 拏	nanu
+囝	njkz
 那一刻	nyk
+撚	nmfh
+惗	nmxx
+浓重	nsvs
 偶	our
 偶	oury
 区	oukx
@@ -32080,7 +32149,6 @@ IP地址	ipdv
 拼凑	pbc
 拼凑	pbcz
 拼合	pbhe
-拼命	pbm
 拼命	pbmk
 拼图	pbt
 拼图	pbtu
@@ -32892,7 +32960,6 @@ IP地址	ipdv
 琵琶别抱	ppbb
 瓢泼大雨	ppdy
 瓶瓶罐罐	ppgg
-疲于奔命	pyb
 疲于奔命	pybm
 疲于应付	pyyf
 疲惫不堪	pbbk
@@ -32966,6 +33033,15 @@ IP地址	ipdv
 频段	pbdr
 珮	pww
 疋	pivr
+㞎	paub
+榀	pbm
+拼一把	pyb
+盘桓	pjhr
+普罗旺斯	plws
+砯	pkub
+砯	pku
+砯	pkun
+破灭	pm
 磬	qku
 㭕	qums
 䓖	qscl
@@ -33160,7 +33236,7 @@ IP地址	ipdv
 杞	qimj
 枪	qlm
 枪	qlmv
-柒	qid
+汽	qid
 栖	qimx
 桥	qn
 桥	qnml
@@ -33192,7 +33268,6 @@ IP地址	ipdv
 求	qq
 求	qqad
 汋	qtd
-汽	qidq
 沁	qbd
 沁	qbdx
 期待	qidd
@@ -33208,7 +33283,7 @@ IP地址	ipdv
 渠	qud
 湫	qqdh
 溱	qbdh
-漆	qid
+柒	qid
 潜	qmdo
 灈	qudf
 炔	qth
@@ -35303,6 +35378,13 @@ QQ拼音	qqpy
 鰌	qqay
 将	qld
 奇葩	qipa
+㞗	qquq
+佢	qurj
+蜷缩	qrso
+漆	qid
+寝食难安	quna
+卻	qtbe
+丌	qial
 䎃	rjrx
 乳	rupv
 人	r
@@ -36536,6 +36618,7 @@ rime	rime
 容县	rsxm
 认知	rfv
 人民教育出版社	rmju
+乳	rup
 㟃	sie
 㟃	siek
 㧐	ssfy
@@ -40679,6 +40762,7 @@ rime	rime
 夲	tcdu
 薙	ticf
 同文	tswf
+汤汁	thvi
 时间	uij
 䏡	uiox
 上	uh
@@ -43718,7 +43802,7 @@ rime	rime
 赏罚分明	uffm
 身不由己	ubyj
 身临其境	ulqj
-身价百倍	ujbb
+生机勃勃	ujbb
 身体健康	utjk
 身体力行	utlx
 身体发肤	utff
@@ -43912,6 +43996,8 @@ rime	rime
 收集	uzj
 梳理	uuli
 水杯	uvbw
+身价百倍	ujbb
+殳	uuj
 知	viu
 秩	vih
 铮	vgj
@@ -45285,7 +45371,6 @@ rime	rime
 政委	vgww
 政审	vguf
 政客	vgke
-政府	vgfu
 政权	vgqr
 政治	vgvi
 政策	vgce
@@ -45294,7 +45379,7 @@ rime	rime
 整个	vgge
 整体	vgti
 整修	vgxq
-整句	vgju
+证据	vgju
 整合	vghe
 整块	vgkk
 整垮	vgkx
@@ -46953,9 +47038,15 @@ rime	rime
 桌	vo
 啁啾	vzjq
 祗	vip
-硃	vumv
 中子	vsz
 浊浪	volh
+政府	vf
+中国农业银行	vgnh
+整句	vgju
+终极	vjs#删
+终极	vjm
+终级	vjs
+招	vcf
 玩物	wjwu
 㧑	wwfw
 万	wja
@@ -48880,6 +48971,9 @@ word	word
 无垠	wuyb
 万物	wjw
 万鬼哭号	wgkh
+纬	wws
+万丈光芒	wvgm
+稳频	wfpb
 想象	xlxl
 限	xme
 写字	xpzi
@@ -52012,6 +52106,14 @@ word	word
 先天下之忧而忧	xtxy
 向量	xll
 熊样	xsyh
+係	xirx
+行差踏错	xitc
+相当程度上	xdiu
+相当	xldh
+相互作用	xhzy
+心理上	xlu
+信口胡吣	xkhq
+稀土	xitu
 一	y
 以为	yiww
 意愿	yiyr
@@ -52588,7 +52690,7 @@ word	word
 腰	yco
 腰	ycon
 腴	yuoy
-膺	ykg
+鹰	ykg
 臃	yso
 臃	ysof
 臆	yiox
@@ -52839,7 +52941,7 @@ word	word
 鹞	ycpn
 鹦	ykk
 鹬	yus
-鹰	ykg
+膺	ykg
 鹰	ykgn
 麀	yzgb
 黝	yzh
@@ -56202,6 +56304,19 @@ word	word
 邪	yey
 银河系	yhx
 越加	ytjx
+吔	yeky
+萤火虫	yhi
+影	ykox
+阴郁	yby
+英雄好汉	yxhh
+佯谬	yhmq
+一去不回	yqbh
+约翰	ythj
+耶路撒冷	ylsl
+一艘	yisz
+杨	yhm
+又双叒叕	yyy
+鬱	yump
 耔	zil
 怎样	zy
 仄	zei
@@ -58126,25 +58241,1276 @@ word	word
 紫	ziv
 沢	zedi
 怎么样了	zmyl
+咗	zokg
+坐了下来	zlxl
+早读	zcdz
+字迹	ziji
 #用户码表
-ä	aaaa
-Ä	aaa
-$ddcmd(run(D:\\BaiduNetdisk\\BaiduNetdisk.exe),[百度云盘])	bdyp
-excel	ecxe
-%......................................................%	fgx
-good night	goot
-．	gggg
-──	gggg
-git commit -a -m "更新博客"	gxbk
-$ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟打器教程])	gdqi
-$ddcmd(run(http://my.hfut.edu.cn),[信息门户])	hfgh
-检索式\\\r检索功能（简单或高级检索）：\\\r检索字段：\\\r检索词：\\\r检索技术：\\\r检索数量：\\\r检索结果：\\\r	jsui
-                                  %	kgb
-ö	oooo
-Ö	ooo
-$ddcmd(„“keyboard(<37>),„“)	ofdy
-$ddcmd(：“”keyboard(<37>),：“”)	odh
-ß	ssss
-Ü	uuu
-$ddcmd(run(http://172.16.200.11),[校园网登录)	xywl
-#快捷符号：
+
+
+#符号编码
+#符号
+！	oa
+%	ob	100
+一	ob	99
+丨	ob	98
+丿	ob	97
+丶	ob	96
+乛	ob	95
+乀	ob	94
+鱼	oba
+冖	obb	100
+宀	obb	99
+丷	obb	98
+疒	obb	97
+勹	obb	96
+比左部	obb	95
+艹	obc	100
+廾	obc	99
+冫	obd	100
+氵	obd	99
+	obd	98
+刂	obd	97
+阝	obe	100
+卩	obe	99
+彐	obe	98
+山	obe	97
+见下部	obe	96
+扌	obf	100
+寿带上部	obf	99
+	obf	98
+缶	obf	97
+既左部	obg	100
+艮	obg	99
+鬼	obg	98
+革	obg	97
+骨	obg	96
+灬	obh	100
+虍	obh	99
+黑	obh	98
+余下部	obh	97
+彳	obi	100
+亍	obi	99
+虫	obi	98
+钅	obj	100
+金	obj	99
+	obj	98
+匚	obk	100
+冂	obk	99
+凵	obk	98
+囗	obk	97
+㠯	obk	96
+耂	obl	100
+立	obl	99
+龙	obl	98
+朩	obm
+	obn	100
+牜	obn	99
+日	obo	100
+月	obo	99
+目	obo	98
+礻	obp	100
+衤	obp	99
+犭	obq	100
+求	obq	99
+具其上部	obq	98
+亻	obr
+纟	obs	100
+厶	obs	99
+	obs	98
+罒	obs	97
+田	obt
+饣	obu	100
+	obu	99
+	obu	98
+氺	obu	97
+石	obu	96
+	obv	100
+豸	obv	99
+亠	obw	100
+夂	obw	99
+攵	obw	98
+文	obw	97
+忄	obx	100
+乂	obx	99
+⺍	obx	98
+	obx	97
+	obx	96
+讠	oby	100
+	oby	99
+	oby	98
+衣底	oby	97
+羊	oby	96
+	obz	100
+廴	obz	99
+辶	obz	98
+”	oc
+（	oh
+😊	oi
+）	oj
+《	ok	90
+》	ol
+〔	on
+〕	om
+
+成组符号btu...	of
+成组标点d	ofb
+“”	ofbd
+（）	ofbd
+《》	ofbd
+〈〉	ofbd
+〔〕	ofbd
+‘’	ofbd
+「」	ofbd
+『』	ofbd
+【】	ofbd
+〖〗	ofbd
+［］	ofbd
+｛｝	ofbd
+．	ofbd
+。	ofbd
+，	ofbd
+、	ofbd
+；	ofbd
+：	ofbd
+？	ofbd
+！	ofbd
+…	ofbd
+—	ofbd
+·	ofbd
+ˉ	ofbd
+ˇ	ofbd
+¨	ofbd
+々	ofbd
+～	ofbd
+‖	ofbd
+∶	ofbd
+＂	ofbd
+＇	ofbd
+｀	ofbd
+｜	ofbd
+㎎	ofdw
+㎏	ofdw
+㎜	ofdw
+㎝	ofdw
+㎞	ofdw
+㎡	ofdw
+nm	ofdw
+μm	ofdw
+μg	ofdw
+㏄	ofdw
+㏎	ofdw
+㏑	ofdw
+㏒	ofdw
+㏕	ofdw
+А	ofed
+Б	ofed
+В	ofed
+Г	ofed
+Д	ofed
+Е	ofed
+Ж	ofed
+З	ofed
+И	ofed
+Й	ofed
+К	ofed
+Л	ofed
+М	ofed
+Н	ofed
+О	ofed
+П	ofed
+Р	ofed
+С	ofed
+Т	ofed
+У	ofed
+Ф	ofed
+Х	ofed
+Ц	ofed
+Ч	ofed
+Ш	ofed
+Щ	ofed
+Ъ	ofed
+Ы	ofed
+Ь	ofed
+Э	ofed
+Ю	ofed
+Я	ofed
+Ё	ofed
+а	ofex
+б	ofex
+в	ofex
+г	ofex
+д	ofex
+е	ofex
+ж	ofex
+з	ofex
+и	ofex
+й	ofex
+к	ofex
+л	ofex
+м	ofex
+н	ofex
+о	ofex
+п	ofex
+р	ofex
+с	ofex
+т	ofex
+у	ofex
+ф	ofex
+х	ofex
+ц	ofex
+ч	ofex
+ш	ofex
+щ	ofex
+ъ	ofex
+ы	ofex
+ь	ofex
+э	ofex
+ю	ofex
+я	ofex
+ё	ofex
+⒈	ofdu
+⒉	ofdu
+⒊	ofdu
+⒋	ofdu
+⒌	ofdu
+⒍	ofdu
+⒎	ofdu
+⒏	ofdu
+⒐	ofdu
+⒑	ofdu
+⒒	ofdu
+⒓	ofdu
+⒔	ofdu
+⒕	ofdu
+⒖	ofdu
+⒗	ofdu
+⒘	ofdu
+⒙	ofdu
+⒚	ofdu
+⒛	ofdu
+⑴	ofku
+⑵	ofku
+⑶	ofku
+⑷	ofku
+⑸	ofku
+⑹	ofku
+⑺	ofku
+⑻	ofku
+⑼	ofku
+⑽	ofku
+⑾	ofku
+⑿	ofku
+⒀	ofku
+⒁	ofku
+⒂	ofku
+⒃	ofku
+⒄	ofku
+⒅	ofku
+⒆	ofku
+⒇	ofku
+€	ofhb
+＄	ofhb
+￠	ofhb
+￡	ofhb
+￥	ofhb
+¤	ofhb
+ァ	ofrd
+ア	ofrd
+ィ	ofrd
+イ	ofrd
+ゥ	ofrd
+ウ	ofrd
+ェ	ofrd
+エ	ofrd
+ォ	ofrd
+オ	ofrd
+カ	ofrd
+ガ	ofrd
+キ	ofrd
+ギ	ofrd
+ク	ofrd
+グ	ofrd
+ケ	ofrd
+ゲ	ofrd
+コ	ofrd
+ゴ	ofrd
+サ	ofrd
+ザ	ofrd
+シ	ofrd
+ジ	ofrd
+ス	ofrd
+ズ	ofrd
+セ	ofrd
+ゼ	ofrd
+ソ	ofrd
+ゾ	ofrd
+タ	ofrd
+ダ	ofrd
+チ	ofrd
+ヂ	ofrd
+ッ	ofrd
+ツ	ofrd
+ヅ	ofrd
+テ	ofrd
+デ	ofrd
+ト	ofrd
+ド	ofrd
+ナ	ofrd
+ニ	ofrd
+ヌ	ofrd
+ネ	ofrd
+ノ	ofrd
+ハ	ofrd
+バ	ofrd
+パ	ofrd
+ヒ	ofrd
+ビ	ofrd
+ピ	ofrd
+フ	ofrd
+ブ	ofrd
+プ	ofrd
+ヘ	ofrd
+ベ	ofrd
+ペ	ofrd
+ホ	ofrd
+ボ	ofrd
+ポ	ofrd
+マ	ofrd
+ミ	ofrd
+ム	ofrd
+メ	ofrd
+モ	ofrd
+ャ	ofrd
+ヤ	ofrd
+ュ	ofrd
+ユ	ofrd
+ョ	ofrd
+ヨ	ofrd
+ラ	ofrd
+リ	ofrd
+ル	ofrd
+レ	ofrd
+ロ	ofrd
+ヮ	ofrd
+ワ	ofrd
+ヰ	ofrd
+ヱ	ofrd
+ヲ	ofrd
+ン	ofrd
+ヴ	ofrd
+ヵ	ofrd
+ヶ	ofrd
+ー	ofrd
+ヽ	ofrd
+ヾ	ofrd
+←	ofjt
+→	ofjt
+↑	ofjt
+↓	ofjt
+↗	ofjt
+↙	ofjt
+↘	ofjt
+↖	ofjt
+↔	ofjt
+↕	ofjt
+ぁ	ofrx
+あ	ofrx
+ぃ	ofrx
+い	ofrx
+ぅ	ofrx
+う	ofrx
+ぇ	ofrx
+え	ofrx
+ぉ	ofrx
+お	ofrx
+か	ofrx
+が	ofrx
+き	ofrx
+ぎ	ofrx
+ぱ	ofrx
+く	ofrx
+ぐ	ofrx
+け	ofrx
+げ	ofrx
+こ	ofrx
+ご	ofrx
+さ	ofrx
+ざ	ofrx
+し	ofrx
+じ	ofrx
+す	ofrx
+ず	ofrx
+せ	ofrx
+ぜ	ofrx
+そ	ofrx
+ぞ	ofrx
+た	ofrx
+だ	ofrx
+ち	ofrx
+ぢ	ofrx
+っ	ofrx
+つ	ofrx
+づ	ofrx
+て	ofrx
+で	ofrx
+と	ofrx
+ど	ofrx
+な	ofrx
+に	ofrx
+ぬ	ofrx
+ね	ofrx
+の	ofrx
+は	ofrx
+ば	ofrx
+ひ	ofrx
+び	ofrx
+ぴ	ofrx
+ふ	ofrx
+ぶ	ofrx
+ぷ	ofrx
+へ	ofrx
+べ	ofrx
+ぺ	ofrx
+ほ	ofrx
+ぼ	ofrx
+ぽ	ofrx
+ま	ofrx
+み	ofrx
+む	ofrx
+め	ofrx
+も	ofrx
+ゃ	ofrx
+や	ofrx
+ゅ	ofrx
+ゆ	ofrx
+ょ	ofrx
+よ	ofrx
+ら	ofrx
+り	ofrx
+る	ofrx
+れ	ofrx
+ろ	ofrx
+ゎ	ofrx
+わ	ofrx
+ゐ	ofrx
+ゑ	ofrx
+を	ofrx
+ん	ofrx
+゛	ofrx
+゜	ofrx
+ゝ	ofrx
+ゞ	ofrx
+勹	ofpp
+灬	ofpp
+冫	ofpp
+艹	ofpp
+屮	ofpp
+辶	ofpp
+刂	ofpp
+匚	ofpp
+阝	ofpp
+廾	ofpp
+丨	ofpp
+虍	ofpp
+彐	ofpp
+卩	ofpp
+钅	ofpp
+冂	ofpp
+冖	ofpp
+宀	ofpp
+疒	ofpp
+肀	ofpp
+丿	ofpp
+攵	ofpp
+凵	ofpp
+犭	ofpp
+亻	ofpp
+彡	ofpp
+饣	ofpp
+礻	ofpp
+扌	ofpp
+氵	ofpp
+纟	ofpp
+亠	ofpp
+囗	ofpp
+忄	ofpp
+讠	ofpp
+衤	ofpp
+廴	ofpp
+尢	ofpp
+夂	ofpp
+丶	ofpp
+丬	ofpp
+ā	ofpy
+á	ofpy
+ǎ	ofpy
+à	ofpy
+ō	ofpy
+ó	ofpy
+ǒ	ofpy
+ò	ofpy
+ê	ofpy
+ē	ofpy
+é	ofpy
+ě	ofpy
+è	ofpy
+ī	ofpy
+í	ofpy
+ǐ	ofpy
+ì	ofpy
+ǖ	ofpy
+ǘ	ofpy
+ǚ	ofpy
+ǜ	ofpy
+ü	ofpy
+ū	ofpy
+ú	ofpy
+ǔ	ofpy
+ù	ofpy
+Ⅰ	ofld
+Ⅱ	ofld
+Ⅲ	ofld
+Ⅳ	ofld
+Ⅴ	ofld
+Ⅵ	ofld
+Ⅶ	ofld
+Ⅷ	ofld
+Ⅸ	ofld
+Ⅹ	ofld
+Ⅺ	ofld
+Ⅻ	ofld
+ⅰ	oflx
+ⅱ	oflx
+ⅲ	oflx
+ⅳ	oflx
+ⅴ	oflx
+ⅵ	oflx
+ⅶ	oflx
+ⅷ	oflx
+ⅸ	oflx
+ⅹ	oflx
+℃	oftu
+°	oftu
+‰	oftu
+♂	oftu
+♀	oftu
+§	oftu
+№	oftu
+☆	oftu
+★	oftu
+○	oftu
+●	oftu
+◎	oftu
+◇	oftu
+◆	oftu
+□	oftu
+■	oftu
+△	oftu
+▲	oftu
+※	oftu
+〓	oftu
+＃	oftu
+＆	oftu
+＠	oftu
+＼	oftu
+＾	oftu
+＿	oftu
+￣	oftu
+＋	ofux
+－	ofux
+＜	ofux
+＝	ofux
+＞	ofux
+±	ofux
+×	ofux
+÷	ofux
+∈	ofux
+∏	ofux
+∑	ofux
+∕	ofux
+√	ofux
+∝	ofux
+∞	ofux
+∟	ofux
+∠	ofux
+∣	ofux
+∥	ofux
+∧	ofux
+∨	ofux
+∩	ofux
+∪	ofux
+∫	ofux
+∮	ofux
+∴	ofux
+∵	ofux
+∶	ofux
+∷	ofux
+∽	ofux
+≈	ofux
+≌	ofux
+≒	ofux
+≠	ofux
+≡	ofux
+≤	ofux
+≥	ofux
+≦	ofux
+≧	ofux
+≮	ofux
+≯	ofux
+⊕	ofux
+⊙	ofux
+⊥	ofux
+⊿	ofux
+㈠	ofvu
+㈡	ofvu
+㈢	ofvu
+㈣	ofvu
+㈤	ofvu
+㈥	ofvu
+㈦	ofvu
+㈧	ofvu
+㈨	ofvu
+㈩	ofvu
+ㄅ	ofvy
+ㄆ	ofvy
+ㄇ	ofvy
+ㄈ	ofvy
+ㄉ	ofvy
+ㄊ	ofvy
+ㄋ	ofvy
+ㄌ	ofvy
+ㄍ	ofvy
+ㄎ	ofvy
+ㄏ	ofvy
+ㄐ	ofvy
+ㄑ	ofvy
+ㄒ	ofvy
+ㄓ	ofvy
+ㄔ	ofvy
+ㄕ	ofvy
+ㄖ	ofvy
+ㄗ	ofvy
+ㄘ	ofvy
+ㄙ	ofvy
+ㄧ	ofvy
+ㄨ	ofvy
+ㄩ	ofvy
+ㄚ	ofvy
+ㄛ	ofvy
+ㄜ	ofvy
+ㄝ	ofvy
+ㄞ	ofvy
+ㄟ	ofvy
+ㄠ	ofvy
+ㄡ	ofvy
+ㄢ	ofvy
+ㄣ	ofvy
+ㄤ	ofvy
+ㄥ	ofvy
+ㄦ	ofvy
+Α	ofxd
+Β	ofxd
+Γ	ofxd
+Δ	ofxd
+Ε	ofxd
+Ζ	ofxd
+Η	ofxd
+Θ	ofxd
+Ι	ofxd
+Κ	ofxd
+Λ	ofxd
+Μ	ofxd
+Ν	ofxd
+Ξ	ofxd
+Ο	ofxd
+Π	ofxd
+Ρ	ofxd
+Σ	ofxd
+Τ	ofxd
+Υ	ofxd
+Φ	ofxd
+Χ	ofxd
+Ψ	ofxd
+Ω	ofxd
+α	ofxx
+β	ofxx
+γ	ofxx
+δ	ofxx
+ε	ofxx
+ζ	ofxx
+η	ofxx
+θ	ofxx
+ι	ofxx
+κ	ofxx
+λ	ofxx
+μ	ofxx
+ν	ofxx
+ξ	ofxx
+ο	ofxx
+π	ofxx
+ρ	ofxx
+σ	ofxx
+τ	ofxx
+υ	ofxx
+φ	ofxx
+χ	ofxx
+ψ	ofxx
+ω	ofxx
+①	ofyu
+②	ofyu
+③	ofyu
+④	ofyu
+⑤	ofyu
+⑥	ofyu
+⑦	ofyu
+⑧	ofyu
+⑨	ofyu
+⑩	ofyu
+┌	ofvb
+└	ofvb
+┐	ofvb
+┘	ofvb
+─	ofvb
+│	ofvb
+├	ofvb
+┤	ofvb
+┬	ofvb
+┴	ofvb
+┼	ofvb
+┏	ofvb
+┗	ofvb
+┓	ofvb
+┛	ofvb
+━	ofvb
+┃	ofvb
+┣	ofvb
+┫	ofvb
+┳	ofvb
+┻	ofvb
+╋	ofvb
+①	oyy
+Ⅰ	oyy
+②	oye
+Ⅱ	oye
+③	oys
+Ⅲ	oys
+④	oyd
+Ⅳ	oyd
+⑤	oyw
+Ⅴ	oyw
+⑥	oyl
+Ⅵ	oyl
+⑦	oyq
+Ⅶ	oyq
+⑧	oyb
+Ⅷ	oyb
+⑨	oyj
+Ⅸ	oyj
+⑩	oyu
+Ⅹ	oyu
+⑪	ofyu
+⑫	ofyu
+⑬	ofyu
+⑭	ofyu
+⑮	ofyu
+⑯	ofyu
+⑰	ofyu
+⑱	ofyu
+⑲	ofyu
+⑳	ofyu
+素周期表	ofy
+氢	ofys
+锂	ofys
+钠	ofys
+钾	ofys
+铷	ofys
+铯	ofys
+钫	ofys
+氦	ofys
+铍	ofys
+镁	ofys
+钙	ofys
+锶	ofys
+钡	ofys
+镭	ofys
+硼	ofys
+铝	ofys
+钪	ofys
+钇	ofys
+镧	ofys
+锕	ofys
+碳	ofys
+硅	ofys
+钛	ofys
+锆	ofys
+铈	ofys
+钍	ofys
+氮	ofys
+磷	ofys
+钒	ofys
+铌	ofys
+镨	ofys
+镤	ofys
+镓	ofys
+铟	ofys
+钬	ofys
+锿	ofys
+锗	ofys
+锡	ofys
+铒	ofys
+镄	ofys
+砷	ofys
+锑	ofys
+铥	ofys
+钔	ofys
+碲	ofys
+镱	ofys
+锘	ofys
+溴	ofys
+碘	ofys
+镥	ofys
+铹	ofys
+氪	ofys
+氙	ofys
+铪	ofys
+鈩	ofys
+钽	ofys
+𨧀	ofys
+钨	ofys
+𨭎	ofys
+铼	ofys
+𨨏	ofys
+锇	ofys
+𨭆	ofys
+铱	ofys
+䥑	ofys
+铂	ofys
+鐽	ofys
+金	ofys
+錀	ofys
+汞	ofys
+鎶	ofys
+铊	ofys
+铅	ofys
+铋	ofys
+钋	ofys
+砹	ofys
+氡	ofys
+铑	ofys
+铕	ofys
+镅	ofys
+镍	ofys
+钯	ofys
+钆	ofys
+锔	ofys
+铜	ofys
+银	ofys
+铽	ofys
+锫	ofys
+锌	ofys
+镉	ofys
+镝	ofys
+锎	ofys
+氟	ofys
+氯	ofys
+锰	ofys
+锝	ofys
+钷	ofys
+镎	ofys
+氖	ofys
+氩	ofys
+铁	ofys
+钌	ofys
+钐	ofys
+钚	ofys
+氧	ofys
+硫	ofys
+铬	ofys
+钼	ofys
+钕	ofys
+铀	ofys
+成组音标	ofy
+a:	ofyb
+ɔ:	ofyb
+ɜː	ofyb
+i:	ofyb
+u:	ofyb
+ʌ	ofyb
+ɒ	ofyb
+ə	ofyb
+ɪ	ofyb
+ʊ	ofyb
+e	ofyb
+æ	ofyb
+eɪ	ofyb
+aɪ	ofyb
+ɔɪ	ofyb
+ɪə	ofyb
+eə	ofyb
+ʊə	ofyb
+əʊ	ofyb
+aʊ	ofyb
+p	ofyb
+t	ofyb
+k	ofyb
+f	ofyb
+θ	ofyb
+s	ofyb
+b	ofyb
+d	ofyb
+g	ofyb
+v	ofyb
+ð	ofyb
+z	ofyb
+ʃ	ofyb
+h	ofyb
+ts	ofyb
+tʃ	ofyb
+j	ofyb
+tr	ofyb
+ʒ	ofyb
+r	ofyb
+dz	ofyb
+dʒ	ofyb
+dr	ofyb
+w	ofyb
+m	ofyb
+n	ofyb
+ŋ	ofyb
+l	ofyb
+×	ofia
+√	ofgz
+√	ofdg
+×	ofdi
+℃	uud
+#快捷符号
+㎡	op
+‰	oq
+……	os
+＠	ota	100
+α	ota	99
+﹪	otb	100
+©	otb	99
+β	otb	98
+²	otb	97
+³	otb	96
+℃	otc
+°	otd	100
+＝	otd	99
+≠	otd	98
+≥	otd	97
+＞	otd	96
+′	otf	100
+□	otf	99
+■	otf	98
+◇	otf	97
+◆	otf	96
+√	otg	100
+·	otg	99
+＆	oth	100
+※	oth	99
+＆	oth	98
+×	oti	100
+÷	oti	99
+＋	otj	100
+－	otj	99
+±	otj	98
+〓	otk
+m³	otl	100
+￡	otl	99
+﹋	otl	98
+″	otm	100
+﹩	otm	99
+♂	otn	100
+♀	otn	99
+№	otn	98
+€	oto
+㎡	otp	100
+∏	otp	99
+‰	otq
+の	otr
+∴	ots	100
+∵	ots	99
+℡	ott
+Φ	otv	100
+㈱	otv	99
+㊣	otv	98
+∞	otw	100
+卍	otw	99
+卐	otw	98
+☆	otx	100
+★	otx	99
+≤	otx	98
+＜	otx	97
+○	oty	100
+●	oty	99
+℃	ouud
+？	ow
+凹	oxa
+百	oxb	100
+白	oxb	99
+八	oxb	98
+卜	oxb	97
+匕	oxb	96
+卞	oxb	95
+不	oxb	94
+巴	oxb	93
+本	oxb	92
+必	oxb	91
+丙	oxb	90
+半	oxb	89
+办	oxb	88
+寸	oxc	100
+才	oxc	99
+匆	oxc	98
+册	oxc	97
+大	oxd	100
+丁	oxd	99
+刀	oxd	98
+歹	oxd	97
+刁	oxd	96
+东	oxd	95
+丹	oxd	94
+电	oxd	93
+氐	oxd	92
+旦	oxd	91
+二	oxe	100
+耳	oxe	99
+儿	oxe	98
+而	oxe	97
+非	oxf	100
+方	oxf	99
+飞	oxf	98
+夫	oxf	97
+凡	oxf	96
+甫	oxf	95
+弗	oxf	94
+乏	oxf	93
+丰	oxf	92
+广	oxg	100
+弓	oxg	99
+戈	oxg	98
+工	oxg	97
+瓜	oxg	96
+干	oxg	95
+个	oxg	94
+甘	oxg	93
+丐	oxg	92
+果	oxg	91
+更	oxg	90
+亘	oxg	89
+禾	oxh	100
+户	oxh	99
+互	oxh	98
+乎	oxh	97
+火	oxh	96
+川	oxi	100
+厂	oxi	99
+车	oxi	98
+长	oxi	97
+叉	oxi	96
+尺	oxi	95
+丑	oxi	94
+臣	oxi	93
+成	oxi	92
+垂	oxi	91
+斥	oxi	90
+串	oxi	89
+产	oxi	88
+出	oxi	87
+巾	oxj	100
+几	oxj	99
+九	oxj	98
+斤	oxj	97
+久	oxj	96
+巨	oxj	95
+己	oxj	94
+井	oxj	93
+及	oxj	92
+夹	oxj	91
+甲	oxj	90
+臼	oxj	89
+韭	oxj	88
+戋	oxj	87
+柬	oxj	86
+击	oxj	85
+口	oxk	100
+开	oxk	99
+亏	oxk	98
+了	oxl	100
+力	oxl	99
+乐	oxl	98
+来	oxl	97
+良	oxl	96
+两	oxl	95
+里	oxl	94
+吏	oxl	93
+耒	oxl	92
+卵	oxl	91
+丽	oxl	90
+木	oxm	100
+毛	oxm	99
+米	oxm	98
+门	oxm	97
+马	oxm	96
+皿	oxm	95
+末	oxm	94
+灭	oxm	93
+母	oxm	92
+民	oxm	91
+么	oxm	90
+面	oxm	89
+廿	oxn	100
+女	oxn	99
+牛	oxn	98
+鸟	oxn	97
+乃	oxn	96
+内	oxn	95
+农	oxn	94
+年	oxn	93
+片	oxp	100
+平	oxp	99
+爿	oxp	98
+七	oxq	100
+千	oxq	99
+犬	oxq	98
+且	oxq	97
+丘	oxq	96
+曲	oxq	95
+气	oxq	94
+乞	oxq	93
+人	oxr	100
+入	oxr	99
+冉	oxr	98
+壬	oxr	97
+刃	oxr	96
+三	oxs	100
+巳	oxs	99
+肃	oxs	98
+土	oxt	100
+天	oxt	99
+太	oxt	98
+屯	oxt	97
+十	oxu	100
+尸	oxu	99
+士	oxu	98
+手	oxu	97
+身	oxu	96
+水	oxu	95
+上	oxu	94
+少	oxu	93
+术	oxu	92
+失	oxu	91
+生	oxu	90
+世	oxu	89
+申	oxu	88
+史	oxu	87
+升	oxu	86
+事	oxu	85
+书	oxu	84
+束	oxu	83
+勺	oxu	82
+戍	oxu	81
+豕	oxu	80
+氏	oxu	79
+矢	oxu	78
+止	oxv	100
+爪	oxv	99
+主	oxv	98
+舟	oxv	97
+之	oxv	96
+正	oxv	95
+丈	oxv	94
+中	oxv	93
+专	oxv	92
+朱	oxv	91
+州	oxv	90
+重	oxv	89
+乍	oxv	88
+王	oxw	100
+瓦	oxw	99
+五	oxw	98
+无	oxw	97
+万	oxw	96
+午	oxw	95
+卫	oxw	94
+亡	oxw	93
+未	oxw	92
+乌	oxw	91
+韦	oxw	90
+勿	oxw	89
+为	oxw	88
+戊	oxw	87
+我	oxw	86
+丸	oxw	85
+兀	oxw	84
+小	oxx	100
+西	oxx	99
+心	oxx	98
+血	oxx	97
+下	oxx	96
+夕	oxx	95
+乡	oxx	94
+习	oxx	93
+戌	oxx	92
+又	oxy	100
+酉	oxy	99
+已	oxy	98
+于	oxy	97
+义	oxy	96
+与	oxy	95
+夭	oxy	94
+玉	oxy	93
+牙	oxy	92
+丫	oxy	91
+永	oxy	90
+尤	oxy	89
+也	oxy	88
+业	oxy	87
+由	oxy	86
+央	oxy	85
+亚	oxy	84
+严	oxy	83
+用	oxy	82
+幺	oxy	81
+禺	oxy	80
+臾	oxy	79
+尹	oxy	78
+禹	oxy	77
+夷	oxy	76
+弋	oxy	75
+聿	oxy	74
+雨	oxy	73
+再	oxz	100
+自	oxz	99
+子	oxz	98
+①	oyy	90
+②	oye	90
+③	oys	90
+④	oyd	90
+⑤	oyw	90
+⑥	oyl	90
+⑦	oyq	90
+⑧	oyb	90
+⑨	oyj	90
+⑩	oyu	90
+Ⅰ	oyy	30
+Ⅱ	oye	30
+Ⅲ	oys	30
+Ⅳ	oyd	30
+Ⅴ	oyw	30
+Ⅵ	oyl	30
+Ⅶ	oyq	30
+Ⅷ	oyb	30
+Ⅸ	oyj	30
+Ⅹ	oyu	30
+“	oz
+。”	asd
+，”	asd
+！”	asd
+？”	asd
+：“	fds
+，“	fds
+。“	fds
+♫	off

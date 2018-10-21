@@ -1,0 +1,295 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: sg
+  name: "酥梨小鹤"
+  version: "8.1"
+  author:
+    - 方案设计：何海峰 <flypy@qq.com>，酥梨<1668351939@qq.com>
+  description: |
+    码表源自小鹤双拼飞扬版系统主码表有个人风格的码表
+  dependencies:
+    - sldzstroke
+    - pniyin_simp
+    - flypydz
+
+punctuator:
+  full_shape:
+    ' ' : { commit: '　' }
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    '/' : [ ／, ÷ ]
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : [ 、, ＼ ]
+    '|' : [ ·, ｜, '§', '¦' ]
+    '`' : ｀
+    '~' : ～
+    '!' : { commit: ！ }
+    '@' : [ ＠, ☯ ]
+    '#' : [ ＃, ⌘ ]
+    '%' : [ ％, '°', '℃' ]
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : ＆
+    '*' : [ ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : －
+    '_' : ——
+    '+' : ＋
+    '=' : ＝
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕, ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+  half_shape:
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    '/' : { commit: 、 }
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : [ 、, '\', ＼ ]
+    '|' : [ ·, '|', ｜, '§', '¦' ]
+    'ß': {commit: 'ß'}
+    '`' : '`'
+    '~' : [ '~', ～ ]
+    '!' : { commit: ！ }
+    '@' : '@'
+    '#' : '#'
+    '%' : { commit: '%' }
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : '&'
+    '*' : { commit: '*' }
+    '(' : （
+    ')' : ）
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : '='
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕,  ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+
+switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
+  - options: [ _keyboard_menu, _keyboard_menu]
+    states: [ "❖", "❖"]
+  - name: ascii_mode
+    states: [ CN, EN ]
+    reset: ０
+  - options: [ _keyboard_default, _keyboard_default]
+    states: [ " 								                    	          ", " 						                    			          "]
+ # - options: [ _keyboard_default, _keyboard_defaultVJ]
+  #  states: [ " 								                    	          ", " 						                    			          "]
+  - options: [ _key_Hide, _key_Hide]
+    states: [ ▽, 梨]
+  - options: [ _key_LLQ, _key_LLQ]
+    #states: [ 🔍, 🔍] 
+  - options: [ _key_VOICE_ASSIST, _key_VOICE_ASSIST]
+   # states: [ 🎤, 🎤] 
+  - name: zh_simp
+   # states: [ Ⓙ, Ⓕ ]
+   # reset: 0
+  - name: _hide_key_hint
+    #states: [ ≑, ≟ ]
+  - name: _hide_candidate
+   # states: [ ☐, ☒ ]
+    reset: 0
+  - name: _hide_comment
+    #states: [ 提示, 无]
+  - name: buchongjianma_cn   #补充简码开关
+   # states: [ "*", "*+简补"]    #显示在状态栏的图标
+    reset: 1                  #默认开启ß
+  - name: pinyin_cn
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - table_translator
+    - reverse_lookup_translator
+    - history_translator@history #历史输入编译器
+  filters:
+    - simplifier
+    - simplifier@zh_simp
+    - simplifier@buchongjianma_cn
+    - simplifier@pinyin_cn
+    - uniquifier
+
+speller:
+  alphabet: ';zyxwvutsrqponmlkjihgfedcba'
+  initials: 'abcdefghijklmnopqrstuvwxyz;'
+  delimiter: " '"
+  max_code_length: 4
+  auto_select: true   #顶字上屏
+  auto_select_pattern:  ^;.$|^\w{4}$ #-^;.$#
+  auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
+
+translator:
+  dictionary: sg
+  enable_charset_filter: false
+  enable_sentence: false
+  enable_completion: false # 编码提示开关
+  enable_user_dict: false
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+ 
+zh_simp:
+  opencc_config: s2twp.json
+  option_name: zh_simp
+  
+  
+# 补充简码滤镜配置
+buchongjianma_cn:
+  opencc_config: buchongjianma.json   #补充简码词典配置文件
+  option_name: buchongjianma_cn    #与状态栏开关的名称一致
+  tips: all    #none无注释,char单字注释，all全部注释
+  initial_quality: -10 
+  
+pinyin_cn:
+  opencc_config: pinyin.json   #补充简码词典配置文件
+  option_name: pinyin_cn    #与状态栏开关的名称一致
+  tips: all    #none无注释,char单字注释，all全部注释
+#  show_in_comment: true #滤镜变成提示
+  excluded_types: [ reverse_lookup ]
+  comment_format:
+    - xform/^/注音:{/
+    - xform/$/}/
+    - xform/'//
+  tags:
+    - abc 
+  #三码与四码重复会导致opencc的txt里左右相同，会被uniquifier过滤掉（如果关了它，又会导致重码太多）
+  #解决的办法是当三码与四码重复时，把二简提示词（就是那个三码词），弄成不同但相似即可，具体看opencc里的例
+  
+  #历史输入
+history:
+  input: ;f #oi
+  size: 1   #历史输入个数（此处为一百个）
+  initial_quality: -1  #权重
+  
+custom_phrase:
+  dictionary: ""
+  user_dict: flypy_user
+  db_class: stabledb
+  #spelling_hints: 10  # ～字以简单內候選標註完整帶調拼音
+  enable_sentence: false
+  enable_completion: false
+
+#原来的反查方案在此！
+#reverse_lookup:
+#  dictionary: flypydz
+#  comment_format:
+#    - xform/^/〔/
+#    - xform/$/〕/
+#    - xform/ /, /
+
+#新反查方案（如有问题，直接删除这段就好）
+reverse_lookup:
+  dictionary: sldzstroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+  comment_format:
+    - xform ([aeiou])(ng?|r)([1234]) $1$3$2
+    - xform ([aeo])([iuo])([1234]) $1$3$2
+    - xform a1 ā
+    - xform a2 á
+    - xform a3 ǎ
+    - xform a4 à
+    - xform e1 ē
+    - xform e2 é
+    - xform e3 ě
+    - xform e4 è
+    - xform o1 ō
+    - xform o2 ó
+    - xform o3 ǒ
+    - xform o4 ò
+    - xform i1 ī
+    - xform i2 í
+    - xform i3 ǐ
+    - xform i4 ì
+    - xform u1 ū
+    - xform u2 ú
+    - xform u3 ǔ
+    - xform u4 ù
+    - xform v1 ǖ
+    - xform v2 ǘ
+    - xform v3 ǚ
+    - xform v4 ǜ
+    - xform/([nljqxy])v/$1ü/
+    - xform/eh[0-5]?/ê/
+    - xform/([a-z]+)[0-5]/$1/
+
+key_binder:
+  import_preset: default #方案切换相关
+  bindings:
+    - {accept: bracketleft, send: Page_Up, when: has_menu} # [上翻页
+    - {accept: bracketright, send: Page_Down, when: has_menu} # ]下翻页
+    - {accept: semicolon, send: 2, when: has_menu} #分号次选
+   # - {accept: Release+semicolon, send: semicolon, when: has_menu} #分号顶屏
+    #- {accept: period, send: 2, when: has_menu} #句号次选
+    - {accept: dollar, send: 2, when: has_menu}
+    - {accept: Release+dollar, send: period, when: has_menu}
+    - {accept: Release+period, send: period, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    - {accept: Release+apostrophe, send: apostrophe, when: has_menu}
+    
+#~~    - {accept: comma, send: 2, when: has_menu} #逗号次选
+#    - {accept: Release+comma, send: comma, when: has_menu}
+    - {accept: "Tab", send: Escape, when: composing}
+    - {accept: Caps_Lock, send: Escape, when: composing}
+    - {accept: "Shift_R", send: Escape, when: composing}
+#    - {accept: Release+semicolon, send: period, when: has_menu}#这个是无码时自动以句号顶屏，好像。
+ #分号作次选放主题句号处，无次选时出句号的设置方法
+#然后在主题的句号键处加上composing: semicolon重新部署即可。    
+
+   # - {accept: "Release+semicolon", send: period, when: has_menu}
+   # - {accept: Release+comma, send: comma, when: has_menu}
+    - {when: has_menu, accept: "Ü", toggle: buchongjianma_cn }   # 在输入过程中，切换补充简码开关的快捷键，这里用ß号切换
+    - {when: has_menu, accept: "Ä", toggle: pinyin_cn }   # 在输入过程中，切换补充简码开关的快捷键，这里用ß号切换
+
+recognizer:
+  import_preset: default
+  patterns:
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    # uppercase: "" #中文状态大写锁定直接上屏
+    reverse_lookup: "[a-z`]*`+[a-z`]*"
+    punct: ""
+
+menu:
+  page_size: 20 #候选项数
+  
+style:
+  horizontal: false #竖排为false

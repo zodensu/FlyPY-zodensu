@@ -26,26 +26,24 @@
 #║----------分号；上屏符号    ║
 #║----------增加部分emoji表情 ║
 #║----------补充简码          ║
-
-
-
-
+#║---此行后的符号~不再是注释！║
 
 # 此行后任意行开始即可开始添加自己的词库，编码格式见上。重新部署后生效
 
 #----------用户短语及链接----------开始#
-：“”	odh #[对话]
-„“	ofdy #,„“
-„“	ofd #[德语引号]
+ä	aaaa
+Ä	aaa
+ö	oooo
+Ö	ooo
+$ddcmd(：“”keyboard(<37>),：“”,[对话])	odh
+$ddcmd(„“keyboard(<37>),„“)	ofdy
+$ddcmd(„“keyboard(<37>),[德语引号])	ofd
+$ddcmd(„“keyboard(<37>),[德语引号])	ody
+ß	ssss
+Ü	uuu
+ü	uuu
 中国农业银行股份有限公司合肥经济技术开发区支行	vgn
-
-good night	goot
-excel	ecxe
-．	gggg
-──	gggg
 ——这里是一条萌萌的小尾巴，我是来围观萌萌的楼主的( ‘-ωก̀ )	xwb
-                                  %	kgb
-%......................................................%	fgx
 
 http://flypy.com	xhvy
 http://bbs.flypy.com	xhlt
@@ -73,12 +71,15 @@ http://bfu.goethe.de/a2_mod_2MX5/hoeren.php?from=groupmessage#wait_a	gdxy # 歌�
 https://www.testdaf.de [德福研究所]	def
 https://testdaf.etest.edu.cn [教育部→德福考试报名]	def
 https://testdaf.etest.net.cn [公网→德福考试报名]	def
+https://www.aps.org.cn/portal/apsPortal/editVerfahrenTeilnahme.do?do=showVerfahrenDetail&id=145584	aps
 http://xjzm.hfut.edu.cn/index.jsp [档案馆学藉证明服务系统]	def
 https://www.bilibili.com/video/av10288250/index_5.html#page=7 [跟打器教程]	gdqi
 http://my.hfut.edu.cn [信息门户]	hfgh
 http://www.chaiwubi.com/match/ [拆五笔]	iwb
-http://blog.bilibiili.com/admin/ [酥梨笔记]	slb
-http://pipe.b3log.org [黑客派的酥梨笔记]	slb
+http://blog.bilibiili.com/admin/ [酥梨笔记]	slb	80
+http://pipe.b3log.org [黑客派的酥梨笔记]	slb	70
+https://hacpai.com/member/zodensu/articles	slb	60
+算了吧	slb	90
 http://cet.etest.edu.cn/Home/Index [全国大学生英语四、六级考试]	slj
 http://chaxun.neea.edu.cn/ [中国教育考试网]	slj
 http://cet.neea.edu.cn/cet/ [18年四六级（含口试）成绩查询]	slj
@@ -101,7 +102,9 @@ http://www.testdaf.de	defu
 http://tieba.baidu.com/p/5784339355?share=9105&fr=share&see_lz=0&sfc=copy&client_type=2&client_version=9.7.8.0&st=1534511578&unique=CC056D97738D8EBC9764FE451C4D938E	uzf	60
 授	uzf	90
 http://jxglstu.hfut.edu.cn/eams5-student/home	jwxt
+
 #----------用户短语及链接----------结束#
+
 #----------音音末形----------开始#
 
 觉得	jdi
@@ -126,7 +129,6 @@ http://jxglstu.hfut.edu.cn/eams5-student/home	jwxt
 嗨，我白天是一机大鸡居，晚上是一机小凶许。	xwb
 裹上鸡蛋液，粘上面包糠，下锅炸金黄酥脆，控油捞出，老人小孩都爱吃，隔壁小孩都馋哭了	gujd
 ——裹上鸡蛋液，粘上面包糠，下锅炸金黄酥脆，控油捞出，老人小孩都爱吃，隔壁小孩都馋哭了	xwb
-
 富强，民主，文明，和谐；自由，平等，公正，法治；爱国，敬业，诚信，友善	fqmu
 
 灰	hvu	90
@@ -257,6 +259,7 @@ E迅速录	exsl
 拚	pbfc
 拚	pjfc
 沢	iidi
+
 #----------生僻字收集----------结束#
 #------------qq新表情①：----------开始#
 
@@ -393,6 +396,7 @@ E迅速录	exsl
 →	;p
 ←	;p
 ß	;m
+
 #----------分号上屏符号----------结束#
 
 
@@ -429,6 +433,7 @@ E迅速录	exsl
 👍	ql	30
 👎	ro	30
 👌	ok	30
+《	ok	90
 👏	gv	30
 ☕	ia	30
 🍺	pj	30
@@ -663,4 +668,7 @@ E迅速录	exsl
 自	zi	30
 坐	zo	30
 
+#此行后的符号~不再是注释！
+# no comment
+碁	qiq~
 

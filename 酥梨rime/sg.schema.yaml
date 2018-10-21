@@ -30,7 +30,7 @@ punctuator:
     '\' : [ 、, ＼ ]
     '|' : [ ·, ｜, '§', '¦' ]
     '`' : ｀
-    '~' : ～
+
     '!' : { commit: ！ }
     '@' : [ ＠, ☯ ]
     '#' : [ ＃, ⌘ ]
@@ -64,7 +64,7 @@ punctuator:
     '|' : [ ·, '|', ｜, '§', '¦' ]
     'ß': {commit: 'ß'}
     '`' : '`'
-    '~' : [ '~', ～ ]
+#    '~' : [ '~', ～ ]
     '!' : { commit: ！ }
     '@' : '@'
     '#' : '#'
@@ -88,7 +88,7 @@ switches: # 可在状态栏上显示的内容，去掉下面的"#"号可开启
   - options: [ _keyboard_menu, _keyboard_menu]
     states: [ "❖", "❖"]
   - name: ascii_mode
-    states: [ CN, EN ]
+    states: [ CN, DE ]
     reset: ０
   - options: [ _keyboard_default, _keyboard_default]
     states: [ " 								                    	          ", " 						                    			          "]
@@ -147,8 +147,9 @@ engine:
 
 speller:
   alphabet: ';zyxwvutsrqponmlkjihgfedcba'
-  initials: 'abcdefghijklmnopqrstuvwxyz;'
-  delimiter: " '"
+  #initials: 'abcdefghijklmnopqrstuvwxyz;Ü'
+  finals: '~' #见用户词库底部
+  #delimiter: " '"
   max_code_length: 4
   auto_select: true   #顶字上屏
   auto_select_pattern:  ^;.$|^\w{4}$ #-^;.$#

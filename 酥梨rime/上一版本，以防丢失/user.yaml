@@ -1,0 +1,12 @@
+var:
+  option:
+    _hide_candidate: true
+    _hide_comment: false
+    _hide_key_hint: false
+    ascii_mode: false
+  previously_selected_schema: sg
+  schema_access_time:
+    091wubi_pinyin: 1519492592
+    pinyin_simp: 1518078979
+    sg: 1524012632
+    sldzstroke: 1524012630

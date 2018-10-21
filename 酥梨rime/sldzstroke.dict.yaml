@@ -19,7 +19,7 @@ version: "1.0"
 sort: by_weight              # 按字頻排序
 use_preset_vocabulary: true  # 導入八股文字頻
 max_phrase_length: 0         # 不生成詞彙
-#import_tables:             #附加码表
+#import_tables:             #附加码表，取消前面的#号，则会自动与sg码表合并
  # - sg
 ...
 

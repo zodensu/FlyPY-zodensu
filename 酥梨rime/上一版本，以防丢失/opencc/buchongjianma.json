@@ -1,0 +1,16 @@
+{
+  "name": "Chinese to buchongjianma",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "ocd",
+      "file": "buchongjianma.ocd"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+        "type": "ocd",
+        "file": "buchongjianma.ocd"
+      }
+  }]
+}

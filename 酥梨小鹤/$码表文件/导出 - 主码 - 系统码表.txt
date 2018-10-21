@@ -19203,6 +19203,7 @@ IP地址	ipdv
 怅	ihx
 怅	ihxv
 冲散	issj
+窗棂	illk
 记	jiy
 几年	jinm
 嫉	jin
@@ -58256,3 +58257,4 @@ word	word
 坐着	zv
 座位	zw
 造化钟神秀	zhvx
+
