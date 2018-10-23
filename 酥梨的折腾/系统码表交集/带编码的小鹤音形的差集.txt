@@ -1,6 +1,4 @@
-﻿---config@码表分类=主码-4
----config@码表别名= 增补字
-爱咋咋地	avvd
+﻿爱咋咋地	avvd
 暗自庆幸	azqx
 哎呦喂	ayww
 安享晚年	axwn
