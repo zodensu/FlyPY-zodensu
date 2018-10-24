@@ -1,3 +1,3 @@
 git add .
-git commit -m "调整码表内容，删除累赘"
+git commit -m "同步手机和电脑端码表"
 git push origin master
