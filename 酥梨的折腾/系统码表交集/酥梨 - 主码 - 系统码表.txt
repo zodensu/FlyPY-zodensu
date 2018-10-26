@@ -1,6 +1,4 @@
-﻿---config@码表分类=主码-系统码表
----config@码表别名=系统码表
-爱国	aigo
+﻿爱国	aigo
 俺	anr
 俺	anrd
 傲	aor

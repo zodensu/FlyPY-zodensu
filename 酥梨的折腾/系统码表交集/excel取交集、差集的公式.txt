@@ -1,2 +1,0 @@
-=IF(COUNTIF(B:B,A2)>0,A2,0)    ————取交集
-=IF(COUNTIF(B:B,A2)=0,A2,0)    ————取差集

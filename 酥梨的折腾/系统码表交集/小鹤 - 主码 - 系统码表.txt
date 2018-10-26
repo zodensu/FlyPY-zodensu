@@ -1,6 +1,4 @@
-﻿---config@码表分类=主码-系统码表
----config@码表别名=系统码表
-爱咋咋地	azzd
+﻿爱咋咋地	azzd
 暗自庆幸	azqx
 腌臜泼才	azpc
 爱憎分明	azfm
