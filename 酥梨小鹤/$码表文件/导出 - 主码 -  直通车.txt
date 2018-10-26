@@ -59,3 +59,7 @@ $ddcmd(run(notepad++.exe),[记事本++])	oju
 $ddcmd(run(360se.exe),[360浏览器])	oll
 $ddcmd(run(chrome.exe),[谷歌浏览器])	oll
 $ddcmd(run(Photoshop.exe),[PS])	ops
+$ddcmd(run(https://www.google.com.hk/?gws_rd=<last.0>),[谷歌]：<last.0>)	oss
+$ddcmd(run(powerpnt.exe),[ppt])	opp
+$ddcmd(run(C:\Program Files (x86)\ZD Soft\Screen Recorder\ScnRec.exe),[ZD软件录屏])	olp
+$ddcmd(run(cloudmusic.exe),[网易云音乐])	oyy
