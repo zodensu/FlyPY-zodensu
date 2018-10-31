@@ -24328,6 +24328,7 @@ IP地址	ipdv
 冚	kjbe
 咔嚓	kaca
 柯伊伯带	kybd
+狂躁症	kzv
 领略	lklt
 亮	llw
 硫	lqu
@@ -26109,7 +26110,7 @@ IP地址	ipdv
 绿灯	lvdg
 绿盘	lvpj
 绿线	lvxm
-绿绿	lvl
+绿绿	lvl#删
 绿色	lvse
 绿茵	lvyb
 绿茶	lvia
@@ -27382,6 +27383,7 @@ IP地址	ipdv
 冗长	lsih
 镂空	lzks
 LOGO	logo
+流着泪	lvl
 迷失	miui
 霉	mwy
 㠓	mge
@@ -35390,6 +35392,7 @@ QQ拼音	qqpy
 丌	qial
 弃	qiw
 全面贯彻	qmgi
+球面	qqmm
 䎃	rjrx
 乳	rupv
 人	r
@@ -49536,7 +49539,7 @@ word	word
 躞	xpzy
 轩	xri
 辖	xxik
-辛	xbl
+心理	xbl
 迅	xyz
 选	xr
 逊	xyzx
@@ -52125,6 +52128,7 @@ word	word
 信口胡吣	xkhq
 稀土	xitu
 雄浑壮阔	xhvk
+辛	xbl
 一	y
 以为	yiww
 意愿	yiyr
@@ -58260,4 +58264,4 @@ word	word
 坐着	zv
 座位	zw
 造化钟神秀	zhvx
-zodensu	zodu
+躁狂症	zkv

@@ -9,7 +9,6 @@ $ddcmd(„“keyboard(<37>),„“)	ofdy
 $ddcmd(„“keyboard(<37>),[德语引号])	ofd
 $ddcmd(„“keyboard(<37>),[德语引号])	ody
 ß	ssss
-Ü	uuu
 ü	uuu
 Ü	uuu
 中国农业银行股份有限公司合肥经济技术开发区支行	vgn
