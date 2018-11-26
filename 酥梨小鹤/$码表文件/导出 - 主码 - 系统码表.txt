@@ -3945,6 +3945,8 @@ AA制	aavi
 报道	bd
 避之不谈	bvbt
 屏息凝神	bxnu
+不止	bv
+泵浦	bgpu
 丛	csr
 丛	csra
 从	cs
@@ -13636,6 +13638,7 @@ GDP	gdp
 搞	gcf
 光纤	glq
 管控	grks
+回	hvk
 欢	hry
 会议	hvyi
 㘎	hjkw
@@ -13724,7 +13727,6 @@ GDP	gdp
 嚎	hcku
 嚯	hok
 嚯	hokf
-回	hvk
 回	hvkk
 囫	hukw
 圜	hrky
@@ -16772,6 +16774,8 @@ GDP	gdp
 黑心烂肝	hxlg
 互惠互利	hhhl
 互利互惠	hlhh
+喊叫	hj#删
+豪	hcwn
 处	iu
 㬚	ieo
 㬚	ieow
@@ -17951,7 +17955,7 @@ GDP	gdp
 抽走	izzz
 抽身	izu
 抽身	izuf
-抽风	izf
+抽风	izf#删
 抽风	izfg
 拆下	idxx
 拆了	idle
@@ -19206,6 +19210,8 @@ IP地址	ipdv
 怅	ihxv
 冲散	issj
 窗棂	illk
+抽	izf
+赤子之心	izvx
 记	jiy
 几年	jinm
 嫉	jin
@@ -26110,7 +26116,6 @@ IP地址	ipdv
 绿灯	lvdg
 绿盘	lvpj
 绿线	lvxm
-绿绿	lvl#删
 绿色	lvse
 绿茵	lvyb
 绿茶	lvia
@@ -27384,6 +27389,7 @@ IP地址	ipdv
 镂空	lzks
 LOGO	logo
 流着泪	lvl
+两口饭	lkfj
 迷失	miui
 霉	mwy
 㠓	mge
@@ -29818,6 +29824,8 @@ LOGO	logo
 弥散	misj
 骂了	male
 勉勉强强	mmqq
+闷棍	mfgy
+脉宽	mdkr
 乃	ndv
 乃	ndvp
 乜	npv
@@ -30346,7 +30354,7 @@ LOGO	logo
 女娃	nvwa
 女婴	nvyk
 女婿	nvxu
-女子	nvz
+女子	nvz#删
 女子	nvzi
 女孩	nvh
 女孩	nvhd
@@ -31343,6 +31351,8 @@ LOGO	logo
 撚	nmfh
 惗	nmxx
 浓重	nsvs
+南无阿弥陀佛	nmaf
+那阵子	nvz
 偶	our
 偶	oury
 区	oukx
@@ -33047,6 +33057,7 @@ LOGO	logo
 破灭	pm
 频谱	pbpu
 频谱	pbp
+匍匐前进	pfqj
 磬	qku
 㭕	qums
 䓖	qscl
@@ -35393,6 +35404,8 @@ QQ拼音	qqpy
 弃	qiw
 全面贯彻	qmgi
 球面	qqmm
+气旋	qixr
+清泉	qkqr
 䎃	rjrx
 乳	rupv
 人	r
@@ -36627,6 +36640,8 @@ rime	rime
 人民教育出版社	rmju
 乳	rup
 仍	rg
+人是铁，饭是钢	rutg
+人是铁饭是钢	rutg
 㟃	sie
 㟃	siek
 㧐	ssfy
@@ -38114,6 +38129,8 @@ rime	rime
 私有财产	syci
 死难者	snv
 酥梨	sul
+丝厂	siih
+私密	simi
 㕮	tnkx
 㻬	tuwk
 䏲	tiop
@@ -44011,6 +44028,7 @@ rime	rime
 殳	uuj
 身轻如燕	uqry
 树枝	uv
+衰变	ukbm
 知	viu
 秩	vih
 铮	vgj
@@ -44874,7 +44892,7 @@ rime	rime
 争斗	vgdz
 争着	vgve
 争端	vgdr
-正义	vgyi
+争议	vgyi
 争论	vgly
 争辩	vgbm
 争雄	vgxs
@@ -45478,7 +45496,7 @@ rime	rime
 止痒	viyh
 止血	vixt
 止跌	vidp
-争议	vgyi
+正义	vgyi
 正传	vgvr
 正则	vgze
 正北	vgbw
@@ -47059,6 +47077,8 @@ rime	rime
 终极	vjm
 终级	vjs
 招	vcf
+政治家	vvj
+征信	vgxb
 玩物	wjwu
 㧑	wwfw
 万	wja
@@ -52129,6 +52149,8 @@ word	word
 稀土	xitu
 雄浑壮阔	xhvk
 辛	xbl
+洗菜	xicd
+相簿	xlbu
 一	y
 以为	yiww
 意愿	yiyr
@@ -56333,6 +56355,8 @@ word	word
 又双叒叕	yyy
 鬱	yump
 羸	ykw
+一小串	yxi
+予	yusv
 耔	zil
 怎样	zy
 仄	zei
@@ -58264,4 +58288,5 @@ word	word
 坐着	zv
 座位	zw
 造化钟神秀	zhvx
+zodensu	zodu
 躁狂症	zkv
