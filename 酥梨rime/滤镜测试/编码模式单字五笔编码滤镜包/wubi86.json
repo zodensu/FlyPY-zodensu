@@ -1,0 +1,16 @@
+{
+  "name": "wubi86",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "wubi86.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "wubi86.txt"
+    }
+  }]
+}
