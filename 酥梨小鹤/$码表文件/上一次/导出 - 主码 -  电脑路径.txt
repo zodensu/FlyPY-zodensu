@@ -1,0 +1,13 @@
+﻿---config@码表分类=主码-5
+---config@码表别名= 电脑路径
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\用户码表.txt),[用户词库])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\系统码表.txt),[系统码表])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\直通车.txt),[直通车])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\符号编码.txt),[符号编码])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\user.txt),[F盘的测试词库])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\快捷符号.txt),[快捷符号])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\隐藏全码.txt),[隐藏全码])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\补充简码.txt),[补充简码])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\增补字.txt),[增补字])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\电脑路径.txt),[电脑路径])	use
+$ddcmd(run(F:\小鹤双拼\词库\LoveFlyPY酥梨词库\非O型直通车.txt),[非O型直通车])	use

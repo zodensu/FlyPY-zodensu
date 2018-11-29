@@ -1189,6 +1189,7 @@
 期	qiqo
 柒	qidm
 桤	qimj
+棋	qimb
 槭	qimx
 欹	qidr
 欺	qiqr

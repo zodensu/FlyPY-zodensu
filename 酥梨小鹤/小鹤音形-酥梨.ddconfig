@@ -44,11 +44,11 @@
 是否生成程序更新包=否
 是否生成更新信息文件=否
 更新下载根路径="git@github.com:zodensu/zodensu.github.io.git/"
-生成目标文件名=".\生成结果\小鹤音形-酥梨2018-11-21.exe"
+生成目标文件名=".\生成结果\小鹤音形-酥梨2018-11-29.exe"
 
 //---------特殊使用项请勿修改---------
 LAST_EDIT_VERSION=4.0.0.396
-MAKE_COUNT=55
+MAKE_COUNT=56
 //---------特殊使用项定义结束---------
 //------------------------------------------------------
 //  　　　　　　　 软件选项
@@ -67,7 +67,7 @@ IME文件名="xiaoheyinxingsuli"
 语言栏名称="小鹤音形-酥梨"
 
 -发布者="酥梨"
--软件版本="9.2018-11-21"
+-软件版本="9.2018-11-29"
 -帮助链接="https://github.com/zodensu/zodensu.github.io"
 -支持链接="https://github.com/zodensu/zodensu.github.io"
 -更新链接="https://github.com/zodensu/zodensu.github.io"
