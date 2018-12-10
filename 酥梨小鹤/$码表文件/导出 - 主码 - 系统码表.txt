@@ -49007,6 +49007,7 @@ word	word
 万丈光芒	wvgm
 稳频	wfpb
 腕	wjos
+维多利亚	wdly
 想象	xlxl
 限	xme
 写字	xpzi

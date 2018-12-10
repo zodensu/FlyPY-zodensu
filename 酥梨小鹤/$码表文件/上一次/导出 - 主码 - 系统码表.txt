@@ -8115,7 +8115,6 @@ AA制	aavi
 大政方针	dvfv
 大敌当前	dddq
 大方之家	dfvj
-大是大非	dudf
 大显神通	dxut
 大显身手	dxuu
 大智大慧	dvdh
@@ -8492,6 +8491,7 @@ AA制	aavi
 地狱	diyu
 低于	dy
 德智体美	dvtm
+大是大非	dudf
 二	e
 二	eraa
 佴	err
@@ -16774,7 +16774,6 @@ GDP	gdp
 黑心烂肝	hxlg
 互惠互利	hhhl
 互利互惠	hlhh
-喊叫	hj#删
 豪	hcwn
 处	iu
 㬚	ieo
@@ -17955,7 +17954,6 @@ GDP	gdp
 抽走	izzz
 抽身	izu
 抽身	izuf
-抽风	izf#删
 抽风	izfg
 拆下	idxx
 拆了	idle
@@ -27390,6 +27388,7 @@ IP地址	ipdv
 LOGO	logo
 流着泪	lvl
 两口饭	lkfj
+历尽艰辛	ljjx
 迷失	miui
 霉	mwy
 㠓	mge
@@ -30354,7 +30353,6 @@ LOGO	logo
 女娃	nvwa
 女婴	nvyk
 女婿	nvxu
-女子	nvz#删
 女子	nvzi
 女孩	nvh
 女孩	nvhd
@@ -33256,7 +33254,6 @@ LOGO	logo
 栖	qimx
 桥	qn
 桥	qnml
-骑	qim
 棤	qtmo
 棨	qihm
 棬	qrmv
@@ -33561,8 +33558,6 @@ LOGO	logo
 颧	qrcr
 驱	qum
 骎	qbmy
-骐	qimb
-棋	qim
 骞	qmb
 髂	qxg
 髂	qxgk
@@ -33949,7 +33944,7 @@ LOGO	logo
 器官	qigr
 器材	qicd
 器械	qixp
-器皿	qimb
+棋	qimb
 囚徒	qqtu
 囚犯	qqfj
 囚禁	qqjb
@@ -35406,6 +35401,10 @@ QQ拼音	qqpy
 球面	qqmm
 气旋	qixr
 清泉	qkqr
+骑	qim
+棋	qimq
+器皿	qimb
+骐	qim
 䎃	rjrx
 乳	rupv
 人	r
@@ -47079,6 +47078,7 @@ rime	rime
 招	vcf
 政治家	vvj
 征信	vgxb
+震天动地	vtdd
 玩物	wjwu
 㧑	wwfw
 万	wja
