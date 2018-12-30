@@ -10829,6 +10829,7 @@ excel	exce
 份	ffr
 蜂拥而上	fyeu
 飞行器	fxq
+弗	fo
 干	gj
 估计	guji
 㭎	ghmx
@@ -29825,6 +29826,7 @@ LOGO	logo
 勉勉强强	mmqq
 闷棍	mfgy
 脉宽	mdkr
+墨尔本	meb
 乃	ndv
 乃	ndvp
 乜	npv
@@ -33056,6 +33058,7 @@ LOGO	logo
 频谱	pbpu
 频谱	pbp
 匍匐前进	pfqj
+漂	pnd
 磬	qku
 㭕	qums
 䓖	qscl
@@ -36641,6 +36644,7 @@ rime	rime
 仍	rg
 人是铁，饭是钢	rutg
 人是铁饭是钢	rutg
+人生不如意事常八九	rubj
 㟃	sie
 㟃	siek
 㧐	ssfy
@@ -40790,6 +40794,7 @@ rime	rime
 探照	tjvc
 坍缩	tjs
 吞	ty
+碳水化合物	tuhw
 时间	uij
 䏡	uiox
 上	uh
@@ -47732,7 +47737,7 @@ rime	rime
 往来	whld
 往西	whxi
 往返	whfj
-无线	wx
+微信	wx
 微光	wwgl
 微妙	wwmn
 微弱	wwro
@@ -47878,7 +47883,7 @@ rime	rime
 无穷	wuq
 无穷	wuqs
 无端	wudr
-微信	wx
+无线	wx
 无缘	wuyr
 无缝	wufg
 无缺	wuqt
