@@ -2,3 +2,5 @@
 ---config@码表别名= 增补字
 拚	pbfc
 拚	pjfc
+许三观	x
+许玉兰	x

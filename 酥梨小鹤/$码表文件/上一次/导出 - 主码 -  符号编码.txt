@@ -1403,3 +1403,5 @@ l	ofyb
 √	ofgz
 √	ofdg
 ×	ofdi
+$ddcmd(‘,‘)	ok
+$ddcmd(’,’)	ol

@@ -16776,6 +16776,8 @@ GDP	gdp
 互惠互利	hhhl
 互利互惠	hlhh
 豪	hcwn
+赫连	helm
+皇甫	hlfu
 处	iu
 㬚	ieo
 㬚	ieow
@@ -33059,6 +33061,7 @@ LOGO	logo
 频谱	pbp
 匍匐前进	pfqj
 漂	pnd
+濮阳	puyh
 磬	qku
 㭕	qums
 䓖	qscl
@@ -35408,6 +35411,7 @@ QQ拼音	qqpy
 棋	qimq
 器皿	qimb
 骐	qim
+俟	qir
 䎃	rjrx
 乳	rupv
 人	r

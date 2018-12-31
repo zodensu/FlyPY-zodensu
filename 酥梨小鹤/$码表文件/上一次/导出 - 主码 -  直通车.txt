@@ -69,3 +69,4 @@ $ddcmd(run(F:\ZEMAX光学设计及软件\ZEMAX2005cn\ZEMAX.exe),[ZEMAX])	ozm
 $ddcmd(run(F:\小鹤双拼\极速赛码器v0.34与极速跟打器/极速赛码器.exe),[极速赛码器])	ogd
 $ddcmd(run(F:\屏幕录制视频),[录屏文件夹])	olp
 $ddcmd(run(F:\小鹤双拼\添雨跟打器0.14（可联赛）\TyGdqJjb.exe),[添雨联赛跟打])	ogd
+$ddcmd(run(D:\EditPlus 3\editplus.exe),[记事本edit])	oju
