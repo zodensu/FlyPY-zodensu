@@ -58,6 +58,7 @@ $ddcmd(set([-IME设置-],嵌入文本内容=嵌入首选),[嵌入首选])	oiq
 $ddcmd(run(notepad++.exe),[记事本++])	oju
 $ddcmd(run(360se.exe),[360浏览器])	oll
 $ddcmd(run(chrome.exe),[谷歌浏览器])	oll
+$ddcmd(run(D:\youdao\Dict\YoudaoDict.exe),[ofy])	ofy
 $ddcmd(run(Photoshop.exe),[PS])	ops
 $ddcmd(run(https://www.google.com.hk/?gws_rd=<last.0>),[谷歌]：<last.0>)	oss
 $ddcmd(run(powerpnt.exe),[ppt])	opp
