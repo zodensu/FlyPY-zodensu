@@ -74,6 +74,7 @@
 舔	tm
 通	ts
 退	tv
+塔	ta
 十	u
 省	ug
 守	uz

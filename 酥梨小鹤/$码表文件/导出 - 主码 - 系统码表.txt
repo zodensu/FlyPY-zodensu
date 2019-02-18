@@ -3947,6 +3947,8 @@ AA制	aavi
 屏息凝神	bxnu
 不止	bv
 泵浦	bgpu
+别有一番风味	byyw
+别有一番	byyf
 丛	csr
 丛	csra
 从	cs
@@ -8492,6 +8494,7 @@ AA制	aavi
 低于	dy
 德智体美	dvtm
 大是大非	dudf
+澹台	djtd
 二	e
 二	eraa
 佴	err
@@ -9696,7 +9699,6 @@ excel	exce
 放债	fhvd
 放假	fhjx
 放入	fhru
-放养	fhyh
 放出	fhiu
 放到	fhdc
 放哨	fhuc
@@ -10830,6 +10832,7 @@ excel	exce
 蜂拥而上	fyeu
 飞行器	fxq
 弗	fo
+放养	fhyh
 干	gj
 估计	guji
 㭎	ghmx
@@ -13639,6 +13642,7 @@ GDP	gdp
 搞	gcf
 光纤	glq
 管控	grks
+广阔	gkm
 回	hvk
 欢	hry
 会议	hvyi
@@ -16778,6 +16782,7 @@ GDP	gdp
 豪	hcwn
 赫连	helm
 皇甫	hlfu
+嗥	hck
 处	iu
 㬚	ieo
 㬚	ieow
@@ -22625,6 +22630,7 @@ IP地址	ipdv
 九年	jqnm
 九年义务教育	jnyy
 奖牌	jlpd
+卷积	jrji
 㧟	kkf
 㧟	kkfk
 㸆	kchf
@@ -27392,6 +27398,8 @@ LOGO	logo
 流着泪	lvl
 两口饭	lkfj
 历尽艰辛	ljjx
+泪眼婆娑	lyps
+连绵起伏	lmqf
 迷失	miui
 霉	mwy
 㠓	mge
@@ -32666,7 +32674,6 @@ LOGO	logo
 配上	pwuh
 配乐	pwyt
 配件	pwjm
-配偶	pwou
 配发	pwfa
 配合	pwh
 配合	pwhe
@@ -33062,6 +33069,7 @@ LOGO	logo
 匍匐前进	pfqj
 漂	pnd
 濮阳	puyh
+配偶	pwou
 磬	qku
 㭕	qums
 䓖	qscl
@@ -35412,6 +35420,8 @@ QQ拼音	qqpy
 器皿	qimb
 骐	qim
 俟	qir
+清正廉明	qvlm
+群落	qylo
 䎃	rjrx
 乳	rupv
 人	r
@@ -38138,6 +38148,7 @@ rime	rime
 酥梨	sul
 丝厂	siih
 私密	simi
+隋	sve
 㕮	tnkx
 㻬	tuwk
 䏲	tiop
@@ -40799,6 +40810,9 @@ rime	rime
 坍缩	tjs
 吞	ty
 碳水化合物	tuhw
+天文单位	twdw
+坍缩	tjso
+塌缩	taso
 时间	uij
 䏡	uiox
 上	uh
@@ -40808,7 +40822,6 @@ rime	rime
 书	uuv
 事	uia
 什	ufr
-什	uiru
 仕	uiru
 伤	uhr
 伤	uhrl
@@ -47741,7 +47754,7 @@ rime	rime
 往来	whld
 往西	whxi
 往返	whfj
-微信	wx
+无线	wx
 微光	wwgl
 微妙	wwmn
 微弱	wwro
@@ -47887,7 +47900,7 @@ rime	rime
 无穷	wuq
 无穷	wuqs
 无端	wudr
-无线	wx
+微信	wx
 无缘	wuyr
 无缝	wufg
 无缺	wuqt
@@ -49017,6 +49030,7 @@ word	word
 稳频	wfpb
 腕	wjos
 维多利亚	wdly
+紊	wfw
 想象	xlxl
 限	xme
 写字	xpzi
@@ -52161,6 +52175,7 @@ word	word
 辛	xbl
 洗菜	xicd
 相簿	xlbu
+蟢	xiik
 一	y
 以为	yiww
 意愿	yiyr
@@ -54796,7 +54811,6 @@ word	word
 一大批	ydpi
 一大把	ydba
 一大摞	ydlo
-一大早	ydz
 一大片	ydp
 一大片	ydpm
 一大笔	ydbi
@@ -56242,7 +56256,7 @@ word	word
 一哭二闹三上吊	yked
 一回生，二回熟	yhuu
 一失足成千古恨	yuzh
-一寸光阴一寸金	ycgj
+遥感	ycgj
 一将功成万骨枯	yjgk
 一日夫妻百日恩	yrfe
 一石激起千层浪	yujl
@@ -56367,6 +56381,8 @@ word	word
 羸	ykw
 一小串	yxi
 予	yusv
+一大早	ydz
+一寸光阴一寸金	ycgj
 耔	zil
 怎样	zy
 仄	zei

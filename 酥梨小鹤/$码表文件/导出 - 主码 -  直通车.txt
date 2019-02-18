@@ -58,7 +58,6 @@ $ddcmd(set([-IME设置-],嵌入文本内容=嵌入首选),[嵌入首选])	oiq
 $ddcmd(run(notepad++.exe),[记事本++])	oju
 $ddcmd(run(360se.exe),[360浏览器])	oll
 $ddcmd(run(chrome.exe),[谷歌浏览器])	oll
-$ddcmd(run(D:\youdao\Dict\YoudaoDict.exe),[ofy])	ofy
 $ddcmd(run(Photoshop.exe),[PS])	ops
 $ddcmd(run(https://www.google.com.hk/?gws_rd=<last.0>),[谷歌]：<last.0>)	oss
 $ddcmd(run(powerpnt.exe),[ppt])	opp
@@ -71,3 +70,4 @@ $ddcmd(run(F:\小鹤双拼\极速赛码器v0.34与极速跟打器/极速赛码�
 $ddcmd(run(F:\屏幕录制视频),[录屏文件夹])	olp
 $ddcmd(run(F:\小鹤双拼\添雨跟打器0.14（可联赛）\TyGdqJjb.exe),[添雨联赛跟打])	ogd
 $ddcmd(run(D:\EditPlus 3\editplus.exe),[记事本edit])	oju
+$ddcmd(run(D:\youdao\Dict\YoudaoDict.exe),[翻译])	ofy
