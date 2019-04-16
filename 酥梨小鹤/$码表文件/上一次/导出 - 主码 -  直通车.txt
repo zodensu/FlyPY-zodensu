@@ -1,5 +1,6 @@
 ﻿---config@码表分类=主码-3
 ---config@码表别名= 直通车
+$ddcmd(run(https://www.bilibili.com/),[哔哩])	bil
 $ddcmd(help(),[使用入门])	orm
 $ddcmd(run(%apppath%\\),[安装目录])	oav
 $ddcmd(<date.yyyy>年<date.m>月<date.d>日,<date.yyyy>年<date.m>月<date.d>日)	orq
@@ -70,3 +71,4 @@ $ddcmd(run(F:\小鹤双拼\极速赛码器v0.34与极速跟打器/极速赛码�
 $ddcmd(run(F:\屏幕录制视频),[录屏文件夹])	olp
 $ddcmd(run(F:\小鹤双拼\添雨跟打器0.14（可联赛）\TyGdqJjb.exe),[添雨联赛跟打])	ogd
 $ddcmd(run(D:\EditPlus 3\editplus.exe),[记事本edit])	oju
+$ddcmd(run(D:\youdao\Dict\YoudaoDict.exe),[翻译])	ofy

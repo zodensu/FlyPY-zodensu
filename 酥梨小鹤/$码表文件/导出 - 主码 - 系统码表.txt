@@ -8495,6 +8495,8 @@ AA制	aavi
 德智体美	dvtm
 大是大非	dudf
 澹台	djtd
+捯饬	dcii
+度量	doll
 二	e
 二	eraa
 佴	err
@@ -10833,6 +10835,8 @@ excel	exce
 飞行器	fxq
 弗	fo
 放养	fhyh
+丰乳肥臀	frft
+附着	fuvo
 干	gj
 估计	guji
 㭎	ghmx
@@ -27400,6 +27404,7 @@ LOGO	logo
 历尽艰辛	ljjx
 泪眼婆娑	lyps
 连绵起伏	lmqf
+踉踉跄跄	llq
 迷失	miui
 霉	mwy
 㠓	mge
@@ -29837,6 +29842,7 @@ LOGO	logo
 闷棍	mfgy
 脉宽	mdkr
 墨尔本	meb
+木塞	musd
 乃	ndv
 乃	ndvp
 乜	npv
@@ -31363,6 +31369,8 @@ LOGO	logo
 浓重	nsvs
 南无阿弥陀佛	nmaf
 那阵子	nvz
+加词	nuv#删
+纳秒	namn
 偶	our
 偶	oury
 区	oukx
@@ -44040,16 +44048,20 @@ rime	rime
 上尉	uhw
 囍	ulxi
 閖	uvmu
-姗姗来迟	uuli
+梳理	uuli
 树立	ul
 收集	uzj
-梳理	uuli
+姗姗来迟	uuli
 水杯	uvbw
 身价百倍	ujbb
 殳	uuj
 身轻如燕	uqry
 树枝	uv
 衰变	ukbm
+嬗变	ujbm#删
+失之东隅，收之桑榆	uvdy
+傻乎乎	uhh
+嬗变	ujb
 知	viu
 秩	vih
 铮	vgj
@@ -47101,6 +47113,8 @@ rime	rime
 政治家	vvj
 征信	vgxb
 震天动地	vtdd
+值得注意	vdvy
+折射率	vul
 玩物	wjwu
 㧑	wwfw
 万	wja
@@ -49031,6 +49045,8 @@ word	word
 腕	wjos
 维多利亚	wdly
 紊	wfw
+微米	wwm
+维基百科	wjbk
 想象	xlxl
 限	xme
 写字	xpzi
@@ -56383,6 +56399,7 @@ word	word
 予	yusv
 一大早	ydz
 一寸光阴一寸金	ycgj
+因此之故	ycvg
 耔	zil
 怎样	zy
 仄	zei

@@ -1,5 +1,6 @@
 ﻿---config@码表分类=主码-3
 ---config@码表别名= 直通车
+$ddcmd(run(https://www.bilibili.com/),[哔哩])	bil
 $ddcmd(help(),[使用入门])	orm
 $ddcmd(run(%apppath%\\),[安装目录])	oav
 $ddcmd(<date.yyyy>年<date.m>月<date.d>日,<date.yyyy>年<date.m>月<date.d>日)	orq

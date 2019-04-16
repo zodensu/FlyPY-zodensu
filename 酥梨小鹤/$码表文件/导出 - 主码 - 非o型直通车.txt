@@ -13,13 +13,14 @@ $ddcmd(run(https://mp.weixin.qq.com/),[微信公众号])	gvh
 $ddcmd(run(https://www.bilibili.com/video/av10288250/index_5.html#page=7),[跟打器教程])	gdqi
 $ddcmd(run(http://my.hfut.edu.cn),[信息门户])	hfgh
 $ddcmd(run(http://www.chaiwubi.com/match/),[拆五笔])	iwb
-$ddcmd(run(http://cet.etest.edu.cn/Home/Index),[全国大学生英语四、六级考试])	slj
 $ddcmd(run(http://chaxun.neea.edu.cn/),[中国教育考试网])	slj
 $ddcmd(run(http://cet.neea.edu.cn/cet/),[18年四六级（含口试）成绩查询])	slj
 $ddcmd(run(http://pipe.b3log.org),[黑客派的酥梨笔记])	slb
 $ddcmd(run(http://zodensu.bilibiili.com/),[酥梨笔记])	slb
 $ddcmd(run(https://zodensu.github.io/#/home),[酥梨笔记github版])	slb
 $ddcmd(run(https://zodensu.github.io/#/home),[酥梨博客])	slb
+$ddcmd(run(http://cet-bm.neea.edu.cn/),[全国大学生英语四、六级考试])	slj
+$ddcmd(run(https://passport.etest.net.cn/Manage/Index?see=1),[etest通行证网址])	slj
 $ddcmd(run(https://xiumi.us/studio/v5#/paper/for/new),[微信秀米])	wx
 $ddcmd(run(https://wx2.qq.com/),[微信秀米])	wx
 $ddcmd(run(http://172.16.200.11),[校园网登录)	xywl
