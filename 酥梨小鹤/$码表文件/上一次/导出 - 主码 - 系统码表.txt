@@ -8496,6 +8496,7 @@ AA制	aavi
 大是大非	dudf
 澹台	djtd
 捯饬	dcii
+度量	doll
 二	e
 二	eraa
 佴	err
@@ -27404,6 +27405,7 @@ LOGO	logo
 泪眼婆娑	lyps
 连绵起伏	lmqf
 踉踉跄跄	llq
+樑	llm
 迷失	miui
 霉	mwy
 㠓	mge
@@ -31368,6 +31370,7 @@ LOGO	logo
 浓重	nsvs
 南无阿弥陀佛	nmaf
 那阵子	nvz
+纳秒	namn
 偶	our
 偶	oury
 区	oukx
@@ -44055,6 +44058,9 @@ rime	rime
 身轻如燕	uqry
 树枝	uv
 衰变	ukbm
+失之东隅，收之桑榆	uvdy
+傻乎乎	uhh
+嬗变	ujb
 知	viu
 秩	vih
 铮	vgj
@@ -47106,6 +47112,8 @@ rime	rime
 政治家	vvj
 征信	vgxb
 震天动地	vtdd
+值得注意	vdvy
+折射率	vul
 玩物	wjwu
 㧑	wwfw
 万	wja
@@ -49036,6 +49044,8 @@ word	word
 腕	wjos
 维多利亚	wdly
 紊	wfw
+微米	wwm
+维基百科	wjbk
 想象	xlxl
 限	xme
 写字	xpzi
@@ -53473,7 +53483,7 @@ word	word
 右臂	yzbi
 右转	yzvr
 右边	yzbm
-右键	yzjm
+邮件	yzjm
 右面	yzmm
 叶子	yez
 叶子	yezi
@@ -54500,7 +54510,7 @@ word	word
 遥远	ycyr
 邀请	ycq
 邀请	ycqk
-邮件	yzjm
+右键	yzjm
 邮包	yzbc
 邮寄	yzji
 邮局	yzju
@@ -56388,6 +56398,7 @@ word	word
 予	yusv
 一大早	ydz
 一寸光阴一寸金	ycgj
+因此之故	ycvg
 耔	zil
 怎样	zy
 仄	zei

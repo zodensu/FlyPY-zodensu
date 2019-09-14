@@ -1,5 +1,6 @@
 ﻿---config@码表分类=主码-1
 ---config@码表别名= 符号编码
+①	oyy
 $ddcmd(/wx,😊)	oi
 $ddcmd(？,？)	ow
 $ddcmd(%,%)	ob
@@ -1162,7 +1163,6 @@ $ddcmd(曳,曳)	oxy
 $ddcmd(再,再)	oxz
 $ddcmd(自,自)	oxz
 $ddcmd(子,子)	oxz
-①	oyy
 Ⅰ	oyy
 ②	oye
 Ⅱ	oye

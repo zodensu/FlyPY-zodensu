@@ -637,6 +637,8 @@ AA制	aavi
 ！”	ads
 ？”	ads
 傲娇	aojn
+ä	aaaa
+Ä	aaa
 保鲜期	bxqi
 不	b
 不	bua
@@ -3949,6 +3951,8 @@ AA制	aavi
 泵浦	bgpu
 别有一番风味	byyw
 别有一番	byyf
+不忘初心，牢记使命	bwim
+不忘初心	bwix
 丛	csr
 丛	csra
 从	cs
@@ -8497,6 +8501,11 @@ AA制	aavi
 澹台	djtd
 捯饬	dcii
 度量	doll
+殆尽	ddjb
+徳永暁人	dyxr
+邓小平	dxp
+邓小平	dxpk
+砥砺前行	dlqx
 二	e
 二	eraa
 佴	err
@@ -10837,6 +10846,7 @@ excel	exce
 放养	fhyh
 丰乳肥臀	frft
 附着	fuvo
+负债累累	fvll
 干	gj
 估计	guji
 㭎	ghmx
@@ -13647,6 +13657,7 @@ GDP	gdp
 光纤	glq
 管控	grks
 广阔	gkm
+曱甴	gaza
 回	hvk
 欢	hry
 会议	hvyi
@@ -16787,6 +16798,7 @@ GDP	gdp
 赫连	helm
 皇甫	hlfu
 嗥	hck
+核心价值观	hxjg
 处	iu
 㬚	ieo
 㬚	ieow
@@ -19222,6 +19234,7 @@ IP地址	ipdv
 窗棂	illk
 抽	izf
 赤子之心	izvx
+丑话说在前头	ihut
 记	jiy
 几年	jinm
 嫉	jin
@@ -24458,7 +24471,6 @@ IP地址	ipdv
 唠	lck
 唠	lckl
 唳	likq
-啉	lbk
 啉	lbkm
 啉	ljk
 啉	ljkm
@@ -27405,6 +27417,11 @@ LOGO	logo
 泪眼婆娑	lyps
 连绵起伏	lmqf
 踉踉跄跄	llq
+樑	llm
+离不开	lbk
+啉	lbk
+列宁	lpnk
+牢记使命	ljum
 迷失	miui
 霉	mwy
 㠓	mge
@@ -29843,6 +29860,7 @@ LOGO	logo
 脉宽	mdkr
 墨尔本	meb
 木塞	musd
+媒妁之言	muvy
 乃	ndv
 乃	ndvp
 乜	npv
@@ -31369,8 +31387,8 @@ LOGO	logo
 浓重	nsvs
 南无阿弥陀佛	nmaf
 那阵子	nvz
-加词	nuv#删
 纳秒	namn
+你们	nm
 偶	our
 偶	oury
 区	oukx
@@ -31445,6 +31463,8 @@ LOGO	logo
 欧共体	ogti
 呕心沥血	oxlx
 藕断丝连	odsl
+ö	oooo
+Ö	ooo
 㛹	pmng
 䥽	pojd
 䴙	piun
@@ -38157,6 +38177,8 @@ rime	rime
 丝厂	siih
 私密	simi
 隋	sve
+ß	ssss
+三个代表	sgdb
 㕮	tnkx
 㻬	tuwk
 䏲	tiop
@@ -44058,10 +44080,11 @@ rime	rime
 身轻如燕	uqry
 树枝	uv
 衰变	ukbm
-嬗变	ujbm#删
 失之东隅，收之桑榆	uvdy
 傻乎乎	uhh
 嬗变	ujb
+ü	uuu
+Ü	uuu
 知	viu
 秩	vih
 铮	vgj
@@ -47115,6 +47138,7 @@ rime	rime
 震天动地	vtdd
 值得注意	vdvy
 折射率	vul
+中国特色社会主义	vgty
 玩物	wjwu
 㧑	wwfw
 万	wja
@@ -49047,6 +49071,7 @@ word	word
 紊	wfw
 微米	wwm
 维基百科	wjbk
+万般皆下品，唯有读书高	wbjg
 想象	xlxl
 限	xme
 写字	xpzi
@@ -53484,7 +53509,7 @@ word	word
 右臂	yzbi
 右转	yzvr
 右边	yzbm
-右键	yzjm
+邮件	yzjm
 右面	yzmm
 叶子	yez
 叶子	yezi
@@ -54511,7 +54536,7 @@ word	word
 遥远	ycyr
 邀请	ycq
 邀请	ycqk
-邮件	yzjm
+右键	yzjm
 邮包	yzbc
 邮寄	yzji
 邮局	yzju
@@ -56400,6 +56425,7 @@ word	word
 一大早	ydz
 一寸光阴一寸金	ycgj
 因此之故	ycvg
+鱼龙混珠	ylhv
 耔	zil
 怎样	zy
 仄	zei
@@ -58333,3 +58359,4 @@ word	word
 造化钟神秀	zhvx
 zodensu	zodu
 躁狂症	zkv
+自愿	zyp

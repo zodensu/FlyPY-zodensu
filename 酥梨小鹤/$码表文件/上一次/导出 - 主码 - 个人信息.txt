@@ -1,0 +1,17 @@
+﻿---config@码表分类=主码-8
+---config@码表别名=个人信息
+ä	aaaa
+Ä	aaa
+ö	oooo
+Ö	ooo
+$ddcmd(：“”keyboard(<37>),：“”,[对话])	odh
+$ddcmd(„“keyboard(<37>),„“)	ofdy
+$ddcmd(„“keyboard(<37>),[德语引号])	ofd
+$ddcmd(„“keyboard(<37>),[德语引号])	ody
+ß	ssss
+ü	uuu
+Ü	uuu
+中国农业银行股份有限公司合肥经济技术开发区支行	vgn
+——这里是一条萌萌的小尾巴，我是来围观萌萌的楼主的( ‘-ωก̀ )	xwb
+⑤②②③⑨④③③④和⑦②③⑦⑨⑤⑥⑥⑧	xhu
+

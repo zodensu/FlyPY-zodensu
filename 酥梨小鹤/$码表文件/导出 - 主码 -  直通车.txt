@@ -63,12 +63,11 @@ $ddcmd(run(Photoshop.exe),[PS])	ops
 $ddcmd(run(https://www.google.com.hk/?gws_rd=<last.0>),[谷歌]：<last.0>)	oss
 $ddcmd(run(powerpnt.exe),[ppt])	opp
 $ddcmd(run(C:\Program Files (x86)\ZD Soft\Screen Recorder\ScnRec.exe),[ZD软件录屏])	olp
-$ddcmd(run(cloudmusic.exe),[网易云音乐])	oyy
 $ddcmd(run(F:\小鹤双拼\git文件夹\FlyPY-zodensu\酥梨的折腾/简易截图软件.exe),[截图])	ojt
-$ddcmd(run(E:\桌面快捷方式！！！！！！！！！！！\跟打器汇总),[跟打文件夹])	ogd
 $ddcmd(run(F:\ZEMAX光学设计及软件\ZEMAX2005cn\ZEMAX.exe),[ZEMAX])	ozm
-$ddcmd(run(F:\小鹤双拼\极速赛码器v0.34与极速跟打器/极速赛码器.exe),[极速赛码器])	ogd
+$ddcmd(run(G:\桌面快捷方式！！！！！！！！！！！\跟打器汇总),[跟打文件夹])	ogd
 $ddcmd(run(F:\屏幕录制视频),[录屏文件夹])	olp
-$ddcmd(run(F:\小鹤双拼\添雨跟打器0.14（可联赛）\TyGdqJjb.exe),[添雨联赛跟打])	ogd
+$ddcmd(run(F:\小鹤双拼\极速赛码器v0.34与极速跟打器/极速赛码器.exe),[极速赛码器])	ogd
 $ddcmd(run(D:\EditPlus 3\editplus.exe),[记事本edit])	oju
-$ddcmd(run(D:\youdao\Dict\YoudaoDict.exe),[翻译])	ofy
+$ddcmd(run(F:\小鹤双拼\添雨跟打器0.14（可联赛）\TyGdqJjb.exe),[添雨联赛跟打])	ogd
+$ddcmd(run(cloudmusic.exe),[网易云音乐])	oyy
