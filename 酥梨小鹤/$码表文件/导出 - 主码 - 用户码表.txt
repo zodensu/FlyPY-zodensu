@@ -1,3 +1,20 @@
 ﻿---config@码表分类=主码-用户码表
 ---config@码表别名=用户码表
 bis zum nächsten mal	bszm
+查拉图斯拉	i
+$ddcmd(run(F:\谷歌下载\历史下载文件\gifcam.exe),[gif录制])	ogif
+<font><br/>	ohtml
+<font  color = "Pink">	oysff
+<font  color = "Brown">	oyszs
+<font  color = "Thistle">	oyshv
+<font  color = "MediumPurple">	oyszi
+<font  color = "CornflowerBlue">	oyslj
+<font  color = "Cyan">	oysqk
+<font  color = "Gold">	oyshl
+<font  color = "DarkOrange">	oyshl
+<font  color = "LightCoral">	oyszs
+<font  color = "blue">	oyslj
+<font  color = "Aquamarine">	oyslj
+<i><b>	ocx
+</b></i>	ocx
+座位	zow

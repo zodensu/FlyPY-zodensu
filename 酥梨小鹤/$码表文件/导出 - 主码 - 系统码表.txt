@@ -57714,7 +57714,6 @@ word	word
 走访	zzfh
 走读	zzdu
 走走	zzz
-走走	zzzz
 走起	zzqi
 走路	zzlu
 走软	zzrr
