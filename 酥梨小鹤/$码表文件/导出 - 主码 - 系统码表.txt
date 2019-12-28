@@ -638,7 +638,6 @@ AA制	aavi
 ？”	ads
 傲娇	aojn
 ä	aaaa
-Ä	aaa
 保鲜期	bxqi
 不	b
 不	bua
@@ -1356,7 +1355,7 @@ AA制	aavi
 保养	bcyh
 保准	bcvy
 保单	bcdj
-保卫	bcww
+包围	bcww
 保姆	bcmu
 保存	bccy
 保守	bcuz
@@ -1532,7 +1531,7 @@ AA制	aavi
 包办	bcbj
 包厢	bcxl
 包含	bchj
-包围	bcww
+保卫	bcww
 包场	bcih
 包头	bctz
 包子	bczi
@@ -5233,6 +5232,7 @@ AA制	aavi
 礤	cauu
 从而	ce
 雌	civ
+sei alles Wirkliche vernünftig und alles Vernünftige wirklich。	czjl
 调	dn
 㙍	doty
 䃅	diul
@@ -19235,6 +19235,8 @@ IP地址	ipdv
 抽	izf
 赤子之心	izvx
 丑话说在前头	ihut
+丑话说在前面	ihum
+铖	igj
 记	jiy
 几年	jinm
 嫉	jin
@@ -22648,6 +22650,9 @@ IP地址	ipdv
 九年义务教育	jnyy
 奖牌	jlpd
 卷积	jrji
+僭	jmr
+甲乙丙丁	jybd
+甲乙丙丁戊己庚辛壬癸	jybg
 㧟	kkf
 㧟	kkfk
 㸆	kchf
@@ -24359,6 +24364,7 @@ IP地址	ipdv
 咔嚓	kaca
 柯伊伯带	kybd
 狂躁症	kzv
+榼	kemm
 领略	lklt
 亮	llw
 硫	lqu
@@ -33098,6 +33104,8 @@ LOGO	logo
 漂	pnd
 濮阳	puyh
 配偶	pwou
+拚	pbfc
+拚	pjfc
 磬	qku
 㭕	qums
 䓖	qscl
@@ -35450,6 +35458,8 @@ QQ拼音	qqpy
 俟	qir
 清正廉明	qvlm
 群落	qylo
+炁	qiah
+鸜	quon
 䎃	rjrx
 乳	rupv
 人	r
@@ -40843,6 +40853,7 @@ rime	rime
 天文单位	twdw
 坍缩	tjso
 塌缩	taso
+团团围住	ttwv
 时间	uij
 䏡	uiox
 上	uh
@@ -44085,6 +44096,7 @@ rime	rime
 嬗变	ujb
 ü	uuu
 Ü	uuu
+升米恩，斗米仇	umei
 知	viu
 秩	vih
 铮	vgj
@@ -45107,7 +45119,7 @@ rime	rime
 哲人	verf
 哲学	vex
 哲学	vext
-嘱咐	vufu
+祝福	vufu
 嘱托	vuto
 坠入	vvru
 坠地	vvdi
@@ -45366,7 +45378,7 @@ rime	rime
 指定	vidk
 指导	vidc
 指引	viyb
-指挥	vihv
+智慧	vihv
 指控	viks
 指摘	vivd
 指教	vijn
@@ -45503,7 +45515,7 @@ rime	rime
 昼夜	vzye
 智商	viuh
 智囊	vinh
-智慧	vihv
+指挥	vihv
 智斗	vidz
 智者	vive
 智能	ving
@@ -45847,7 +45859,7 @@ rime	rime
 砖窑	vryc
 砧板	vfbj
 祝愿	vuyr
-祝福	vufu
+嘱咐	vufu
 祝贺	vuhe
 祝酒	vujq
 种下	vsxx
@@ -47139,6 +47151,8 @@ rime	rime
 值得注意	vdvy
 折射率	vul
 中国特色社会主义	vgty
+浈	vfd
+湛	vjd
 玩物	wjwu
 㧑	wwfw
 万	wja
@@ -52217,6 +52231,8 @@ word	word
 洗菜	xicd
 相簿	xlbu
 蟢	xiik
+心目中	xmvs
+宣讲	xrjl
 一	y
 以为	yiww
 意愿	yiyr
@@ -58195,7 +58211,6 @@ word	word
 自作主张	zzvv
 自作多情	zzdq
 自作聪明	zzcm
-自作自受	zzzu
 自力更生	zlgu
 自动上屏	zdup
 自卖自夸	zmzk
@@ -58359,3 +58374,4 @@ word	word
 zodensu	zodu
 躁狂症	zkv
 自愿	zyp
+座位	zow

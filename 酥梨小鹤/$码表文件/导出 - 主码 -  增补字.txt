@@ -1,18 +1,3 @@
 ﻿---config@码表分类=主码-4
 ---config@码表别名= 增补字
-$ddcmd(：“”keyboard(<37>),：“”,[对话])	odh
-$ddcmd(„“keyboard(<37>),„“)	ofdy
-$ddcmd(„“keyboard(<37>),[德语引号])	ofd
-$ddcmd(„“keyboard(<37>),[德语引号])	ody
-        	osj
-http://210.45.240.245	oxyw
-西乡塘区 高新四路 和泰科技园 三栋五楼 盈亚电子有限公司	owddv
-Friedrich-Schiller-Universitaet Jena, Internationales Buero, Fuerstengraben 1, 07743 Jena	oyn
-#赛文	osw
-#成绩	oij
-闵浦新苑二村 东区 鹤坡南路56弄16号	owddv
-拚	pbfc
-拚	pjfc
-中国农业银行股份有限公司合肥经济技术开发区支行	vgn
-——这里是一条萌萌的小尾巴，我是来围观萌萌的楼主的( ‘-ωก̀ )	xwb
-⑤②②③⑨④③③④和⑦②③⑦⑨⑤⑥⑥⑧	xhu
+火炎焱燚	hyyy

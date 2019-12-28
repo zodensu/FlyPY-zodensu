@@ -1405,3 +1405,8 @@ l	ofyb
 ×	ofdi
 $ddcmd(‘,‘)	ok
 $ddcmd(’,’)	ol
+$ddcmd(run(H:\谷歌下载\历史下载文件\gifcam.exe),[gif录制])	ogif
+$ddcmd(：“”keyboard(<37>),：“”,[对话])	odh
+$ddcmd(„“keyboard(<37>),„“)	ofdy
+$ddcmd(„“keyboard(<37>),[德语引号])	ofd
+$ddcmd(„“keyboard(<37>),[德语引号])	ody
